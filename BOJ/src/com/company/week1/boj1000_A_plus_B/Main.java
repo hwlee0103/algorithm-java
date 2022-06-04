@@ -1,4 +1,4 @@
-package com.company.week1.boj1000;
+package com.company.week1.boj1000_A_plus_B;
 
 import java.util.Scanner;
 
