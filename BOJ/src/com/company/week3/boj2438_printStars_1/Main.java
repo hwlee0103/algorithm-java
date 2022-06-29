@@ -1,4 +1,4 @@
-package com.company.week3.boj2438_printStar_1;
+package com.company.week3.boj2438_printStars_1;
 
 import java.util.Scanner;
 
