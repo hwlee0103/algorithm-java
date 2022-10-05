@@ -3,7 +3,7 @@ package com.company.week7.boj11720_SumofNum;
 import java.util.Scanner;
 
 /**
- * BOJ 11720 숫자의 합`
+ * BOJ 11720 숫자의 합
  */
 public class Main {
     public static void main(String[] args) {
