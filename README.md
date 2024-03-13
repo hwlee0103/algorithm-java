@@ -11,12 +11,21 @@
 
   - Java Basic
     - [BOJ 2557] Hello World
+    - [BOJ 10171] Cats
+    - [BOJ 10718] We Love Kriii
+    - [BOJ 10926] Question
+    - [BOJ 18108] 1998 from 2541
+    - [BOJ 25083] Sprout
      
   - Math
     - [BOJ 1000] A plus B
     - [BOJ 1001] A minus B
     - [BOJ 1008] A divide B
     - [BOJ 2588] Multiplication
+    - [BOJ 10430] Remainder
+    - [BOJ 10869] Arithmetic Operation
+    - [BOJ 10998] A multiply B
+
 
   
 ===============================================================
