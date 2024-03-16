@@ -5,6 +5,10 @@ import java.util.Scanner;
 /**
  * Level : 0
  * Title : Flag에 따라 다른 값 반환하기
+ *
+ * Started : 2024-03-14
+ * Solved : 2024-03-14
+ *
  */
 public class FlagReturnSolution {
     public static int solution(int a, int b, boolean flag) {
