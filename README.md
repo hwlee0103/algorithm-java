@@ -46,6 +46,7 @@
 - Solved
 
   - Java Basic
+  - 출력
     - 2024-03
       - [level 0] flag에 따라 다른 값 반환하기
       - [level 0] 문자열 출력하기
@@ -56,6 +57,7 @@
       - [level 0] 특수문자 출력하기
       - [level 0] 덧셈식 출력하기
       - [level 0] 문자열 붙여서 출력하기
+      - [level 0] 문자열 돌리기
 
   - MySQL
     - 2024-03
