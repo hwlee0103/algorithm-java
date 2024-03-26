@@ -1,4 +1,4 @@
-package basictraining.levelone;
+package javabasic.levelone;
 
 import java.util.Scanner;
 

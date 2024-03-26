@@ -1,4 +1,4 @@
-package basictraining.levelzero;
+package javabasic.levelzero;
 
 /**
  * Level : 0

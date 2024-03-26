@@ -1,6 +1,4 @@
-package basictraining.levelzero;
-
-import org.codehaus.groovy.util.StringUtil;
+package javabasic.levelzero;
 
 import java.util.Scanner;
 
