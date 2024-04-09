@@ -66,8 +66,9 @@
         - [level 0] 조건 문자열
         - [level 0] 코드 처리하기
         - [level 0] 등차수열의 특정한 항만 더하기
-        - [level 0] 주사위 게임 2
+        - [level 0] 주사위 게임 2 : GameOfDice2.java
         - [level 0] 원소들의 곱과 합 : MultipleAndSum.java
+        - [level 0] 이어 붙인 수 : JoinNums.java
 
     - 연산
       - 2024-03
