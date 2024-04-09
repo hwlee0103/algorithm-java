@@ -89,7 +89,11 @@
     - 코딩테스트 입문
       - 2024-03
         - [level 0] 두 수의 합
-    
+
+  * 연습문제
+    - 2024-04
+      - [level 1] 문자열 내 p와 y의 개수 : CountingPandY.java
+  
   * MySQL
     - 2024-03
       - [level 1] Python 개발자 찾기
