@@ -94,6 +94,7 @@
   * 연습문제
     - 2024-04
       - [level 1] 문자열 내 p와 y의 개수         : CountingPandY.java
+      - [level 1] 문자열을 정수로 바꾸기          : StringToInteger.java
   
   * MySQL
     - 2024-03
