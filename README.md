@@ -70,6 +70,7 @@
         - [level 0] 원소들의 곱과 합             : MultipleAndSum.java
         - [level 0] 이어 붙인 수                : JoinNums.java
         - [level 0] 마지막 두 원소               : LastTwoItems.java
+        - [level 0] 수 조작하기 1               : ControlNum.java
 
     - 연산
       - 2024-03
