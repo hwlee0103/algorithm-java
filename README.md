@@ -65,12 +65,13 @@
         - [level 0] 홀짝에 따라 다른 값 반환하기
         - [level 0] 조건 문자열
         - [level 0] 코드 처리하기                : SolvingCode.java
-        - [level 0] 등차수열의 특정한 항만 더하기
-        - [level 0] 주사위 게임 2               : GameOfDice2.java
-        - [level 0] 원소들의 곱과 합             : MultipleAndSum.java
-        - [level 0] 이어 붙인 수                : JoinNums.java
+        - [level 0] 등차수열의 특정한 항만 더하기  : AddingArithmaticProgression.java
+        - [level 0] 주사위 게임 2                : GameOfDice2.java
+        - [level 0] 원소들의 곱과 합              : MultipleAndSum.java
+        - [level 0] 이어 붙인 수                 : JoinNums.java
         - [level 0] 마지막 두 원소               : LastTwoItems.java
-        - [level 0] 수 조작하기 1               : ControlNum.java
+        - [level 0] 수 조작하기 1                : ControlNum.java
+        - [level 0] 수 조작하기 2                : ControlNum2.java
 
     - 연산
       - 2024-03

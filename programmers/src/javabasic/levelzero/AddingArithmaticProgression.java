@@ -1,7 +1,5 @@
 package javabasic.levelzero;
 
-import org.codehaus.groovy.util.StringUtil;
-
 import java.util.Scanner;
 
 /**
