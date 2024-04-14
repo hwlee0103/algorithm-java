@@ -97,10 +97,13 @@
     - 2024-04
       - [level 1] 문자열 내 p와 y의 개수         : CountingPandY.java
       - [level 1] 문자열을 정수로 바꾸기          : StringToInteger.java
+      - [level 1] 약수의 합                     : 
   
   * MySQL
     - 2024-03
       - [level 1] Python 개발자 찾기
+    - 2024-04
+      - [level 1] 조건에 맞는 도서 리스트 출력하기  : PrintBookListInCondition.xml
 
   * 완전탐색
     - 2024-03
