@@ -99,7 +99,7 @@
       - [level 1] 문자열을 정수로 바꾸기          : StringToInteger.java
       - [level 1] 약수의 합                     : SumOfDivisor.java
   
-  * MySQL
+  * MySQL : TODO : MySQL setting
     - 2024-03
       - [level 1] Python 개발자 찾기
     - 2024-04
