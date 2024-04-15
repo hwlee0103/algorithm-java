@@ -64,15 +64,15 @@
       - 2024-04
         - [level 0] 홀짝에 따라 다른 값 반환하기
         - [level 0] 조건 문자열
-        - [level 0] 코드 처리하기                : SolvingCode.java
-        - [level 0] 등차수열의 특정한 항만 더하기  : AddingArithmaticProgression.java
-        - [level 0] 주사위 게임 2                : GameOfDice2.java
-        - [level 0] 원소들의 곱과 합              : MultipleAndSum.java
-        - [level 0] 이어 붙인 수                 : JoinNums.java
-        - [level 0] 마지막 두 원소               : LastTwoItems.java
-        - [level 0] 수 조작하기 1                : ControlNum.java
-        - [level 0] 수 조작하기 2                : ControlNum2.java
-
+        - [level 0] 코드 처리하기 : SolvingCode.java
+        - [level 0] 등차수열의 특정한 항만 더하기 : AddingArithmaticProgression.java
+        - [level 0] 주사위 게임 2 : GameOfDice2.java
+        - [level 0] 원소들의 곱과 합 : MultipleAndSum.java
+        - [level 0] 이어 붙인 수 : JoinNums.java
+        - [level 0] 마지막 두 원소 : LastTwoItems.java
+        - [level 0] 수 조작하기 1 : ControlNum.java
+        - [level 0] 수 조작하기 2 : ControlNum2.java
+        
     - 연산
       - 2024-03
         - [level 0] 문자열 겹쳐쓰기
@@ -84,6 +84,10 @@
         - [level 0] 두 수의 연산값 비교하기
         - [level 0] n의 배수
         - [level 0] 공배수
+ 
+    - 반복문
+      - 2024-04
+        - [level 0] 수열과 구간 쿼리 3 : NumArrintervalQuery3.java
     
     - 리스트(배열)
       - 2024-03
@@ -95,15 +99,15 @@
 
   * 연습문제
     - 2024-04
-      - [level 1] 문자열 내 p와 y의 개수         : CountingPandY.java
-      - [level 1] 문자열을 정수로 바꾸기          : StringToInteger.java
-      - [level 1] 약수의 합                     : SumOfDivisor.java
+      - [level 1] 문자열 내 p와 y의 개수 : CountingPandY.java
+      - [level 1] 문자열을 정수로 바꾸기 : StringToInteger.java
+      - [level 1] 약수의 합 : SumOfDivisor.java
   
   * MySQL : TODO : MySQL setting
     - 2024-03
       - [level 1] Python 개발자 찾기
     - 2024-04
-      - [level 1] 조건에 맞는 도서 리스트 출력하기  : PrintBookListInCondition.xml
+      - [level 1] 조건에 맞는 도서 리스트 출력하기 : PrintBookListInCondition.xml
 
   * 완전탐색
     - 2024-03
