@@ -102,6 +102,7 @@
       - [level 1] 문자열 내 p와 y의 개수 : CountingPandY.java
       - [level 1] 문자열을 정수로 바꾸기 : StringToInteger.java
       - [level 1] 약수의 합 : SumOfDivisor.java
+      - [level 2] 최댓값과 최솟값 : MaxAndMin.java
   
   * MySQL : TODO : MySQL setting
     - 2024-03
