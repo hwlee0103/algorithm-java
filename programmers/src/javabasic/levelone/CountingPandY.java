@@ -1,4 +1,4 @@
-package javabasic.levelzero;
+package javabasic.levelone;
 
 import java.util.Scanner;
 
