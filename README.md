@@ -87,7 +87,8 @@
  
     - 반복문
       - 2024-04
-        - [level 0] 수열과 구간 쿼리 3 : NumArrintervalQuery3.java
+        - [level 0] 수열과 구간 쿼리 3 : NumArrIntervalQuery3.java
+        - [level 0] 수열과 구간 쿼리 2 : NumArrIntervalQuery2.java
     
     - 리스트(배열)
       - 2024-03
@@ -122,6 +123,8 @@
 - UnSolved
   - 연습문제
     - [level 1] 햄버거 만들기
+
+- TODO : main 한 개로 (조건에 맞게 input 입력하여) 테스트가 가능하도록 구현해보기
 
 ===============================================================
 # Leetcode
