@@ -89,6 +89,7 @@
       - 2024-04
         - [level 0] 수열과 구간 쿼리 3 : NumArrIntervalQuery3.java
         - [level 0] 수열과 구간 쿼리 2 : NumArrIntervalQuery2.java
+        - [level 0] 수열과 구간 쿼리 4 : NumArrIntervalQuery4.java
     
     - 리스트(배열)
       - 2024-03
