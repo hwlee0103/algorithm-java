@@ -125,6 +125,8 @@
 - UnSolved
   - 연습문제
     - [level 1] 햄버거 만들기
+  - 스택/큐
+    - [level 2] 올바른 괄호 -> Wrong
 
 - TODO : main 한 개로 (조건에 맞게 input 입력하여) 테스트가 가능하도록 구현해보기
 
