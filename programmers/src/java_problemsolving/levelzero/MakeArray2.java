@@ -10,7 +10,7 @@ import java.util.Scanner;
  * 문제 유형 : 반복문
  *
  * Started : 2024-04-20
- * Solved : 2024-04-20
+ * Solved :
  *
  *
  */

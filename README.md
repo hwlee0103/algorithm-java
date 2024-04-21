@@ -97,7 +97,9 @@
         
     - 코딩테스트 입문
       - 2024-03
-        - [level 0] 두 수의 합
+        - [level 0] 두 수의 합 : SumOfTwoNums.java 
+      - 2024-04
+        - [level 0] 두 수의 차 : DifBetweenTwoNums.java
 
   * 연습문제
     - 2024-04
