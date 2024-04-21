@@ -100,6 +100,7 @@
         - [level 0] 두 수의 합 : SumOfTwoNums.java 
       - 2024-04
         - [level 0] 두 수의 차 : DifBetweenTwoNums.java
+        - [level 0] 두 수의 곱 : MultiplyOfTwoNums.java
 
   * 연습문제
     - 2024-04

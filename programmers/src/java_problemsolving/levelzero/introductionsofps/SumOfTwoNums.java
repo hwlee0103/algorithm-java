@@ -1,4 +1,4 @@
-package java_problemsolving.levelzero;
+package java_problemsolving.levelzero.introductionsofps;
 
 import java.util.Scanner;
 
