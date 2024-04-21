@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 문제 유형 : 코딩테스트 입문
  *
  * Started : 2024-04-21
- * Solved : 2024-04-
+ * Solved : 2024-04-21
  *
  * 문제
  * 정수 num1, num2가 매개변수로 주어질 때, num1을 num2로 나눈 몫을 return 하도록 solution 함수를 완성해주세요.

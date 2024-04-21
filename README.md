@@ -102,6 +102,7 @@
         - [level 0] 두 수의 차 : DifBetweenTwoNums.java
         - [level 0] 두 수의 곱 : MultiplyOfTwoNums.java
         - [level 0] 몫 구하기 : FindQuotient.java
+        - [level 0] 두 수의 나눗셈 : DivisionOfTwoNums.java
 
   * 연습문제
     - 2024-04
