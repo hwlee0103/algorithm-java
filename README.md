@@ -93,7 +93,7 @@
     
     - 리스트(배열)
       - 2024-03
-        - [level 0] n보다 커질 때까지 더하기
+        - [level 0] n보다 커질 때까지 더하기 : AddOverN.java
         
     - 코딩테스트 입문
       - 2024-03
@@ -101,6 +101,7 @@
       - 2024-04
         - [level 0] 두 수의 차 : DifBetweenTwoNums.java
         - [level 0] 두 수의 곱 : MultiplyOfTwoNums.java
+        - [level 0] 몫 구하기 : FindQuotient.java
 
   * 연습문제
     - 2024-04
