@@ -106,7 +106,7 @@
         - [level 0] 숫자 비교하기 : CompareNums.java
         - [level 0] 분수의 덧셈 : AddingFraction.java
           - 유클리드 호제법
-        - 
+        - [level 0] 배열 두배 만들기 : MakeArrayTwoTimes.java 
 
   * 연습문제
     - 2024-04
