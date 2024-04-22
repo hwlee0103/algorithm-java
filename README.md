@@ -108,6 +108,8 @@
           - 유클리드 호제법
         - [level 0] 배열 두배 만들기 : MakeArrayTwoTimes.java
         - [level 0] 나머지 구하기 : GetRemainder.java
+        - [level 0] 중앙값 구하기 : GetMiddleValue.java
+          - 정렬 알고리즘 (선택 정렬 적용)
 
   * 연습문제
     - 2024-04
