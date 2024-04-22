@@ -106,7 +106,8 @@
         - [level 0] 숫자 비교하기 : CompareNums.java
         - [level 0] 분수의 덧셈 : AddingFraction.java
           - 유클리드 호제법
-        - [level 0] 배열 두배 만들기 : MakeArrayTwoTimes.java 
+        - [level 0] 배열 두배 만들기 : MakeArrayTwoTimes.java
+        - [level 0] 나머지 구하기 : GetRemainder.java
 
   * 연습문제
     - 2024-04
@@ -118,7 +119,7 @@
   
   * MySQL : TODO : MySQL setting
     - 2024-03
-      - [level 1] Python 개발자 찾기
+      - [level 1] Python 개발자 찾기 : FindingPythonDeveloper.xml
     - 2024-04
       - [level 1] 조건에 맞는 도서 리스트 출력하기 : PrintBookListInCondition.xml
 
