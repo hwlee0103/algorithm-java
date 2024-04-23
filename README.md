@@ -112,6 +112,7 @@
           - 정렬 알고리즘 (선택 정렬 적용)
         - [level 0] 최빈값 구하기 : GetMostFrequentValue.java
         - [level 0] 짝수는 싫어요 : DontLikeEvenNum.java
+        - [level 0] 피자 나눠 먹기 (1) : SharePizza1.java
 
   * 연습문제
     - 2024-04
