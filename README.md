@@ -105,7 +105,7 @@
         - [level 0] 두 수의 나눗셈 : DivisionOfTwoNums.java
         - [level 0] 숫자 비교하기 : CompareNums.java
         - [level 0] 분수의 덧셈 : AddingFraction.java
-          - 유클리드 호제법
+          - 유클리드 호제법 : 최대공약수
         - [level 0] 배열 두배 만들기 : MakeArrayTwoTimes.java
         - [level 0] 나머지 구하기 : GetRemainder.java
         - [level 0] 중앙값 구하기 : GetMiddleValue.java
@@ -113,6 +113,8 @@
         - [level 0] 최빈값 구하기 : GetMostFrequentValue.java
         - [level 0] 짝수는 싫어요 : DontLikeEvenNum.java
         - [level 0] 피자 나눠 먹기 (1) : SharePizza1.java
+        - [level 0] 피자 나눠 먹기 (2) : SharePizza2.java
+          - 유클리드 호제법 : 최소공배수
 
   * 연습문제
     - 2024-04
