@@ -111,6 +111,7 @@
         - [level 0] 중앙값 구하기 : GetMiddleValue.java
           - 정렬 알고리즘 (선택 정렬 적용)
         - [level 0] 최빈값 구하기 : GetMostFrequentValue.java
+        - [level 0] 짝수는 싫어요 : DontLikeEvenNum.java
 
   * 연습문제
     - 2024-04
