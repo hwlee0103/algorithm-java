@@ -116,6 +116,7 @@
         - [level 0] 피자 나눠 먹기 (2) : SharePizza2.java
           - 유클리드 호제법 : 최소공배수
         - [level 0] 피자 나눠 먹기 (3) : SharePizza3.java
+        - [level 0] 배열의 평균값 : ArrayAverage.java
 
   * 연습문제
     - 2024-04
