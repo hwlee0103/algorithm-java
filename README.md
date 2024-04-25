@@ -123,6 +123,7 @@
         - [level 0] 배열 뒤집기 : FilpArray.java
         - [level 0] 문자열 뒤집기 : FilpStringArray.java
         - [level 0] 직각삼각형 출력하기 : PrintRightTriangle.java
+        - [level 0] 짝수 홀수 개수 : EvenOddNumber.java
 
   * 연습문제
     - 2024-04
