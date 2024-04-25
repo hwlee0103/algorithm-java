@@ -125,6 +125,7 @@
         - [level 0] 직각삼각형 출력하기 : PrintRightTriangle.java
         - [level 0] 짝수 홀수 개수 : EvenOddNumber.java
         - [level 0] 문자 반복 출력하기 : CharRepeatPrint.java
+        - [level 0] 특정 문자 제거하기 : RemoveSpecificChar.java
 
   * 연습문제
     - 2024-04
