@@ -122,6 +122,7 @@
         - [level 0] 나이 출력 : PrintAge.java
         - [level 0] 배열 뒤집기 : FilpArray.java
         - [level 0] 문자열 뒤집기 : FilpStringArray.java
+        - [level 0] 직각삼각형 출력하기 : PrintRightTriangle.java
 
   * 연습문제
     - 2024-04
