@@ -129,6 +129,7 @@
         - [level 0] 각도기 : Protractor.java
         - [level 0] 양꼬치 : LambSkewers.java
         - [level 0] 짝수의 합 : SumOfEven.java
+        - [level 0] 배열 자르기 : CuttingArray.java
 
   * 연습문제
     - 2024-04
