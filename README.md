@@ -130,6 +130,8 @@
         - [level 0] 양꼬치 : LambSkewers.java
         - [level 0] 짝수의 합 : SumOfEven.java
         - [level 0] 배열 자르기 : CuttingArray.java
+        - [level 0] 외계행성의 나이 : ExoplanetsAge.java
+          - ASCII CODE / StringBuilder 시도해보기
 
   * 연습문제
     - 2024-04
