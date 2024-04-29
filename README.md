@@ -128,6 +128,7 @@
         - [level 0] 특정 문자 제거하기 : RemoveSpecificChar.java
         - [level 0] 각도기 : Protractor.java
         - [level 0] 양꼬치 : LambSkewers.java
+        - [level 0] 짝수의 합 : SumOfEven.java
 
   * 연습문제
     - 2024-04
