@@ -134,6 +134,7 @@
           - ASCII CODE / StringBuilder 시도해보기
         - [level 0] 진료순서 정하기 : OrderOfTreatment.java
           - Arrays.sort ?
+        - [level 0] 순서쌍의 개수 : NumOfOrderedPair.java
 
   * 연습문제
     - 2024-04
