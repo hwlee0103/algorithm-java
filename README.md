@@ -138,6 +138,7 @@
         - [level 0] 개미 군단 : AntArmy.java
         - [level 0] 모스부호(1) : MorseCode1.java
           - library 없이 구현만으로도 가능
+        - [level 0] 가위 바위 보 : RockPaperScissors.java
 
   * 연습문제
     - 2024-04
