@@ -135,6 +135,8 @@
         - [level 0] 진료순서 정하기 : OrderOfTreatment.java
           - Arrays.sort ?
         - [level 0] 순서쌍의 개수 : NumOfOrderedPair.java
+        - [level 0] 개미 군단 : AntArmy.java
+        - 
 
   * 연습문제
     - 2024-04
