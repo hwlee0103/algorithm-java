@@ -139,6 +139,8 @@
         - [level 0] 모스부호(1) : MorseCode1.java
           - library 없이 구현만으로도 가능
         - [level 0] 가위 바위 보 : RockPaperScissors.java
+        - [level 0] 구슬을 나누는 경우의 수 : NumsOfSplitBeads.java
+          - 완전탐색 / 재귀 / Combination (조합)
 
   * 연습문제
     - 2024-04
@@ -162,6 +164,7 @@
 - 다시 풀어보기
   - 완전탐색
     - [level 1] 최소직사각형
+    - [level 0] 구슬을 나누는 경우의 수
 
 - UnSolved
   - 연습문제
