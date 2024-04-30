@@ -136,7 +136,8 @@
           - Arrays.sort ?
         - [level 0] 순서쌍의 개수 : NumOfOrderedPair.java
         - [level 0] 개미 군단 : AntArmy.java
-        - 
+        - [level 0] 모스부호(1) : MorseCode1.java
+          - library 없이 구현만으로도 가능
 
   * 연습문제
     - 2024-04
