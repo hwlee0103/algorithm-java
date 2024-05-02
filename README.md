@@ -141,6 +141,8 @@
         - [level 0] 가위 바위 보 : RockPaperScissors.java
         - [level 0] 구슬을 나누는 경우의 수 : NumsOfSplitBeads.java
           - 완전탐색 / 재귀 / Combination (조합)
+        - [level 0] 점의 위치 구하기 : LocationOfDot.java
+        - 
 
   * 연습문제
     - 2024-04
