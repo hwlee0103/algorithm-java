@@ -145,6 +145,7 @@
         - [level 0] 2차원으로 만들기 : MakeTwoD.java
           - 나누기 / 나머지
         - [level 0] 공 던지기 : ThrowingBall.java
+        - [level 0] 배열 회전시키기 : CyclingArray.java
 
   * 연습문제
     - 2024-04
