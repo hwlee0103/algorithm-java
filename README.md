@@ -146,6 +146,7 @@
           - 나누기 / 나머지
         - [level 0] 공 던지기 : ThrowingBall.java
         - [level 0] 배열 회전시키기 : CyclingArray.java
+        - [level 0] 주사위의 개수 : NumOfDice.java
 
   * 연습문제
     - 2024-04
