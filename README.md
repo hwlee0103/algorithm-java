@@ -144,7 +144,7 @@
         - [level 0] 점의 위치 구하기 : LocationOfDot.java
         - [level 0] 2차원으로 만들기 : MakeTwoD.java
           - 나누기 / 나머지
-        - 
+        - [level 0] 공 던지기 : ThrowingBall.java
 
   * 연습문제
     - 2024-04
