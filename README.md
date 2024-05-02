@@ -142,6 +142,8 @@
         - [level 0] 구슬을 나누는 경우의 수 : NumsOfSplitBeads.java
           - 완전탐색 / 재귀 / Combination (조합)
         - [level 0] 점의 위치 구하기 : LocationOfDot.java
+        - [level 0] 2차원으로 만들기 : MakeTwoD.java
+          - 나누기 / 나머지
         - 
 
   * 연습문제
