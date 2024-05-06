@@ -149,6 +149,7 @@
         - [level 0] 주사위의 개수 : NumOfDice.java
         - [level 0] 합성수 찾기 : FindingCompositeNum.java
         - [level 0] 최댓값 만들기(1) : MakingMaxVal.java
+        - [level 0] 팩토리얼 : Factorial.java
 
   * 연습문제
     - 2024-04
