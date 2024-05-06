@@ -25,7 +25,7 @@ import java.util.Scanner;
  * n ≤ box의 원소
  * 주사위는 상자와 평행하게 넣습니다.
  *
- * 제한사항
+ * 입출력 예
  * box	        n	result
  * [1, 1, 1]	1	1
  * [10, 8, 6]	3	12
