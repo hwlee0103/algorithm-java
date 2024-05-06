@@ -152,6 +152,10 @@
         - [level 0] 팩토리얼 : Factorial.java
           - DP
         - [level 0] 모음 제거 : RemoveVowels.java
+          - 정규식
+        - [level 0] 문자열 정렬하기(1) : SortingString1.java
+          - 정규식 활용하기
+        - 
 
   * 연습문제
     - 2024-04
@@ -176,6 +180,9 @@
   - 완전탐색
     - [level 1] 최소직사각형
     - [level 0] 구슬을 나누는 경우의 수
+  
+  - 코딩테스트 입문
+    - [level 0] 문자열 정렬하기(1)
 
 - UnSolved
   - 연습문제
