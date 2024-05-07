@@ -156,6 +156,9 @@
         - [level 0] 문자열 정렬하기(1) : SortingString1.java
           - 정규식 활용하기
         - [level 0] 숨어있는 숫자의 덧셈(1) : SumOfHiddenNums.java
+        - [level 0] 소인수분해 : Factorization.java
+          - 에라토스테네스의 체 ????
+          - 
 
   * 연습문제
     - 2024-04
