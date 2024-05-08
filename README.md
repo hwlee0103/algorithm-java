@@ -158,6 +158,7 @@
         - [level 0] 숨어있는 숫자의 덧셈(1) : SumOfHiddenNums.java
         - [level 0] 컨트롤 제트 : ControlZ.java
           - 스택 활용
+        - [level 0] 배열 원소의 길이 : LengthOfArrayItem.java
 
   * 연습문제
     - 2024-04
