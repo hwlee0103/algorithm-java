@@ -197,6 +197,7 @@
     - [level 0] 소인수분해 : Factorization.java
       - 에라토스테네스의 체 ????
       - ing
+    - [level 0] 중복된 문자 제거 : EraseRepeatChar.java 
 
 ===============================================================
 # Leetcode
