@@ -156,9 +156,8 @@
         - [level 0] 문자열 정렬하기(1) : SortingString1.java
           - 정규식 활용하기
         - [level 0] 숨어있는 숫자의 덧셈(1) : SumOfHiddenNums.java
-        - [level 0] 소인수분해 : Factorization.java
-          - 에라토스테네스의 체 ????
-          - 
+        - [level 0] 컨트롤 제트 : ControlZ.java
+          - 스택 활용
 
   * 연습문제
     - 2024-04
@@ -185,15 +184,18 @@
     - [level 0] 구슬을 나누는 경우의 수
   
   - 코딩테스트 입문
-    - [level 0] 문자열 정렬하기(1)
+    - [level 0] 문자열 정렬하기(1) : SortingString1.java
+    - [level 0] 컨트롤 제트 : ControlZ.java
 
 - UnSolved
   - 연습문제
     - [level 1] 햄버거 만들기
   - 스택/큐
     - [level 2] 올바른 괄호 -> Wrong
-
-- TODO : main 한 개로 (조건에 맞게 input 입력하여) 테스트가 가능하도록 구현해보기
+  - 코딩테스트 입문
+    - [level 0] 소인수분해 : Factorization.java
+      - 에라토스테네스의 체 ????
+      - ing
 
 ===============================================================
 # Leetcode
