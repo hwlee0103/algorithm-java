@@ -141,6 +141,7 @@
         - [level 0] 가위 바위 보 : RockPaperScissors.java
         - [level 0] 구슬을 나누는 경우의 수 : NumsOfSplitBeads.java
           - 완전탐색 / 재귀 / Combination (조합)
+      - 2024-05
         - [level 0] 점의 위치 구하기 : LocationOfDot.java
         - [level 0] 2차원으로 만들기 : MakeTwoD.java
           - 나누기 / 나머지
@@ -159,6 +160,8 @@
         - [level 0] 컨트롤 제트 : ControlZ.java
           - 스택 활용
         - [level 0] 배열 원소의 길이 : LengthOfArrayItem.java
+        - [level 0] 삼각형의 완성조건 (1) : TrangleCompleteCondition.java
+          - sort 활용
 
   * 연습문제
     - 2024-04
@@ -187,6 +190,7 @@
   - 코딩테스트 입문
     - [level 0] 문자열 정렬하기(1) : SortingString1.java
     - [level 0] 컨트롤 제트 : ControlZ.java
+    - [level 0] 삼각형의 완성조건 (1) : TrangleCompleteCondition.java
 
 - UnSolved
   - 연습문제
