@@ -30,17 +30,19 @@ import java.util.Scanner;
  */
 public class Factorization {
     public static int[] solution(int n) {
-        int[] answer = {};
-        int k = 2;
-        ArrayList<Boolean> arr = new ArrayList<Boolean>();
-
-        while(n > 1) {
-            if(n%k==0) {
-                arr.add(k, true);
-                n /= k;
-            } else {
-                k++;
+        ArrayList<Integer> arr = new ArrayList<Integer>();
+        for(int i = 2; i <= n; ++i) {
+            if(n%i==0) {
+                while(n%i==0) {
+                    n /= i;
+                }
+                arr.add(i);
             }
+        }
+        int[] answer = new int[arr.size()];
+        arr.sort(Integer::compareTo);
+        for(int i = 0;i < arr.size(); ++i) {
+            answer[i] = arr.get(i);
         }
 
         return answer;

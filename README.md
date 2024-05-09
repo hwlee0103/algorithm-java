@@ -162,6 +162,8 @@
         - [level 0] 배열 원소의 길이 : LengthOfArrayItem.java
         - [level 0] 삼각형의 완성조건 (1) : TrangleCompleteCondition.java
           - sort 활용
+        - [level 0] 소인수분해 : Factorization.java
+          - LinkedHashSet / 구현
 
   * 연습문제
     - 2024-04
@@ -198,9 +200,6 @@
   - 스택/큐
     - [level 2] 올바른 괄호 -> Wrong
   - 코딩테스트 입문
-    - [level 0] 소인수분해 : Factorization.java
-      - 에라토스테네스의 체 ????
-      - ing
     - [level 0] 중복된 문자 제거 : EraseRepeatChar.java 
 
 ===============================================================
