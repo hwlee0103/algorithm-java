@@ -166,6 +166,7 @@
           - LinkedHashSet / 구현
         - [level 0] 중복된 문자 제거 : EraseRepeatChar.java
           - LinkedHashSet & Arrays / Stream distinct
+        - [level 0] 가까운 수 : ClosestNum.java
 
   * 연습문제
     - 2024-04
