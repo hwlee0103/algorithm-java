@@ -169,6 +169,7 @@
         - [level 0] 가까운 수 : ClosestNum.java
         - [level 0] 369게임 : ThreeSixNine.java
         - [level 0] 암호 해독 : Decryption.java
+        - [level 0] 대문자와 소문자 : UpperAndLowerLetter.java
 
   * 연습문제
     - 2024-04
