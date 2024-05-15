@@ -170,6 +170,8 @@
         - [level 0] 369게임 : ThreeSixNine.java
         - [level 0] 암호 해독 : Decryption.java
         - [level 0] 대문자와 소문자 : UpperAndLowerLetter.java
+        - [level 0] 영어가 싫어요 : DontLikeEng.java
+          - map 없이 풀어보기
 
   * 연습문제
     - 2024-04
@@ -200,6 +202,7 @@
     - [level 0] 컨트롤 제트 : ControlZ.java
     - [level 0] 삼각형의 완성조건 (1) : TrangleCompleteCondition.java
     - [level 0] 중복된 문자 제거 : EraseRepeatChar.java
+    - [level 0] 영어가 싫어요 : DontLikeEng.java
 
 - UnSolved
   - 연습문제
