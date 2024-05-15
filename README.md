@@ -168,6 +168,7 @@
           - LinkedHashSet & Arrays / Stream distinct
         - [level 0] 가까운 수 : ClosestNum.java
         - [level 0] 369게임 : ThreeSixNine.java
+        - [level 0] 암호 해독 : Decryption.java
 
   * 연습문제
     - 2024-04
