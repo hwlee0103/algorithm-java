@@ -178,6 +178,7 @@
         - [level 0] 약수 구하기 : FindingDivisors.java
           - list.stream().mapToInt(e -> e).toArray() : ArrayList to Arrays
         - [level 0] 편지 : Letter.java
+        - [level 0] 가장 큰 수 찾기 : FindingMaxNum.java
 
   * 연습문제
     - 2024-04
