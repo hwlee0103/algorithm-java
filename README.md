@@ -175,6 +175,8 @@
         - [level 0] 인덱스 바꾸기 : ChangingIndex.java
           - Collections.swap / char[] 사용
         - [level 0] 한 번만 등장한 문자 : CharOnlyOnce.java
+        - [level 0] 약수 구하기 : FindingDivisors.java
+          - list.stream().mapToInt(e -> e).toArray() : ArrayList to Arrays
 
   * 연습문제
     - 2024-04
