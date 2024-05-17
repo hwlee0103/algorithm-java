@@ -177,6 +177,7 @@
         - [level 0] 한 번만 등장한 문자 : CharOnlyOnce.java
         - [level 0] 약수 구하기 : FindingDivisors.java
           - list.stream().mapToInt(e -> e).toArray() : ArrayList to Arrays
+        - [level 0] 편지 : Letter.java
 
   * 연습문제
     - 2024-04
