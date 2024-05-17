@@ -174,6 +174,7 @@
           - map 없이 풀어보기
         - [level 0] 인덱스 바꾸기 : ChangingIndex.java
           - Collections.swap / char[] 사용
+        - [level 0] 한 번만 등장한 문자 : CharOnlyOnce.java
 
   * 연습문제
     - 2024-04
