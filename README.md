@@ -180,6 +180,7 @@
         - [level 0] 편지 : Letter.java
         - [level 0] 가장 큰 수 찾기 : FindingMaxNum.java
         - [level 0] 문자열 계산하기 : CalculateString.java
+        - [level 0] 배열의 유사도 : SimilarityOfArray.java
 
   * 연습문제
     - 2024-04
