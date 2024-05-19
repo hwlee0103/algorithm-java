@@ -181,8 +181,10 @@
         - [level 0] 가장 큰 수 찾기 : FindingMaxNum.java
         - [level 0] 문자열 계산하기 : CalculateString.java
         - [level 0] 배열의 유사도 : SimilarityOfArray.java
+        - [level 0] 숫자 찾기 : FindingNum.java
+          - indexOf
 
-  * 연습문제
+   * 연습문제
     - 2024-04
       - [level 1] 문자열 내 p와 y의 개수 : CountingPandY.java
       - [level 1] 문자열을 정수로 바꾸기 : StringToInteger.java
