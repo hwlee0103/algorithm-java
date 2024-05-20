@@ -183,6 +183,7 @@
         - [level 0] 배열의 유사도 : SimilarityOfArray.java
         - [level 0] 숫자 찾기 : FindingNum.java
           - indexOf
+        - [level 0] n의 배수 고르기 : ChooseMultipleN.java
 
    * 연습문제
     - 2024-04
