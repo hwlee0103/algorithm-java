@@ -185,6 +185,7 @@
           - indexOf
         - [level 0] n의 배수 고르기 : ChooseMultipleN.java
         - [level 0] 자릿수 더하기 : AddDigits.java
+        - [level 0] OX퀴즈 : OXQuiz.java
 
    * 연습문제
     - 2024-04
