@@ -187,6 +187,7 @@
         - [level 0] 자릿수 더하기 : AddDigits.java
         - [level 0] OX퀴즈 : OXQuiz.java
         - [level 0] 문자열안에 문자열 : StringInString.java
+        - [level 0] 제곱수 판별하기 : IdentifySquare.java
 
    * 연습문제
     - 2024-04
