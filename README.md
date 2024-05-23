@@ -186,6 +186,7 @@
         - [level 0] n의 배수 고르기 : ChooseMultipleN.java
         - [level 0] 자릿수 더하기 : AddDigits.java
         - [level 0] OX퀴즈 : OXQuiz.java
+        - [level 0] 문자열안에 문자열 : StringInString.java
 
    * 연습문제
     - 2024-04
