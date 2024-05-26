@@ -189,7 +189,8 @@
         - [level 0] 문자열안에 문자열 : StringInString.java
         - [level 0] 제곱수 판별하기 : IdentifySquare.java
         - [level 0] 세균 증식 : BacterialGrowth.java
-        - [level 0] 문자열 정렬하기 (2) : SortString2.java 
+        - [level 0] 문자열 정렬하기 (2) : SortString2.java
+        - [level 0] 7의 개수 : NumOfSeven.java
 
    * 연습문제
     - 2024-04
