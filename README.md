@@ -192,6 +192,7 @@
         - [level 0] 문자열 정렬하기 (2) : SortString2.java
         - [level 0] 7의 개수 : NumOfSeven.java
         - [level 0] 잘라서 배열로 저장하기 : CutAndSaveArray.java
+        - [level 0] 중복된 숫자 개수 : NumOfDuplicateNums.java
 
    * 연습문제
     - 2024-04
