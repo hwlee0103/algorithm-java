@@ -191,6 +191,7 @@
         - [level 0] 세균 증식 : BacterialGrowth.java
         - [level 0] 문자열 정렬하기 (2) : SortString2.java
         - [level 0] 7의 개수 : NumOfSeven.java
+        - [level 0] 잘라서 배열로 저장하기 : CutAndSaveArray.java
 
    * 연습문제
     - 2024-04
