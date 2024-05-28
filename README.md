@@ -194,6 +194,7 @@
         - [level 0] 잘라서 배열로 저장하기 : CutAndSaveArray.java
         - [level 0] 중복된 숫자 개수 : NumOfDuplicateNums.java
         - [level 0] 머쓱이보다 키 큰 사람 : TallerThanMusseuk.java
+        - [level 0] 직사각형 넓이 구하기 : AreaOfRectangle.java
 
    * 연습문제
     - 2024-04
