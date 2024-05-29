@@ -35,6 +35,7 @@ import java.util.Scanner;
  * keyinput	                                    board	    result
  * ["left", "right", "up", "right", "right"]	[11, 11]	[2, 1]
  * ["down", "down", "down", "down", "down"]	    [7, 9]	    [0, -4]
+ * ["down", "down", "down", "down", "up"]	    [7, 9]	    [0, -3]
  *
  */
 public class CoordinatesOfCharacter {
@@ -48,9 +49,10 @@ public class CoordinatesOfCharacter {
         }
 
         for(int i = 0; i < keyinput.length; ++i) {
-            if(answer[0] >= board[0]/2 || answer[0] <= (board[0]/2) * -1) continue;
-            if(answer[1] >= board[1]/2 || answer[1] <= (board[1]/2) * -1) continue;
-
+            int nowX = answer[0] + moves.get(keyinput[i])[0];
+            int nowY = answer[1] + moves.get(keyinput[i])[1];
+            if(nowX > board[0]/2 || nowX < (board[0]/2) * -1) continue;
+            if(nowY > board[1]/2 || nowY < (board[1]/2) * -1) continue;
             answer[0] += moves.get(keyinput[i])[0];
             answer[1] += moves.get(keyinput[i])[1];
         }
