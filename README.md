@@ -196,6 +196,8 @@
         - [level 0] 머쓱이보다 키 큰 사람 : TallerThanMusseuk.java
         - [level 0] 직사각형 넓이 구하기 : AreaOfRectangle.java
         - [level 0] 캐릭터의 좌표 : CoordinatesOfCharacter.java
+        - [level 0] 최댓값 만들기 (2) : MakeMathVal2.java
+          - Arrays.sort()
 
    * 연습문제
     - 2024-04
