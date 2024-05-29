@@ -198,7 +198,7 @@
         - [level 0] 캐릭터의 좌표 : CoordinatesOfCharacter.java
         - [level 0] 최댓값 만들기 (2) : MakeMathVal2.java
           - Arrays.sort()
-        - [level 0] 다항식 더하기 : AddingPolynomial.java
+        
 
    * 연습문제
     - 2024-04
@@ -238,7 +238,8 @@
   - 스택/큐
     - [level 2] 올바른 괄호 -> Wrong
   - 코딩테스트 입문
-  - 
+    - [level 0] 다항식 더하기 : AddingPolynomial.java
+    - 
 ===============================================================
 # Leetcode
 ---------------------------------------------------------------
