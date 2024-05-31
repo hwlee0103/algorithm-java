@@ -198,15 +198,15 @@
         - [level 0] 캐릭터의 좌표 : CoordinatesOfCharacter.java
         - [level 0] 최댓값 만들기 (2) : MakeMathVal2.java
           - Arrays.sort()
-        
+        - [level 0] 다항식 더하기 : AddingPolynomial.java
 
-   * 연습문제
-    - 2024-04
-      - [level 1] 문자열 내 p와 y의 개수 : CountingPandY.java
-      - [level 1] 문자열을 정수로 바꾸기 : StringToInteger.java
-      - [level 1] 약수의 합 : SumOfDivisor.java
-      - [level 2] 최댓값과 최솟값 : MaxAndMin.java
-      - [level 1] 자릿수 더하기 : AddingDigits.java
+  * 연습문제
+  * 2024-04
+    - [level 1] 문자열 내 p와 y의 개수 : CountingPandY.java
+    - [level 1] 문자열을 정수로 바꾸기 : StringToInteger.java
+    - [level 1] 약수의 합 : SumOfDivisor.java
+    - [level 2] 최댓값과 최솟값 : MaxAndMin.java
+    - [level 1] 자릿수 더하기 : AddingDigits.java
   
   * MySQL : TODO : MySQL setting
     - 2024-03
@@ -231,6 +231,7 @@
     - [level 0] 중복된 문자 제거 : EraseRepeatChar.java
     - [level 0] 영어가 싫어요 : DontLikeEng.java
     - [level 0] 인덱스 바꾸기 : ChangingIndex.java
+    - [level 0] 다항식 더하기 : AddingPolynomial.java
 
 - UnSolved
   - 연습문제
@@ -238,7 +239,6 @@
   - 스택/큐
     - [level 2] 올바른 괄호 -> Wrong
   - 코딩테스트 입문
-    - [level 0] 다항식 더하기 : AddingPolynomial.java
     - 
 ===============================================================
 # Leetcode
