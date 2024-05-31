@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 문제 유형 : 코딩테스트 입문
  *
  * Started : 2024-05-29
- * Solved :
+ * Solved : 2024-05-31
  *
  * 문제
  * 한 개 이상의 항의 합으로 이루어진 식을 다항식이라고 합니다.
@@ -41,34 +41,29 @@ import java.util.Scanner;
 public class AddingPolynomial {
     public static String solution(String polynomial) {
         String answer = "";
-        String[] splitPoly = polynomial.split(" \\+ ");
-        String x = "";
-        String num = "";
-
-        for(String item : splitPoly) {
-            String nowX = "0";
-            if(x.indexOf("x") > -1) {
-                nowX = x.replace("x", "").equals("") ? "1" : x.replace("x", "");
-            }
-            if(item.indexOf("x") > -1) {
-                String itemX = item.replace("x", "").equals("") ? "1" : item.replace("x", "");
-                x = String.valueOf(Integer.parseInt(nowX) + Integer.parseInt(itemX)) + "x";
+        String[] spPoly = polynomial.split(" ");
+        int xNum = 0;
+        int num = 0;
+        for(int i = 0; i < spPoly.length; ++i) {
+            String now = spPoly[i];
+            if(now.equals("+")) continue;
+            if(now.indexOf("x") > -1) {
+                if(now.length() == 1) xNum++;
+                else xNum += Integer.parseInt(now.substring(0, now.length()-1));
             } else {
-                num += String.valueOf(Integer.parseInt((num.equals("") ? "0" : num) + Integer.parseInt((item.replace("x", "").equals("")) ? "0" : item.replace("x", ""))));
-            }
-        }
-        if(num.length() > 0) {
-            if(x.length() > 0) {
-                answer += x + " + " + num;
-            } else {
-                answer += num;
-            }
-        } else{
-            if(x.length() > 0){
-                answer += x;
+                num += Integer.parseInt(now);
             }
         }
 
+        if(xNum > 1) {
+            if(num != 0) answer = String.valueOf(xNum) + "x + " + String.valueOf(num);
+            else answer = String.valueOf(xNum) + "x";
+        } else if(xNum == 1) {
+            if(num != 0) answer = "x + " + String.valueOf(num);
+            else answer = "x";
+        } else {
+            if(num != 0) answer = String.valueOf(num);
+        }
         return answer;
     }
 
