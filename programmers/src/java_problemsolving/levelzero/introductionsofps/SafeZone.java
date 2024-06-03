@@ -3,6 +3,7 @@ package java_problemsolving.levelzero.introductionsofps;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Stream;
 
 /**
  * Level : 0
@@ -56,23 +57,28 @@ public class SafeZone {
 
         return answer;
     }
-
+// 5
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        String str = input.nextLine();
-        String[] spStr = str.split("], ");
-//        List<List<Integer>> bd = ;
-        int idx = 0;
-        for(String item : spStr) {
-            item = item.replace("[", "");
-            item = item.replace("]", "");
-            String[] nowStr = item.split(", ");
-            ArrayList<Integer> a = new ArrayList<>();
-            for(String nowItem : nowStr) {
-                a.add(Integer.parseInt(nowItem));
+        int row = input.nextInt();
+//        String buf = input.nextLine();
+//        List<String[]> inputStr = new ArrayList<>();
+//        for(int i = 0;i < row ; ++i) {
+//            String str = input.nextLine();
+//            String[] spStr = str.split(", ");
+//            inputStr.add(spStr);
+//        }
+        int[][] board = new int[row][row];
+//        for(int i = 0;i < inputStr.size(); ++i) {
+//            for(int j = 0; j < inputStr.get(0).length; ++j) {
+////                board[i][j] = Stream.of(inputStr.get(i).).mapToInt(Integer::parseInt).toArray();
+//            }
+//        }
+        for(int i = 0;i < row ; ++i ) {
+            for(int j = 0;  j < row; ++j) {
+                board[i][j] = input.nextInt();
             }
-//            bd.add(idx++, a);
         }
-//        System.out.println(solution(bd.stream().mapToInt(i -> i).toArray()));
+        System.out.println(solution(board));
     }
 }
