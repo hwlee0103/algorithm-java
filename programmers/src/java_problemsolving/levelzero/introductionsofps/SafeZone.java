@@ -1,5 +1,7 @@
 package java_problemsolving.levelzero.introductionsofps;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -59,13 +61,18 @@ public class SafeZone {
         Scanner input = new Scanner(System.in);
         String str = input.nextLine();
         String[] spStr = str.split("], ");
+//        List<List<Integer>> bd = ;
+        int idx = 0;
         for(String item : spStr) {
             item = item.replace("[", "");
             item = item.replace("]", "");
             String[] nowStr = item.split(", ");
+            ArrayList<Integer> a = new ArrayList<>();
             for(String nowItem : nowStr) {
-
+                a.add(Integer.parseInt(nowItem));
             }
+//            bd.add(idx++, a);
         }
+//        System.out.println(solution(bd.stream().mapToInt(i -> i).toArray()));
     }
 }
