@@ -39,7 +39,7 @@ public class SafeZone {
         for(int i = 0; i < board.length; ++i) {
             for(int j = 0; j < board[i].length; ++j) {
                 if(board[i][j] != 1) continue;
-                for(int k = 0; k < effects.length ; ++i) {
+                for(int k = 0; k < effects.length ; ++k) {
                     int nowX = i + effects[k][0];
                     int nowY = j + effects[k][1];
                     if(nowX >= board.length || nowX < 0) continue;
