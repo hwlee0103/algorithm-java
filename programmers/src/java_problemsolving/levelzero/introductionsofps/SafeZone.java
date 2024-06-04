@@ -1,9 +1,6 @@
 package java_problemsolving.levelzero.introductionsofps;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Stream;
 
 /**
  * Level : 0
@@ -11,7 +8,7 @@ import java.util.stream.Stream;
  * 문제 유형 : 코딩테스트 입문
  *
  * Started : 2024-06-02
- * Solved : 2024-06-
+ * Solved : 2024-06-04
  *
  * 문제
  * 다음 그림과 같이 지뢰가 있는 지역과 지뢰에 인접한 위, 아래, 좌, 우 대각선 칸을 모두 위험지역으로 분류합니다.
