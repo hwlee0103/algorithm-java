@@ -1,4 +1,7 @@
 package java_problemsolving.levelzero.introductionsofps;
+
+import java.util.*;
+
 /**
  * Level : 0
  * Title : 외계어 사전
@@ -32,12 +35,41 @@ package java_problemsolving.levelzero.introductionsofps;
 public class AlienDictionary {
     public static int solution(String[] spell, String[] dic) {
         int answer = 2;
-        int[] check = new int[spell.length];
-        for(int i = 0; i < dic.length; ++i) {
-//            for(int j = 0; j < dic; ++i) {
-//
-//            }
+//        int[] check = new int[spell.length];
+
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
+        List<String> dicList = Arrays.stream(dic).toList();
+
+        for(int i = 0; i < spell.length; ++i) {
+            map.put(spell[i], 0);
         }
+
+        for(int i = 0; i < dicList.size(); ++i) {
+            for(char c : dicList.get(i).toCharArray()) {
+                if(map.get(c) >= 1) {
+                    answer = 2;
+                    break;
+                } else if(map.get(c) == 0) {
+                    map.put(c, 1);
+                }
+            }
+            if(answer == 2) break;
+        }
+
+        // TODO : map 갯수 카운트 검사
+
         return answer;
     }
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String str = input.nextLine();
+        str = str.replaceAll("\"", "");
+        String[] spell = str.split(", ");
+        String str2 = input.nextLine();
+        str2.replaceAll("\"", "");
+        String[] dic = str2.split(", ");
+        System.out.println(solution(spell, dic));
+    }
+
 }
