@@ -207,6 +207,7 @@
         - [level 0] 외계어 사전 : AlienDictionary.java
           - Array 활용법 익히기
         - [level 0] 저주의 숫자 3 : CurseNum3.java
+        - [level 0] 평행 : Parallel.java
 
   * 연습문제
   * 2024-04
@@ -244,6 +245,7 @@
     - [level 0] 다항식 더하기 : AddingPolynomial.java
     - [level 0] 삼각형의 완성조건 (2) : TriangleCompleteCondition.java
     - [level 0] 외계어 사전 : AlienDictionary.java
+    - [level 0] 저주의 숫자 3 : CurseNum3.java
 
 - UnSolved
   - 연습문제
