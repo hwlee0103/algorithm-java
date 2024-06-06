@@ -1,6 +1,7 @@
 package java_problemsolving.levelzero.introductionsofps;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Level : 0
@@ -35,28 +36,45 @@ import java.util.*;
 public class AlienDictionary {
     public static int solution(String[] spell, String[] dic) {
         int answer = 2;
-//        int[] check = new int[spell.length];
 
-        Map<Character, Integer> map = new HashMap<Character, Integer>();
-        List<String> dicList = Arrays.stream(dic).toList();
-
-        for(int i = 0; i < spell.length; ++i) {
-            map.put(spell[i], 0);
+        Map<String, Integer> map = new HashMap<String, Integer>();
+//        List<String> dicList = Arrays.stream(dic).toList();
+//        List<String> dicList = Arrays.stream(dic).collect(Collectors.toList());
+        List<String> dicList = new ArrayList<>();
+        for (String s : dic) {
+            dicList.add(s);
         }
+//        List<String> spellList = Arrays.stream(spell).toList();
+        List<String> spellList = new ArrayList<>();
+        for (String s : spell) {
+            spellList.add(s);
+        }
+//        List<String> spellList = Arrays.stream(spell).collect(Collectors.toList());
 
         for(int i = 0; i < dicList.size(); ++i) {
+            for(int m = 0; m < spellList.size(); ++m) {
+                map.put(spellList.get(m), 0);
+            }
+
             for(char c : dicList.get(i).toCharArray()) {
-                if(map.get(c) >= 1) {
-                    answer = 2;
-                    break;
-                } else if(map.get(c) == 0) {
-                    map.put(c, 1);
+                if(map.containsKey(String.valueOf(c))) {
+                    map.put(String.valueOf(c), map.get(String.valueOf(c)) + 1);
+                } else {
+                    continue;
                 }
             }
-            if(answer == 2) break;
-        }
 
-        // TODO : map 갯수 카운트 검사
+            for(int item : map.values()) {
+                if(item != 1) {
+                    answer = 2;
+                    break;
+                }
+                else answer = 1;
+            }
+            map.clear();
+
+            if(answer == 1) break;
+        }
 
         return answer;
     }

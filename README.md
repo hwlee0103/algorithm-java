@@ -204,6 +204,8 @@
         - [level 0] 안전지대 : SafeZone.java
         - [level 0] 삼각형의 완성조건 (2) : TriangleCompleteCondition.java
           - 공식
+        - [level 0] 외계어 사전 : AlienDictionary.java
+          - Array 활용법 익히기
 
   * 연습문제
   * 2024-04
@@ -240,6 +242,7 @@
     - [level 0] 인덱스 바꾸기 : ChangingIndex.java
     - [level 0] 다항식 더하기 : AddingPolynomial.java
     - [level 0] 삼각형의 완성조건 (2) : TriangleCompleteCondition.java
+    - [level 0] 외계어 사전 : AlienDictionary.java
 
 - UnSolved
   - 연습문제
@@ -247,7 +250,7 @@
   - 스택/큐
     - [level 2] 올바른 괄호 -> Wrong
   - 코딩테스트 입문
-    - [level 0] 외계어 사전 : AlienDictionary.java
+
 ===============================================================
 # Leetcode
 ---------------------------------------------------------------
