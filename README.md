@@ -206,6 +206,7 @@
           - 공식
         - [level 0] 외계어 사전 : AlienDictionary.java
           - Array 활용법 익히기
+        - [level 0] 저주의 숫자 3 : CurseNum3.java
 
   * 연습문제
   * 2024-04

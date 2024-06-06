@@ -1,7 +1,6 @@
 package java_problemsolving.levelzero.introductionsofps;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * Level : 0
@@ -9,7 +8,7 @@ import java.util.stream.Collectors;
  * 문제 유형 : 코딩테스트 입문
  *
  * Started : 2024-06-04
- * Solved : 2024-06-
+ * Solved : 2024-06-06
  *
  * 문제
  * PROGRAMMERS-962 행성에 불시착한 우주비행사 머쓱이는 외계행성의 언어를 공부하려고 합니다.
