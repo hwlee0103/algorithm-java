@@ -208,7 +208,7 @@
           - Array 활용법 익히기
         - [level 0] 저주의 숫자 3 : CurseNum3.java
         - [level 0] 평행 : Parallel.java
-
+        - [level 0] 겹치는 선분의 길이 : LengthOfOverlap.java
 
   * 연습문제
   * 2024-04
@@ -247,6 +247,7 @@
     - [level 0] 삼각형의 완성조건 (2) : TriangleCompleteCondition.java
     - [level 0] 외계어 사전 : AlienDictionary.java
     - [level 0] 저주의 숫자 3 : CurseNum3.java
+    - [level 0] 겹치는 선분의 길이 : LengthOfOverlap.java
 
 - UnSolved
   - 연습문제
@@ -254,7 +255,7 @@
   - 스택/큐
     - [level 2] 올바른 괄호 -> Wrong
   - 코딩테스트 입문
-    - [level 0] 겹치는 선분의 길이 : LengthOfOverlap.java
+  - 
 ===============================================================
 # Leetcode
 ---------------------------------------------------------------

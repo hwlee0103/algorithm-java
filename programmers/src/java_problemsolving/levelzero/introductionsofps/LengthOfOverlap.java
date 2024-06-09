@@ -36,57 +36,16 @@ import java.util.Scanner;
 public class LengthOfOverlap {
     public static int solution(int[][] lines) {
         int answer = 0;
+        int[] counts = new int[201];
 
-        boolean flag = false;
-
-        for(int i = 0; i < 3; ++i) {
-            int startX;
-            int endX;
-            for(int j = i + 1; j < 3; ++j) {
-                // 안 겹칠 때
-                if(lines[i][1] <= lines[j][0]) continue;
-                else {
-                    // 시작점
-                    if(lines[i][0] < lines[j][0]) {
-                       startX = lines[j][0];
-                    } else {
-                        startX = lines[i][0];
-                    }
-                    
-                    // 끝점
-                    if(lines[i][1] < lines[j][1]) {
-                        endX = lines[i][1];
-                    } else {
-                        endX = lines[j][1];
-                    }
-                    
-                    answer += endX - startX;
-                }
+        for(int[] item : lines) {
+            for(int j = item[0]; j < item[1]; ++j) {
+                counts[j + 100]++;
             }
-            if(!flag) {
-                int dupStart = Math.max(lines[(i + 1) % 3][0], lines[(i + 2) % 3][0]);
-                int dupEnd = Math.min(lines[(i + 1) % 3][1], lines[(i + 2) % 3][1]);
-                if (dupEnd <= dupStart) continue;
-                if (lines[i][1] <= dupStart) continue;
-                else {
-                    // 시작점
-                    if (lines[i][0] < dupStart) {
-                        startX = dupStart;
-                    } else {
-                        startX = lines[i][0];
-                    }
+        }
 
-                    // 끝점
-                    if (lines[i][1] < dupEnd) {
-                        endX = lines[i][1];
-                    } else {
-                        endX = dupEnd;
-                    }
-
-                    answer -= endX - startX;
-                    flag = true;
-                }
-            }
+        for(int i = 0; i <=200; ++i) {
+            if(counts[i] > 1) answer++;
         }
 
         return answer;
