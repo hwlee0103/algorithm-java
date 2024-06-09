@@ -209,6 +209,7 @@
         - [level 0] 저주의 숫자 3 : CurseNum3.java
         - [level 0] 평행 : Parallel.java
         - [level 0] 겹치는 선분의 길이 : LengthOfOverlap.java
+        - [level 0] 유한소수 판별하기 : FinitDecimalNums.java
 
   * 연습문제
   * 2024-04
