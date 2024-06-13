@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 문제 유형 : 코딩테스트 입문
  *
  * Started : 2024-06-10
- * Solved : 2024-06-
+ * Solved : 2024-06-13
  *
  * 문제
  * 정수 n을 기준으로 n과 가까운 수부터 정렬하려고 합니다.
@@ -30,10 +30,38 @@ import java.util.Scanner;
  */
 public class UnusualArrangement {
     public static int[] solution(int[] numlist, int n) {
-        int[] answer = new int[numlist.length];
         int[] differ = new int[numlist.length];
 
-        return answer;
+        for(int i = 0; i < numlist.length; ++i) {
+            differ[i] = Math.abs(n - numlist[i]);
+        }
+
+        int tmp = 0;
+        for(int i = 0; i < numlist.length; ++i) {
+            for(int j = 0; j < i ; ++j) {
+                if(differ[i] < differ[j]) {
+                    tmp = numlist[j];
+                    numlist[j] = numlist[i];
+                    numlist[i] = tmp;
+
+                    tmp = differ[j];
+                    differ[j] = differ[i];
+                    differ[i] = tmp;
+                } else if(differ[i] == differ[j]) {
+                    if(numlist[i] > numlist[j]) {
+                        tmp = numlist[j];
+                        numlist[j] = numlist[i];
+                        numlist[i] = tmp;
+
+                        tmp = differ[j];
+                        differ[j] = differ[i];
+                        differ[i] = tmp;
+                    }
+                }
+            }
+        }
+
+        return numlist;
     }
 
     public static void main(String[] args) {
