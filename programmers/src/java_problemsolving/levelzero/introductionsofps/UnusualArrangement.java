@@ -1,6 +1,5 @@
 package java_problemsolving.levelzero.introductionsofps;
 
-import javax.security.sasl.SaslClient;
 import java.util.Scanner;
 
 /**
