@@ -213,7 +213,8 @@
         - [level 0] 특이한 정렬 : UnusualArrangement.java
         - [level 0] 등수 매기기 : Ranking.java
           - 반례 구상
-        - 
+        - [level 0] 옹알이 (1) : Babbling.java 
+          - replaceFirst
 
   * 연습문제
   * 2024-04
