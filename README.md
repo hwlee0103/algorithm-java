@@ -211,6 +211,9 @@
         - [level 0] 겹치는 선분의 길이 : LengthOfOverlap.java
         - [level 0] 유한소수 판별하기 : FinitDecimalNums.java
         - [level 0] 특이한 정렬 : UnusualArrangement.java
+        - [level 0] 등수 매기기 : Ranking.java
+          - 반례 구상
+        - 
 
   * 연습문제
   * 2024-04
@@ -250,6 +253,7 @@
     - [level 0] 외계어 사전 : AlienDictionary.java
     - [level 0] 저주의 숫자 3 : CurseNum3.java
     - [level 0] 겹치는 선분의 길이 : LengthOfOverlap.java
+    - [level 0] 등수 매기기 : Ranking.java
 
 - UnSolved
   - 연습문제
@@ -257,7 +261,7 @@
   - 스택/큐
     - [level 2] 올바른 괄호 -> Wrong
   - 코딩테스트 입문
-    - [level 0] 등수 매기기 : Ranking.java
+
 ===============================================================
 # Leetcode
 ---------------------------------------------------------------
