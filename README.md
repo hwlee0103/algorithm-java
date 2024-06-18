@@ -216,6 +216,7 @@
         - [level 0] 옹알이 (1) : Babbling.java 
           - replaceFirst
         - [level 0] 로그인 성공? : LoginSuccess.java
+        - [level 0] 치킨 쿠폰 : ChickenCoupon.java
 
   * 연습문제
   * 2024-04
