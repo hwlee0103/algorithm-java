@@ -217,6 +217,8 @@
           - replaceFirst
         - [level 0] 로그인 성공? : LoginSuccess.java
         - [level 0] 치킨 쿠폰 : ChickenCoupon.java
+        - [level 0] 이진수 더하기 : AddingBinaries.java
+          - binary String
 
   * 연습문제
   * 2024-04
@@ -257,6 +259,7 @@
     - [level 0] 저주의 숫자 3 : CurseNum3.java
     - [level 0] 겹치는 선분의 길이 : LengthOfOverlap.java
     - [level 0] 등수 매기기 : Ranking.java
+    - [level 0] 이진수 더하기 : AddingBinaries.java
 
 - UnSolved
   - 연습문제
