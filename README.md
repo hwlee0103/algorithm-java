@@ -219,6 +219,7 @@
         - [level 0] 치킨 쿠폰 : ChickenCoupon.java
         - [level 0] 이진수 더하기 : AddingBinaries.java
           - binary String
+        - [level 0] A로 B 만들기 : MakeBwithA.java 
 
   * 연습문제
   * 2024-04
