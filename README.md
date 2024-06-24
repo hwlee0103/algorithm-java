@@ -222,6 +222,8 @@
         - [level 0] A로 B 만들기 : MakeBwithA.java
         - [level 0] k의 개수 : NumOfK.java
         - [level 0] 문자열 밀기 : PushingString.java
+          - indexOf 활용 가능 (B+B)
+        - [level 0] 종이 자르기 : CuttingPaper.java
 
   * 연습문제
   * 2024-04
@@ -263,6 +265,7 @@
     - [level 0] 겹치는 선분의 길이 : LengthOfOverlap.java
     - [level 0] 등수 매기기 : Ranking.java
     - [level 0] 이진수 더하기 : AddingBinaries.java
+    - [level 0] 문자열 밀기 : PushingString.java
 
 - UnSolved
   - 연습문제
