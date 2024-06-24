@@ -221,6 +221,7 @@
           - binary String
         - [level 0] A로 B 만들기 : MakeBwithA.java
         - [level 0] k의 개수 : NumOfK.java
+        - [level 0] 문자열 밀기 : PushingString.java
 
   * 연습문제
   * 2024-04
