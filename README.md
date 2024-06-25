@@ -224,6 +224,8 @@
         - [level 0] 문자열 밀기 : PushingString.java
           - indexOf 활용 가능 (B+B)
         - [level 0] 종이 자르기 : CuttingPaper.java
+        - [level 0] 연속된 수의 합 : SumOfConsecutiveNums.java
+          - 수학 공식**
 
   * 연습문제
   * 2024-04
@@ -266,6 +268,7 @@
     - [level 0] 등수 매기기 : Ranking.java
     - [level 0] 이진수 더하기 : AddingBinaries.java
     - [level 0] 문자열 밀기 : PushingString.java
+    - [level 0] 연속된 수의 합 : SumOfConsecutiveNums.java
 
 - UnSolved
   - 연습문제
@@ -273,7 +276,7 @@
   - 스택/큐
     - [level 2] 올바른 괄호 -> Wrong
   - 코딩테스트 입문
-
+    - 
 ===============================================================
 # Leetcode
 ---------------------------------------------------------------
