@@ -226,6 +226,7 @@
         - [level 0] 종이 자르기 : CuttingPaper.java
         - [level 0] 연속된 수의 합 : SumOfConsecutiveNums.java
           - 수학 공식**
+        - [level 0] 다음에 올 숫자 : NextNum.java
 
   * 연습문제
   * 2024-04
