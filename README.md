@@ -92,6 +92,8 @@
           - [level 0] 수열과 구간 쿼리 2 : NumArrIntervalQuery2.java
           - [level 0] 수열과 구간 쿼리 4 : NumArrIntervalQuery4.java
         - 2024-06
+          - [level 0] 배열 만들기 2 : MakingArray2.java
+            - 이진법 활용
     
       - 리스트(배열)
         - 2024-03
@@ -272,15 +274,18 @@
     - [level 0] 이진수 더하기 : AddingBinaries.java
     - [level 0] 문자열 밀기 : PushingString.java
     - [level 0] 연속된 수의 합 : SumOfConsecutiveNums.java
+    
+  - 반복문
+    - [level 0] 배열 만들기 2 : MakingArray2.java
+      - 이진수 연산 활용해보기
 
 - UnSolved
   - 연습문제
     - [level 1] 햄버거 만들기
   - 스택/큐
     - [level 2] 올바른 괄호 -> Wrong
-  - 코딩 기초 트레이닝 
-    - [level 0] 배열 만들기 2 : MakingArray2.java
-    - 
+  - 코딩 기초 트레이닝
+    
 ===============================================================
 # Leetcode
 ---------------------------------------------------------------

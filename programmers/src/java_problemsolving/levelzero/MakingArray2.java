@@ -10,7 +10,7 @@ import java.util.Scanner;
  * 문제 유형 : 코딩 기초 트레이닝
  *
  * Started : 2024-06-26
- * Solved : 2024-06-
+ * Solved : 2024-06-29
  *
  * 문제
  * 정수 l과 r이 주어졌을 때, l 이상 r이하의 정수 중에서 숫자 "0"과 "5"로만 이루어진 모든 정수를 오름차순으로 저장한 배열을 return 하는 solution 함수를 완성해 주세요.
@@ -34,19 +34,29 @@ import java.util.Scanner;
  */
 public class MakingArray2 {
     public static int[] solution(int l, int r) {
-        int[] answer = {};
         List<Integer> intArray = new ArrayList<>();
         intArray = func(l, r, 5, intArray);
         intArray.sort(Integer::compareTo);
-        for(int i = 0; )
+        int[] answer = new int[intArray.size()];
 
-        return intArray;
+        for(int i = 0; i < intArray.size(); ++i) {
+            answer[i] = intArray.get(i);
+        }
+
+        if(answer.length == 0) {
+            answer = new int[1];
+            answer[0] = -1;
+        }
+
+        return answer;
     }
 
     public static List<Integer> func(int l, int r, int now, List<Integer> intArray) {
-        if(now < l || now > r) return intArray;
+        if(now > r) return intArray;
         else {
-            intArray.add(now);
+            if(now >= l) {
+                intArray.add(now);
+            }
             intArray = func(l, r, now*10, intArray);
             intArray = func(l, r, now*10+5, intArray);
         }
@@ -57,5 +67,12 @@ public class MakingArray2 {
         Scanner input = new Scanner(System.in);
         int l = input.nextInt();
         int r = input.nextInt();
+        int[] answer = solution(l, r);
+        System.out.print("[");
+        for(int i = 0; i < answer.length; i++) {
+            System.out.print(answer[i]);
+            if(i < answer.length -1) System.out.print(", ");
+        }
+        System.out.println("]");
     }
 }
