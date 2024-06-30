@@ -94,6 +94,7 @@
         - 2024-06
           - [level 0] 배열 만들기 2 : MakingArray2.java
             - 이진법 활용
+          - [level 0] 카운트 업 : CountUp.java
     
       - 리스트(배열)
         - 2024-03
