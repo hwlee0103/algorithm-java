@@ -1,6 +1,5 @@
 package java_problemsolving.levelzero;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**

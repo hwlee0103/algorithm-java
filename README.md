@@ -95,6 +95,8 @@
           - [level 0] 배열 만들기 2 : MakingArray2.java
             - 이진법 활용
           - [level 0] 카운트 업 : CountUp.java
+          - [level 0] 콜라츠 수열 만들기 : CollatzArray.java
+            - List -> int[] : stream() 활용
     
       - 리스트(배열)
         - 2024-03
