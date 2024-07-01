@@ -73,6 +73,8 @@
           - [level 0] 마지막 두 원소 : LastTwoItems.java
           - [level 0] 수 조작하기 1 : ControlNum.java
           - [level 0] 수 조작하기 2 : ControlNum2.java
+        - 2024-07
+          - [level 0] 간단한 논리 연산 : SimpleLogicalOperation.java
         
       - 연산
         - 2024-03
