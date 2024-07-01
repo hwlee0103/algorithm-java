@@ -75,7 +75,7 @@
           - [level 0] 수 조작하기 2 : ControlNum2.java
         - 2024-07
           - [level 0] 간단한 논리 연산 : SimpleLogicalOperation.java
-        
+
       - 연산
         - 2024-03
           - [level 0] 문자열 겹쳐쓰기
@@ -292,6 +292,7 @@
   - 스택/큐
     - [level 2] 올바른 괄호 -> Wrong
   - 코딩 기초 트레이닝
+  - [level 0] 주사위 게임 3 : DiceGame3.java        
     
 ===============================================================
 # Leetcode
