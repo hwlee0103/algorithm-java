@@ -107,6 +107,10 @@
       - 리스트(배열)
         - 2024-03
           - [level 0] n보다 커질 때까지 더하기 : AddOverN.java
+    
+      - 문자열
+        - 2024-07
+          - [level 0] 글자 이어 붙여 문자열 만들기 : ConcatCharMakeString.java
         
       - 코딩테스트 입문
         - 2024-03
