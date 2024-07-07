@@ -1,10 +1,9 @@
 package java_problemsolving.levelzero;
 
-import groovyjarjarantlr4.v4.runtime.misc.MultiMap;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.Set;
 
 /**
  * Level : 0
@@ -12,7 +11,7 @@ import java.util.Scanner;
  * 문제 유형 : 코딩 기초 트레이닝
  *
  * Started : 2024-07-01
- * Solved : 2024-07-
+ * Solved : 2024-07-07
  *
  * 문제
  * 1부터 6까지 숫자가 적힌 주사위가 네 개 있습니다. 네 주사위를 굴렸을 때 나온 숫자에 따라 다음과 같은 점수를 얻습니다.
@@ -53,21 +52,60 @@ public class DiceGame3 {
         int[] dice = {a, b, c, d};
         Map<Integer, Integer> diceCnt = new HashMap<>();
         for(int i = 0; i < 4; ++i) {
-            if(diceCnt.isEmpty()) {
+            if(diceCnt.isEmpty() || !diceCnt.containsKey(dice[i])) {
                 diceCnt.put(dice[i], 0);
             }
             if(diceCnt.get(dice[i]) > -1) {
                 diceCnt.put(dice[i], diceCnt.get(dice[i]) + 1);
-            } else {
-                diceCnt.put(dice[i], 0);
             }
         }
 
+        Set<Integer> keySet = diceCnt.keySet();
+
         if(diceCnt.size() == 1) answer = 1111 * dice[0];
         else if(diceCnt.size() == 2) {
-
+            boolean flag = false;
+            int p = 0;
+            int q = 0;
+            int tmp = 0;
+            for(Integer item : keySet) {
+                if(diceCnt.get(item) == 3) {
+                    flag = true;
+                    p = item;
+                } else if (diceCnt.get(item) == 1) {
+                    q = item;
+                } else {
+                    if(tmp == 0) {
+                        p = item;
+                        tmp = item;
+                    } else {
+                        q = item;
+                    }
+                }
+            }
+            if(flag) {
+                answer = (int)Math.pow((10*p + q), 2);
+            } else {
+                answer = (p + q) * Math.abs(p-q);
+            }
         } else if(diceCnt.size() == 3) {
-
+            int p = 0;
+            int q = 0;
+            int r = 0;
+            int tmp = 0;
+            for(Integer item : keySet) {
+                if(diceCnt.get(item) == 2) {
+                    p = item;
+                } else {
+                    if(tmp == 0) {
+                        q = item;
+                        tmp = item;
+                    } else {
+                        r = item;
+                    }
+                }
+            }
+            answer = q * r;
         } else {
             answer = Math.min(Math.min(a, b) ,Math.min(c, d));
         }
