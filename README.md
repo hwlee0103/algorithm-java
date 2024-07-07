@@ -111,6 +111,7 @@
       - 문자열
         - 2024-07
           - [level 0] 글자 이어 붙여 문자열 만들기 : ConcatCharMakeString.java
+          - [level 0] 9로 나눈 나머지 : RemainsOfNine.java
         
       - 코딩테스트 입문
         - 2024-03
