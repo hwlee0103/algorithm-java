@@ -115,7 +115,8 @@
           - [level 0] 문자열 여러 번 뒤집기 : FlippingString.java
             - reverse 함수
           - [level 0] 배열 만들기 5 : MakingArray5.java
-        
+          - [level 0] 부분 문자열 이어 붙여 문자열 만들기 : MakeStringAddingSubstrings.java
+
       - 코딩테스트 입문
         - 2024-03
           - [level 0] 두 수의 합 : SumOfTwoNums.java 

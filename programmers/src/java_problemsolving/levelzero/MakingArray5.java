@@ -39,7 +39,6 @@ import java.util.Scanner;
  * 따라서 [56789, 99999]를 return 합니다.
  *
  */
-
 public class MakingArray5 {
     public static int[] solution(String[] intStrs, int k, int s, int l) {
         int[] answer = {};
