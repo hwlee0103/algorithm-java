@@ -114,6 +114,7 @@
           - [level 0] 9로 나눈 나머지 : RemainsOfNine.java
           - [level 0] 문자열 여러 번 뒤집기 : FlippingString.java
             - reverse 함수
+          - [level 0] 배열 만들기 5 : MakingArray5.java
         
       - 코딩테스트 입문
         - 2024-03
