@@ -116,6 +116,7 @@
             - reverse 함수
           - [level 0] 배열 만들기 5 : MakingArray5.java
           - [level 0] 부분 문자열 이어 붙여 문자열 만들기 : MakeStringAddingSubstrings.java
+          - [level 0] 문자열의 뒤의 n글자 : LastNLettersOfString.java
 
       - 코딩테스트 입문
         - 2024-03
