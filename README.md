@@ -118,6 +118,8 @@
           - [level 0] 부분 문자열 이어 붙여 문자열 만들기 : MakeStringAddingSubstrings.java
           - [level 0] 문자열의 뒤의 n글자 : LastNLettersOfString.java
           - [level 0] 접미사 배열 : ArrayOfSuffix.java
+          - [level 0] 접미사인지 확인하기 : IsSuffix.java
+            - endsWith
 
       - 코딩테스트 입문
         - 2024-03
