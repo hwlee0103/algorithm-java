@@ -123,6 +123,8 @@
           - [level 0] 문자열의 앞의 n글자 : NPrefix.java
           - [level 0] 접미사인지 확인하기 : IsPrefix.java
             - startsWith
+          - [level 0] 문자열 뒤집기 : FlippingString2.java
+            - reverse
 
       - 코딩테스트 입문
         - 2024-03
