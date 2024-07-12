@@ -121,7 +121,8 @@
           - [level 0] 접미사인지 확인하기 : IsSuffix.java
             - endsWith
           - [level 0] 문자열의 앞의 n글자 : NPrefix.java
-          - 
+          - [level 0] 접미사인지 확인하기 : IsPrefix.java
+            - startsWith
 
       - 코딩테스트 입문
         - 2024-03
