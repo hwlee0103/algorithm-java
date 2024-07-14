@@ -264,12 +264,13 @@
           - [level 0] 다음에 올 숫자 : NextNum.java
 
   * 연습문제
-  * 2024-04
-    - [level 1] 문자열 내 p와 y의 개수 : CountingPandY.java
-    - [level 1] 문자열을 정수로 바꾸기 : StringToInteger.java
-    - [level 1] 약수의 합 : SumOfDivisor.java
-    - [level 2] 최댓값과 최솟값 : MaxAndMin.java
-    - [level 1] 자릿수 더하기 : AddingDigits.java
+    - 2024-04
+      - [level 1] 문자열 내 p와 y의 개수 : CountingPandY.java
+      - [level 1] 문자열을 정수로 바꾸기 : StringToInteger.java
+      - [level 1] 약수의 합 : SumOfDivisor.java
+      - [level 2] 최댓값과 최솟값 : MaxAndMin.java
+      - [level 1] 자릿수 더하기 : AddingDigits.java
+      - [level 2] 최솟값 만들기 : MakingMinValue.java
   
   * MySQL : TODO : MySQL setting
     - 2024-03
