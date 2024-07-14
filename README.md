@@ -289,6 +289,7 @@
   * 월간 코드 챌린지 시즌 3
     - 2024-07
       - [level 1] 나머지가 1이 되는 수 찾기 : FindingRemain1Num.java
+      - [level 1] 없는 숫자 더하기 : AddNoneExistNums.java
 
   * 월간 코드 챌린지 시즌 2
     - 2024-07
