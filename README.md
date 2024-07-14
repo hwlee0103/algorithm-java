@@ -126,6 +126,7 @@
           - [level 0] 문자열 뒤집기 : FlippingString2.java
             - reverse
           - [level 0] 세로 읽기 : ReadingTopdown.java
+          - [level 0] qr code : QRCode.java
 
       - 코딩테스트 입문
         - 2024-03
