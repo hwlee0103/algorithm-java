@@ -107,6 +107,8 @@
       - 리스트(배열)
         - 2024-03
           - [level 0] n보다 커질 때까지 더하기 : AddOverN.java
+        - 2024-07
+          - [level 0] 문자 개수 세기 : CountingChars.java
     
       - 문자열
         - 2024-07
