@@ -110,6 +110,8 @@
         - 2024-07
           - [level 0] 문자 개수 세기 : CountingChars.java
           - [level 0] 배열 만들기 1 : MakingArray1.java
+          - [level 0] 글자 지우기 : ErasingChar.java
+            - split 활용가능
     
       - 문자열
         - 2024-07
@@ -322,6 +324,10 @@
   - 반복문
     - [level 0] 배열 만들기 2 : MakingArray2.java
       - 이진수 연산 활용해보기
+
+  - 리스트(배열)
+    - [level 0] 글자 지우기 : ErasingChar.java
+
 
 - UnSolved
   - 연습문제
