@@ -109,6 +109,7 @@
           - [level 0] n보다 커질 때까지 더하기 : AddOverN.java
         - 2024-07
           - [level 0] 문자 개수 세기 : CountingChars.java
+          - [level 0] 배열 만들기 1 : MakingArray1.java
     
       - 문자열
         - 2024-07
