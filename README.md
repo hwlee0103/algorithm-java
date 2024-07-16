@@ -301,6 +301,10 @@
     - 2024-07
       - [level 1] 음양 더하기 : AddingPlusMinus.java
 
+  * 월간 코드 챌린지 시즌 1
+    - 2024-07
+      - [level 1] 내적 : DotProduct.java
+
 - 다시 풀어보기
   - 완전탐색
     - [level 1] 최소직사각형
