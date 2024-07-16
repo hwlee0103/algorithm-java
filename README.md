@@ -112,6 +112,7 @@
           - [level 0] 배열 만들기 1 : MakingArray1.java
           - [level 0] 글자 지우기 : ErasingChar.java
             - split 활용가능
+          - [level 0] 카운트 다운 : CountDown.java
     
       - 문자열
         - 2024-07
