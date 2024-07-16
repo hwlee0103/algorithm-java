@@ -113,6 +113,7 @@
           - [level 0] 글자 지우기 : ErasingChar.java
             - split 활용가능
           - [level 0] 카운트 다운 : CountDown.java
+          - [level 0] 가까운 1 찾기 : FindingClosest1.java
     
       - 문자열
         - 2024-07
