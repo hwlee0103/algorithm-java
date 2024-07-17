@@ -303,6 +303,8 @@
   * 월간 코드 챌린지 시즌 2
     - 2024-07
       - [level 1] 음양 더하기 : AddingPlusMinus.java
+      - [level 1] 약수의 개수와 덧셈 : NumOfDivAndAddition.java
+        - 제곱수 & 약수 관계
 
   * 월간 코드 챌린지 시즌 1
     - 2024-07
@@ -337,6 +339,8 @@
   - 리스트(배열)
     - [level 0] 글자 지우기 : ErasingChar.java
 
+  - 월간 코드 챌린지 시즌 2
+    - [level 1] 약수의 개수와 덧셈 : NumOfDivAndAddition.java
 
 - UnSolved
   - 연습문제
