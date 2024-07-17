@@ -115,6 +115,7 @@
           - [level 0] 카운트 다운 : CountDown.java
           - [level 0] 가까운 1 찾기 : FindingClosest1.java
           - [level 0] 리스트 자르기 : CuttingList.java
+          - [level 0] 첫 번째로 나오는 음수 : FirstNegative.java
     
       - 문자열
         - 2024-07
