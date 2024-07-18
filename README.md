@@ -106,16 +106,17 @@
     
       - 리스트(배열)
         - 2024-03
-          - [level 0] n보다 커질 때까지 더하기 : AddOverN.java
+          - [level 0] n보다 커질 때까지 더하기: AddOverN.java
         - 2024-07
-          - [level 0] 문자 개수 세기 : CountingChars.java
-          - [level 0] 배열 만들기 1 : MakingArray1.java
-          - [level 0] 글자 지우기 : ErasingChar.java
+          - [level 0] 문자 개수 세기: CountingChars.java
+          - [level 0] 배열 만들기 1: MakingArray1.java
+          - [level 0] 글자 지우기: ErasingChar.java
             - split 활용가능
-          - [level 0] 카운트 다운 : CountDown.java
-          - [level 0] 가까운 1 찾기 : FindingClosest1.java
-          - [level 0] 리스트 자르기 : CuttingList.java
-          - [level 0] 첫 번째로 나오는 음수 : FirstNegative.java
+          - [level 0] 카운트 다운: CountDown.java
+          - [level 0] 가까운 1 찾기: FindingClosest1.java
+          - [level 0] 리스트 자르기: CuttingList.java
+          - [level 0] 첫 번째로 나오는 음수: FirstNegative.java
+          - [level 0] 배열 만들기 3: MakingArray3.java
     
       - 문자열
         - 2024-07
