@@ -121,9 +121,9 @@
     
       - 문자열
         - 2024-07
-          - [level 0] 글자 이어 붙여 문자열 만들기 : ConcatCharMakeString.java
-          - [level 0] 9로 나눈 나머지 : RemainsOfNine.java
-          - [level 0] 문자열 여러 번 뒤집기 : FlippingString.java
+          - [level 0] 글자 이어 붙여 문자열 만들기: ConcatCharMakeString.java
+          - [level 0] 9로 나눈 나머지: RemainsOfNine.java
+          - [level 0] 문자열 여러 번 뒤집기: FlippingString.java
             - reverse 함수
           - [level 0] 배열 만들기 5 : MakingArray5.java
           - [level 0] 부분 문자열 이어 붙여 문자열 만들기 : MakeStringAddingSubstrings.java
@@ -350,6 +350,8 @@
   - 스택/큐
 
   - 코딩 기초 트레이닝
+    - 리스트(배열)
+      - [level 0] 배열 조각하기: SculptingArray.java
     
 ===============================================================
 # Leetcode
