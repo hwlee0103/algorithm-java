@@ -1,8 +1,7 @@
 package java_problemsolving.levelzero;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.Deque;
+import java.util.ArrayDeque;
 import java.util.Scanner;
 
 /**
@@ -43,21 +42,30 @@ import java.util.Scanner;
 public class SculptingArray {
     public static int[] solution(int[] arr, int[] query) {
         int[] answer = {};
-        String str = "";
-        for(int item : arr){
-            str += String.valueOf(item);
+        Deque<Integer> nums = new ArrayDeque<>();
+        for(int i = 0; i < arr.length; i++) {
+            nums.addLast(arr[i]);
         }
-
-        for(int i = 0; i < query.length; ++i) {
-            if(i%2 == 0) {
-                str = str.substring(0, query[i] + 1);
+        for(int i = 0; i < query.length; i++) {
+            int cnt = 0;
+            if(i%2 == 0){
+                cnt = nums.size() - (query[i] + 1);
+                while(cnt > 0) {
+                    nums.removeLast();
+                    cnt--;
+                }
             } else {
-                str = str.substring(query[i], str.length());
+                cnt = query[i];
+                while(cnt > 0) {
+                    nums.removeFirst();
+                    cnt--;
+                }
             }
         }
-        answer = new int[str.length()];
-        for(int i =  0; i < str.length(); ++i) {
-            answer[i] = Integer.parseInt(String.valueOf(str.charAt(i)));
+
+        answer = new int[nums.size()];
+        for(int i = 0; i < answer.length; i++) {
+            answer[i] = nums.pollFirst();
         }
 
         return answer;

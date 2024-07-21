@@ -118,6 +118,8 @@
           - [level 0] 첫 번째로 나오는 음수: FirstNegative.java
           - [level 0] 배열 만들기 3: MakingArray3.java
           - [level 0] 2의 영역: RangeOf2.java
+          - [level 0] 배열 조각하기: SculptingArray.java
+            - deque
     
       - 문자열
         - 2024-07
@@ -139,52 +141,52 @@
           - [level 0] 세로 읽기 : ReadingTopdown.java
           - [level 0] qr code : QRCode.java
 
-      - 코딩테스트 입문
-        - 2024-03
-          - [level 0] 두 수의 합 : SumOfTwoNums.java 
-        - 2024-04
-          - [level 0] 두 수의 차 : DifBetweenTwoNums.java
-          - [level 0] 두 수의 곱 : MultiplyOfTwoNums.java
-          - [level 0] 몫 구하기 : FindQuotient.java
-          - [level 0] 두 수의 나눗셈 : DivisionOfTwoNums.java
-          - [level 0] 숫자 비교하기 : CompareNums.java
-          - [level 0] 분수의 덧셈 : AddingFraction.java
-            - 유클리드 호제법 : 최대공약수
-          - [level 0] 배열 두배 만들기 : MakeArrayTwoTimes.java
-          - [level 0] 나머지 구하기 : GetRemainder.java
-          - [level 0] 중앙값 구하기 : GetMiddleValue.java
-            - 정렬 알고리즘 (선택 정렬 적용)
-          - [level 0] 최빈값 구하기 : GetMostFrequentValue.java
-          - [level 0] 짝수는 싫어요 : DontLikeEvenNum.java
-          - [level 0] 피자 나눠 먹기 (1) : SharePizza1.java
-          - [level 0] 피자 나눠 먹기 (2) : SharePizza2.java
-            - 유클리드 호제법 : 최소공배수
-          - [level 0] 피자 나눠 먹기 (3) : SharePizza3.java
-          - [level 0] 배열의 평균값 : ArrayAverage.java
-          - [level 0] 옷가게 할인 받기 : DiscountClothingStore.java
-          - [level 0] 아이스 아메리카노 : IceAmericano.java
-          - [level 0] 나이 출력 : PrintAge.java
-          - [level 0] 배열 뒤집기 : FilpArray.java
-          - [level 0] 문자열 뒤집기 : FilpStringArray.java
-          - [level 0] 직각삼각형 출력하기 : PrintRightTriangle.java
-          - [level 0] 짝수 홀수 개수 : EvenOddNumber.java
-          - [level 0] 문자 반복 출력하기 : CharRepeatPrint.java
-          - [level 0] 특정 문자 제거하기 : RemoveSpecificChar.java
-          - [level 0] 각도기 : Protractor.java
-          - [level 0] 양꼬치 : LambSkewers.java
-          - [level 0] 짝수의 합 : SumOfEven.java
-          - [level 0] 배열 자르기 : CuttingArray.java
-          - [level 0] 외계행성의 나이 : ExoplanetsAge.java
-            - ASCII CODE / StringBuilder 시도해보기
-          - [level 0] 진료순서 정하기 : OrderOfTreatment.java
-            - Arrays.sort ?
-          - [level 0] 순서쌍의 개수 : NumOfOrderedPair.java
-          - [level 0] 개미 군단 : AntArmy.java
-          - [level 0] 모스부호(1) : MorseCode1.java
-            - library 없이 구현만으로도 가능
-          - [level 0] 가위 바위 보 : RockPaperScissors.java
-          - [level 0] 구슬을 나누는 경우의 수 : NumsOfSplitBeads.java
-            - 완전탐색 / 재귀 / Combination (조합)
+    * 코딩테스트 입문
+      - 2024-03
+        - [level 0] 두 수의 합 : SumOfTwoNums.java 
+      - 2024-04
+        - [level 0] 두 수의 차 : DifBetweenTwoNums.java
+        - [level 0] 두 수의 곱 : MultiplyOfTwoNums.java
+        - [level 0] 몫 구하기 : FindQuotient.java
+        - [level 0] 두 수의 나눗셈 : DivisionOfTwoNums.java
+        - [level 0] 숫자 비교하기 : CompareNums.java
+        - [level 0] 분수의 덧셈 : AddingFraction.java
+          - 유클리드 호제법 : 최대공약수
+        - [level 0] 배열 두배 만들기 : MakeArrayTwoTimes.java
+        - [level 0] 나머지 구하기 : GetRemainder.java
+        - [level 0] 중앙값 구하기 : GetMiddleValue.java
+          - 정렬 알고리즘 (선택 정렬 적용)
+        - [level 0] 최빈값 구하기 : GetMostFrequentValue.java
+        - [level 0] 짝수는 싫어요 : DontLikeEvenNum.java
+        - [level 0] 피자 나눠 먹기 (1) : SharePizza1.java
+        - [level 0] 피자 나눠 먹기 (2) : SharePizza2.java
+          - 유클리드 호제법 : 최소공배수
+        - [level 0] 피자 나눠 먹기 (3) : SharePizza3.java
+        - [level 0] 배열의 평균값 : ArrayAverage.java
+        - [level 0] 옷가게 할인 받기 : DiscountClothingStore.java
+        - [level 0] 아이스 아메리카노 : IceAmericano.java
+        - [level 0] 나이 출력 : PrintAge.java
+        - [level 0] 배열 뒤집기 : FilpArray.java
+        - [level 0] 문자열 뒤집기 : FilpStringArray.java
+        - [level 0] 직각삼각형 출력하기 : PrintRightTriangle.java
+        - [level 0] 짝수 홀수 개수 : EvenOddNumber.java
+        - [level 0] 문자 반복 출력하기 : CharRepeatPrint.java
+        - [level 0] 특정 문자 제거하기 : RemoveSpecificChar.java
+        - [level 0] 각도기 : Protractor.java
+        - [level 0] 양꼬치 : LambSkewers.java
+        - [level 0] 짝수의 합 : SumOfEven.java
+        - [level 0] 배열 자르기 : CuttingArray.java
+        - [level 0] 외계행성의 나이 : ExoplanetsAge.java
+          - ASCII CODE / StringBuilder 시도해보기
+        - [level 0] 진료순서 정하기 : OrderOfTreatment.java
+          - Arrays.sort ?
+        - [level 0] 순서쌍의 개수 : NumOfOrderedPair.java
+        - [level 0] 개미 군단 : AntArmy.java
+        - [level 0] 모스부호(1) : MorseCode1.java
+          - library 없이 구현만으로도 가능
+        - [level 0] 가위 바위 보 : RockPaperScissors.java
+        - [level 0] 구슬을 나누는 경우의 수 : NumsOfSplitBeads.java
+          - 완전탐색 / 재귀 / Combination (조합)
         - 2024-05
           - [level 0] 점의 위치 구하기 : LocationOfDot.java
           - [level 0] 2차원으로 만들기 : MakeTwoD.java
@@ -351,7 +353,6 @@
 
   - 코딩 기초 트레이닝
     - 리스트(배열)
-      - [level 0] 배열 조각하기: SculptingArray.java
     
 ===============================================================
 # Leetcode
