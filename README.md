@@ -118,6 +118,7 @@
           - [level 0] 첫 번째로 나오는 음수: FirstNegative.java
           - [level 0] 배열 만들기 3: MakingArray3.java
           - [level 0] 2의 영역: RangeOf2.java
+          - [level 0] n 번째 원소부터: FromNthElement.java
     
       - 문자열
         - 2024-07
