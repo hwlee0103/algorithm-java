@@ -315,6 +315,11 @@
     - 2024-07
       - [level 1] 내적 : DotProduct.java
 
+  * 위클리 챌린지
+    - 2024-07
+      - [level 1] 부족한 금액 계산하기: CalculateInsufficientAmount.java
+        - 등차수열의 합
+
 - 다시 풀어보기
   - 완전탐색
     - [level 1] 최소직사각형
