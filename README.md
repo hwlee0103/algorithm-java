@@ -121,6 +121,7 @@
           - [level 0] 배열 조각하기: SculptingArray.java
             - deque
           - [level 0] n 번째 원소부터: FromNthElement.java
+          - [level 0] 순서 바꾸기: ChangeOrder.java
     
       - 문자열
         - 2024-07
