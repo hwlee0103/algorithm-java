@@ -315,6 +315,7 @@
   * 월간 코드 챌린지 시즌 1
     - 2024-07
       - [level 1] 내적 : DotProduct.java
+      - [level 1] 3진법 뒤집기: FlippingBaseThree.java
 
   * 위클리 챌린지
     - 2024-07
