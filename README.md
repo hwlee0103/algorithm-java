@@ -316,6 +316,7 @@
     - 2024-07
       - [level 1] 내적 : DotProduct.java
       - [level 1] 3진법 뒤집기: FlippingBaseThree.java
+      - [level 2] 이진 변환 반복하기: RepeatBinaryConversion.java
 
   * 위클리 챌린지
     - 2024-07
@@ -361,8 +362,8 @@
 
   - 코딩 기초 트레이닝
     - 리스트(배열)
-  - 월간 코드 챌린지 시즌1 
-    - [level 2] 이진 변환 반복하기: RepeatBinaryConversion.java 
+
+  - 월간 코드 챌린지 시즌1
  
 ===============================================================
 # Leetcode
