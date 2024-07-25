@@ -65,10 +65,10 @@ public class RepeatBinaryConversion {
             int postlength = s.length();
             answer[1] += prelength - postlength;
             int c = postlength;
-            char[] now;
+            int now = 0;
             int idx = 0;
             while(c > 0) {
-//                now += c%2*Math.pow(10, idx++);
+                now += c%2*Math.pow(10, idx++);
                 c /= 2;
             }
             s = String.valueOf(now);
