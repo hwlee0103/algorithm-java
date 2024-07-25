@@ -122,6 +122,8 @@
             - deque
           - [level 0] n 번째 원소부터: FromNthElement.java
           - [level 0] 순서 바꾸기: ChangeOrder.java
+          - [level 0] 왼쪽 오른쪽: LeftRight.java
+            - Arrays.copyOfRange
     
       - 문자열
         - 2024-07
@@ -317,6 +319,7 @@
       - [level 1] 내적 : DotProduct.java
       - [level 1] 3진법 뒤집기: FlippingBaseThree.java
       - [level 2] 이진 변환 반복하기: RepeatBinaryConversion.java
+        - Integer.toBinaryString
 
   * 위클리 챌린지
     - 2024-07
