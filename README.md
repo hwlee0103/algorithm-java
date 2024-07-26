@@ -288,6 +288,8 @@
       - [level 1] 자릿수 더하기 : AddingDigits.java
       - [level 2] 최솟값 만들기 : MakingMinValue.java
       - [level 2] JadenCase 문자열 만들기 : MakeJadenCaseString.java
+    - 2024-07
+      - [level 1] 크기가 작은 부분 문자열: LittleSizeSubstrings.java
   
   * MySQL : TODO : MySQL setting
     - 2024-03
