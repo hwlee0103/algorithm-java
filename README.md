@@ -124,6 +124,7 @@
           - [level 0] 순서 바꾸기: ChangeOrder.java
           - [level 0] 왼쪽 오른쪽: LeftRight.java
             - Arrays.copyOfRange
+          - [level 0] n 번째 원소까지: ToNthElement.java
     
       - 문자열
         - 2024-07
