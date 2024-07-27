@@ -125,6 +125,7 @@
           - [level 0] 왼쪽 오른쪽: LeftRight.java
             - Arrays.copyOfRange
           - [level 0] n 번째 원소까지: ToNthElement.java
+          - [level 0] n개 간격의 원소들: ElementsInNIntervals.java
     
       - 문자열
         - 2024-07
