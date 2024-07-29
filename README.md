@@ -127,6 +127,7 @@
           - [level 0] n 번째 원소까지: ToNthElement.java
           - [level 0] n개 간격의 원소들: ElementsInNIntervals.java
           - [level 0] 홀수 vs 짝수: OddAndEven.java
+          - [level 0] 5명씩: FivePeopleEach.java
     
       - 문자열
         - 2024-07
