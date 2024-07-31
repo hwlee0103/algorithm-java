@@ -294,6 +294,7 @@
       - [level 2] JadenCase 문자열 만들기 : MakeJadenCaseString.java
     - 2024-07
       - [level 1] 크기가 작은 부분 문자열: LittleSizeSubstrings.java
+      - [level 1] 삼총사: ThreeMusketeers.java
   
   * MySQL : TODO : MySQL setting
     - 2024-03
