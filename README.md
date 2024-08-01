@@ -129,6 +129,8 @@
           - [level 0] 홀수 vs 짝수: OddAndEven.java
           - [level 0] 5명씩: FivePeopleEach.java
           - [level 0] 할 일 목록: ToDoLists.java
+        - 2024-08
+          - [level 0] 수열과 구간 쿼리 1: NumArrIntervalQuery1.java
     
       - 문자열
         - 2024-07
