@@ -298,6 +298,9 @@
     - 2024-07
       - [level 1] 크기가 작은 부분 문자열: LittleSizeSubstrings.java
       - [level 1] 삼총사: ThreeMusketeers.java
+    - 2024-08
+      - [level 1] 가장 가까운 같은 글자: ClosestSameCharacter.java
+        - map, getOrDefault / substring, lastIndexOf
   
   * MySQL : TODO : MySQL setting
     - 2024-03
