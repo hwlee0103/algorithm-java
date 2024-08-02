@@ -131,6 +131,7 @@
           - [level 0] 할 일 목록: ToDoLists.java
         - 2024-08
           - [level 0] 수열과 구간 쿼리 1: NumArrIntervalQuery1.java
+          - [level 0] 조건에 맞게 수열 변환하기 1: ConvertingArrayInCondition1.java
     
       - 문자열
         - 2024-07
