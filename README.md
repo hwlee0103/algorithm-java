@@ -134,6 +134,7 @@
           - [level 0] 조건에 맞게 수열 변환하기 1: ConvertingArrayInCondition1.java
           - [level 0] 조건에 맞게 수열 변환하기 2: ConvertingArrayInCondition2.java
           - [level 0] 1로 만들기: MakeToOne.java
+          - [level 0] 길이에 따른 연산: OperationDueToLength.java
     
       - 문자열
         - 2024-07
