@@ -339,6 +339,9 @@
       - [level 1] 3진법 뒤집기: FlippingBaseThree.java
       - [level 2] 이진 변환 반복하기: RepeatBinaryConversion.java
         - Integer.toBinaryString
+    - 2024-08
+      - [level 1] 두 개 뽑아서 더하기: TakeTwoAndAdd.java
+        - set 활용하기
 
   * 위클리 챌린지
     - 2024-07
