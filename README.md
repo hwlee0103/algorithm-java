@@ -157,6 +157,7 @@
           - [level 0] qr code: QRCode.java
         - 2024-08
           - [level 0] 원하는 문자열 찾기: FindingWantedString.java
+          - [level 0] 대문자로 바꾸기: ChangeIntoUpperCase.java
 
     * 코딩테스트 입문
       - 2024-03
