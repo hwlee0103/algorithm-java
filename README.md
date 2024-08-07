@@ -354,6 +354,10 @@
     - 2024-07
       - [level 1] 부족한 금액 계산하기: CalculateInsufficientAmount.java
         - 등차수열의 합
+        
+  * 2021 카카오 채용연계형 인턴십
+    - 2024-08
+      - [level 1] 숫자 문자열과 영단어: StringNumAndWord.java
 
 - 다시 풀어보기
   - 완전탐색
