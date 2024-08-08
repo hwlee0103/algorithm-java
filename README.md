@@ -343,7 +343,7 @@
 
   * 월간 코드 챌린지 시즌 1
     - 2024-07
-      - [level 1] 내적 : DotProduct.java
+      - [level 1] 내적: DotProduct.java
       - [level 1] 3진법 뒤집기: FlippingBaseThree.java
       - [level 2] 이진 변환 반복하기: RepeatBinaryConversion.java
         - Integer.toBinaryString
@@ -359,6 +359,11 @@
   * 2021 카카오 채용연계형 인턴십
     - 2024-08
       - [level 1] 숫자 문자열과 영단어: StringNumAndWord.java
+  
+  * 2017 팁스타운
+    - 2024-08
+      - [level 2] 짝지어 제거하기: RemovePairs.java
+        - stack
 
 - 다시 풀어보기
   - 완전탐색
