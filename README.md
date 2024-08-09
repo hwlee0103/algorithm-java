@@ -160,6 +160,7 @@
           - [level 0] 대문자로 바꾸기: ChangeIntoUpperCase.java
           - [level 0] 소문자로 바꾸기: ChangeIntoLowerCase.java
           - [level 0] 배열에서 문자열 대소문자 변환하기: ChangeStringCaseInArray.java
+          - [level 0] A 강조하기: EmphasizeA.java
 
     * 코딩테스트 입문
       - 2024-03
