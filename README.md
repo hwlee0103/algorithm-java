@@ -329,6 +329,9 @@
   * 완전탐색
     - 2024-03
       - [level 1] 최소직사각형
+    - 2024-08
+      - [level 2] 카펫: Carpet.java
+        - 근의공식 풀이도 존재
   
   * 스택/큐
     - [level 2] 올바른 괄호 : RightBracket.java

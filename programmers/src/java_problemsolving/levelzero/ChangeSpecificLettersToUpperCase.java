@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 문제 유형 : 문자열
  *
  * Started : 2024-08-12
- * Solved : 2024-08-
+ * Solved : 2024-08-12
  *
  * 문제
  * 영소문자로 이루어진 문자열 my_string과 영소문자 1글자로 이루어진 문자열 alp가 매개변수로 주어질 때,
