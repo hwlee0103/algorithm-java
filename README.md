@@ -163,6 +163,7 @@
           - [level 0] A 강조하기: EmphasizeA.java
           - [level 0] 특정 문자를 대문자로 바꾸기: ChangeSpecificLettersToUpperCase.java
           - [level 0] 특정 문자열로 끝나는 가장 긴 부분 문자열 찾기: LongestSubStringWithSpecificString.java
+          - [level 0] 문자열이 몇 번 등장하는지 세기: CountingStrings.java
 
     * 코딩테스트 입문
       - 2024-03
