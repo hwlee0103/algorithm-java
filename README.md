@@ -320,6 +320,7 @@
         - Integer.bitCount(n);
       - [level 2] 피보나치 수: FibonacciNum.java
         - 반환 자료형
+      - [level 1] 푸드 파이트 대회: FoodFightContest.java
   
   * MySQL : TODO : MySQL setting
     - 2024-03
