@@ -167,6 +167,7 @@
           - [level 0] ad 제거하기: RemoveAd.java
           - [level 0] 공백으로 구분하기 1: SeparateBySpace.java
           - [level 0] 공백으로 구분하기 2: SeparateBySpace2.java
+          - [level 0] x 사이의 개수: NumBetweenX.java
 
     * 코딩테스트 입문
       - 2024-03
