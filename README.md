@@ -380,6 +380,11 @@
       - [level 2] 짝지어 제거하기: RemovePairs.java
         - stack
 
+  * Summer/Winter Coding(~2018)
+    - 2024-08
+      - [level 2] 점프와 순간 이동: JumpAndTeleports.java
+        - 쉽게 생각하기
+
 - 다시 풀어보기
   - 완전탐색
     - [level 1] 최소직사각형
