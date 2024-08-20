@@ -170,6 +170,7 @@
           - [level 0] x 사이의 개수: NumBetweenX.java
           - [level 0] 문자열 잘라서 정렬하기: SplitAndSortString.java
           - [level 0] 간단한 식 계산하기: EvaluateSimpleExpressions.java
+          - [level 0] 문자열 바꿔서 찾기: SwitchAndFindString.java
 
     * 코딩테스트 입문
       - 2024-03
