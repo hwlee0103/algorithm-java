@@ -386,6 +386,10 @@
       - [level 2] 점프와 순간 이동: JumpAndTeleports.java
         - 쉽게 생각하기
 
+  * 탐욕법(Greedy)
+    - 2024-08
+      - [level 2] 구명보트: Lifeboat;
+
 - 다시 풀어보기
   - 완전탐색
     - [level 1] 최소직사각형
