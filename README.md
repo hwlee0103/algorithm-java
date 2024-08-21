@@ -172,6 +172,8 @@
           - [level 0] 간단한 식 계산하기: EvaluateSimpleExpressions.java
           - [level 0] 문자열 바꿔서 찾기: SwitchAndFindString.java
           - [level 0] rny_string: RnyString.java
+          - [level 0] 세 개의 구분자: ThreeSeparators.java
+            - 정규식
 
     * 코딩테스트 입문
       - 2024-03
