@@ -171,6 +171,7 @@
           - [level 0] 문자열 잘라서 정렬하기: SplitAndSortString.java
           - [level 0] 간단한 식 계산하기: EvaluateSimpleExpressions.java
           - [level 0] 문자열 바꿔서 찾기: SwitchAndFindString.java
+          - [level 0] rny_string: RnyString.java
 
     * 코딩테스트 입문
       - 2024-03
