@@ -331,6 +331,7 @@
       - [level 2] 피보나치 수: FibonacciNum.java
         - 반환 자료형
       - [level 1] 푸드 파이트 대회: FoodFightContest.java
+      - [level 1] 콜라 문제: CokeProblem.java
   
   * MySQL : TODO : MySQL setting
     - 2024-03
