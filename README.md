@@ -135,6 +135,7 @@
           - [level 0] 조건에 맞게 수열 변환하기 2: ConvertingArrayInCondition2.java
           - [level 0] 1로 만들기: MakeToOne.java
           - [level 0] 길이에 따른 연산: OperationDueToLength.java
+          - [level 0] 배열의 원소만큼 추가하기: AddAsManyAsElements.java
     
       - 문자열
         - 2024-07
