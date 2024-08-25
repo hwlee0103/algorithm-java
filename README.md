@@ -137,6 +137,7 @@
           - [level 0] 길이에 따른 연산: OperationDueToLength.java
           - [level 0] 배열의 원소만큼 추가하기: AddAsManyAsElements.java
           - [level 0] 빈 배열에 추가, 삭제하기: AddAndRemoveToEmptyArray.java
+          - [level 0] 배열 만들기 6: MakingArray6.java
     
       - 문자열
         - 2024-07
