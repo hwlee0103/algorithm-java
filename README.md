@@ -179,6 +179,9 @@
           - [level 0] rny_string: RnyString.java
           - [level 0] 세 개의 구분자: ThreeSeparators.java
             - 정규식
+            
+        - 함수(메소드)
+          - [level 0] 배열의 길이를 2의 거듭제곱으로 만들기: MakeTheLengthOfArrayPowerOf2.java
 
     * 코딩테스트 입문
       - 2024-03
@@ -442,7 +445,7 @@
   - 코딩 기초 트레이닝
     - 리스트(배열)
     - 함수(메서드)
-      - [level 0] 배열의 길이를 2의 거듭제곱으로 만들기
+      
 
   - 월간 코드 챌린지 시즌1
  
