@@ -182,6 +182,8 @@
             
         - 함수(메소드)
           - [level 0] 배열의 길이를 2의 거듭제곱으로 만들기: MakeTheLengthOfArrayPowerOf2.java
+          - [level 0] 배열 비교하기: ComparingArrays.java
+            - Integer.compare
 
     * 코딩테스트 입문
       - 2024-03
