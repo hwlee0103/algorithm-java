@@ -185,6 +185,7 @@
           - [level 0] 배열 비교하기: ComparingArrays.java
             - Integer.compare
           - [level 0] 문자열 묶기: GroupingStringArrays.java
+          - [level 0] 배열의 길이에 따라 다른 연산하기: OperateDueToArrayLength.java
 
     * 코딩테스트 입문
       - 2024-03
