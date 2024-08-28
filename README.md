@@ -347,6 +347,8 @@
       - [level 1] 명예의 전당 (1): HallOfFame1.java
       - [level 2] 멀리 뛰기: LongJump.java
         - DP
+      - [level 2] N개의 최소공배수: NLcm.java
+        - 유클리드 호제법 - gcd, lcm
   
   * MySQL : TODO : MySQL setting
     - 2024-03
