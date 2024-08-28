@@ -186,6 +186,7 @@
             - Integer.compare
           - [level 0] 문자열 묶기: GroupingStringArrays.java
           - [level 0] 배열의 길이에 따라 다른 연산하기: OperateDueToArrayLength.java
+          - [level 0] 뒤에서 5등까지: ToTopFiveFromBack.java
 
     * 코딩테스트 입문
       - 2024-03
