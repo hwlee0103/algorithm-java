@@ -189,6 +189,8 @@
           - [level 0] 뒤에서 5등까지: ToTopFiveFromBack.java
           - [level 0] 뒤에서 5등 위로: FifthPlaceFromTheBack.java
 
+[//]: # (          - [level 0] 전국 대회 선발 고사: NationalCompetitionSelectionTest.java)
+
     * 코딩테스트 입문
       - 2024-03
         - [level 0] 두 수의 합 : SumOfTwoNums.java 
@@ -453,6 +455,7 @@
   - 코딩 기초 트레이닝
     - 리스트(배열)
     - 함수(메서드)
+      - [level 0] 전국 대회 선발 고사: NationalCompetitionSelectionTest.java
       
 
   - 월간 코드 챌린지 시즌1

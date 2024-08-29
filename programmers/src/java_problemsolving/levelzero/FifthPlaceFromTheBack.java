@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 문제 유형 : 함수(메소드)
  *
  * Started : 2024-08-29
- * Solved : 2024-08-
+ * Solved : 2024-08-29
  *
  * 문제
  * 정수로 이루어진 리스트 num_list가 주어집니다.
