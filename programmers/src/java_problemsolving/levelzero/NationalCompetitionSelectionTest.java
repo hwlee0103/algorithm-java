@@ -58,28 +58,38 @@ import java.util.*;
  */
 public class NationalCompetitionSelectionTest {
     public static int solution(int[] rank, boolean[] attendance) {
-        int answer = 0;
-        List<Map<Integer, Integer>> student = new ArrayList<>();
-        for (int i = 0; i < rank.length; i++) {
-            Map<Integer, Integer> map = new HashMap<>();
-            if(attendance[i]) {
-                map.put(rank[i], i);
-                student.add(map);
-            }
-        }
-        for(int i = 0; i < student.size(); i++) {
-            int now = student.get(i).get();
-//            Map<Integer, Integer> now = student.get(i);
-            for(int j = i + 1; j < student.size(); j++) {
-                if(now > student.get(j).get(0)) {
-                    Map<Integer, Integer> tmp = student.get(j);
-                    student.set(j, student.get(now));
-                    student.set(i, tmp);
+        int high = 0;
+        int a = 0;
+        int b = 0;
+        int c = 0;
+        int cnt = 3;
+        while(cnt > 0) {
+            high = rank.length + 1;
+            for (int i = 0; i < rank.length; i++) {
+                if (attendance[i]) {
+                    if (rank[i] < high) {
+                        high = rank[i];
+                        if(cnt == 3) {
+                            a = i;
+                        } else if (cnt == 2) {
+                            b = i;
+                        } else {
+                            c = i;
+                        }
+                    }
                 }
             }
+            if(cnt == 3) {
+                attendance[a] = false;
+            } else if (cnt == 2) {
+                attendance[b] = false;
+            } else {
+                attendance[c] = false;
+            }
+            cnt--;
         }
 
-        return answer;
+        return 10000*a + 100*b + c;
     }
 
     public static void main(String[] args) {
