@@ -1,4 +1,7 @@
 package java_problemsolving.levelzero;
+
+import java.util.*;
+
 /**
  * Level : 0
  * Title : 전국 대회 선발 고사
@@ -54,4 +57,41 @@ package java_problemsolving.levelzero;
  *
  */
 public class NationalCompetitionSelectionTest {
+    public static int solution(int[] rank, boolean[] attendance) {
+        int answer = 0;
+        List<Map<Integer, Integer>> student = new ArrayList<>();
+        for (int i = 0; i < rank.length; i++) {
+            Map<Integer, Integer> map = new HashMap<>();
+            if(attendance[i]) {
+                map.put(rank[i], i);
+                student.add(map);
+            }
+        }
+        for(int i = 0; i < student.size(); i++) {
+            int now = student.get(i).get();
+//            Map<Integer, Integer> now = student.get(i);
+            for(int j = i + 1; j < student.size(); j++) {
+                if(now > student.get(j).get(0)) {
+                    Map<Integer, Integer> tmp = student.get(j);
+                    student.set(j, student.get(now));
+                    student.set(i, tmp);
+                }
+            }
+        }
+
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int[] rank = Arrays.stream(input.nextLine().split(", ")).mapToInt(Integer::valueOf).toArray();
+
+        String[] inputAttendance = input.nextLine().split(", ");
+        boolean[] attendance = new boolean[inputAttendance.length];
+        for (int i = 0; i < attendance.length; i++) {
+            attendance[i] = Boolean.parseBoolean(inputAttendance[i]);
+        }
+
+        System.out.println(solution(rank, attendance));
+    }
 }
