@@ -410,6 +410,7 @@
     - 2024-08
       - [level 2] 점프와 순간 이동: JumpAndTeleports.java
         - 쉽게 생각하기
+      - [level 2] 영어 끝말잇기: EnglishEnding.java
 
   * 탐욕법(Greedy)
     - 2024-08
