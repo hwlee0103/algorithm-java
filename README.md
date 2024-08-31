@@ -189,6 +189,7 @@
           - [level 0] 뒤에서 5등까지: ToTopFiveFromBack.java
           - [level 0] 뒤에서 5등 위로: FifthPlaceFromTheBack.java
           - [level 0] 전국 대회 선발 고사: NationalCompetitionSelectionTest.java
+          - [level 0] 정수 부분: IntegerPart.java
 
     * 코딩테스트 입문
       - 2024-03
