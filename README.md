@@ -180,7 +180,8 @@
           - [level 0] 세 개의 구분자: ThreeSeparators.java
             - 정규식
             
-        - 함수(메소드)
+      - 함수(메소드)
+        - 2024-08
           - [level 0] 배열의 길이를 2의 거듭제곱으로 만들기: MakeTheLengthOfArrayPowerOf2.java
           - [level 0] 배열 비교하기: ComparingArrays.java
             - Integer.compare
@@ -190,6 +191,8 @@
           - [level 0] 뒤에서 5등 위로: FifthPlaceFromTheBack.java
           - [level 0] 전국 대회 선발 고사: NationalCompetitionSelectionTest.java
           - [level 0] 정수 부분: IntegerPart.java
+        -2024-09
+          - [level 0] 문자열 정수의 합: SumOfStringIntegers.java
 
     * 코딩테스트 입문
       - 2024-03
