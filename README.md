@@ -193,6 +193,7 @@
           - [level 0] 정수 부분: IntegerPart.java
         -2024-09
           - [level 0] 문자열 정수의 합: SumOfStringIntegers.java
+          - [level 0] 문자열을 정수로 변환하기: ConvertStringToInteger.java
 
     * 코딩테스트 입문
       - 2024-03
