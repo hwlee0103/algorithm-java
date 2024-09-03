@@ -195,6 +195,8 @@
           - [level 0] 문자열 정수의 합: SumOfStringIntegers.java
           - [level 0] 문자열을 정수로 변환하기: ConvertStringToInteger.java
           - [level 0] 0 떼기: RemoveZero.java
+          - [level 0] 두 수의 합: SumOfTwoNums.java
+            - BinInteger(시간복잡도 주의)
 
     * 코딩테스트 입문
       - 2024-03
