@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 문제 유형 : 함수(메소드)
  *
  * Started : 2024-09-03
- * Solved : 2024-09-
+ * Solved : 2024-09-03
  *
  * 문제
  * 0 이상의 두 정수가 문자열 a, b로 주어질 때,
