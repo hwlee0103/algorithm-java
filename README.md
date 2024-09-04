@@ -376,6 +376,7 @@
         - 근의공식 풀이도 존재
     - 2024-09
       - [level 1] 모의고사: MockExam.java
+      - [level 2] 피로도: Fatigue.java
   
   * 스택/큐
     - [level 2] 올바른 괄호 : RightBracket.java
