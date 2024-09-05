@@ -59,7 +59,7 @@ public class Fatigue {
     public static int solution(int k, int[][] dungeons) {
         int answer = -1;
 
-        // TODO: 순서가 달라도 전체를 탐색할 필요가 있음
+        // TODO: 순서가 달라도 전체를 탐색할 필요가 있음 - check 필요
 
         // TODO: 아래 방법이 아님
         answer = function(k, 0, 0, dungeons.length - 1, dungeons);
@@ -79,11 +79,20 @@ public class Fatigue {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int n = input.nextInt();
+        int k = input.nextInt();
         input.nextLine();
         String[] str = input.nextLine().split("],\\[");
+        String[][] spStr = new String[str.length][2];
+        int[][] dungeons = new int[str.length][2];
         for(int i = 0; i < str.length; ++i) {
-
+            spStr[i] = str[i].replaceAll("\\[", "").replaceAll("]", "").split(",");
         }
+        for(int i = 0; i < spStr.length; ++i) {
+            for(int j = 0; j < spStr[i].length; ++j) {
+                dungeons[i][j] = Integer.parseInt(spStr[i][j]);
+            }
+        }
+
+        System.out.println(solution(k, dungeons));
     }
 }
