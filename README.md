@@ -59,7 +59,7 @@
           - [level 0] 문자열 돌리기
           - [level 0] 홀짝 구분하기
 
-      - 조건문
+      - 조건문 / 조건문 활용
         - 2024-03
           - [level 0] flag에 따라 다른 값 반환하기
         - 2024-04
@@ -77,6 +77,8 @@
           - [level 0] 간단한 논리 연산 : SimpleLogicalOperation.java
           - [level 0] 주사위 게임 3 : DiceGame3.java
             - 정렬 활용
+        - 2024-09
+          - [level 0] 배열의 원소 삭제하기: DeleteElementOfArray.java
 
       - 연산
         - 2024-03
