@@ -44,163 +44,162 @@
 # Programmers
 ---------------------------------------------------------------
 - Solved
-  * Java Basic
-    * 기초 트레이닝
-      - 출력
-        - 2024-03
-          - [level 0] 문자열 출력하기
-          - [level 0] a와 b 출력하기
-          - [level 0] 문자열 반복해서 출력하기
-          - [level 0] 대소문자 바꿔서 출력하기
-            - 복습 : Character 사용
-          - [level 0] 특수문자 출력하기
-          - [level 0] 덧셈식 출력하기
-          - [level 0] 문자열 붙여서 출력하기
-          - [level 0] 문자열 돌리기
-          - [level 0] 홀짝 구분하기
+  * Java
+    - 출력
+      - 2024-03
+        - [level 0] 문자열 출력하기
+        - [level 0] a와 b 출력하기
+        - [level 0] 문자열 반복해서 출력하기
+        - [level 0] 대소문자 바꿔서 출력하기
+          - 복습 : Character 사용
+        - [level 0] 특수문자 출력하기
+        - [level 0] 덧셈식 출력하기
+        - [level 0] 문자열 붙여서 출력하기
+        - [level 0] 문자열 돌리기
+        - [level 0] 홀짝 구분하기
 
-      - 조건문 / 조건문 활용
-        - 2024-03
-          - [level 0] flag에 따라 다른 값 반환하기
-        - 2024-04
-          - [level 0] 홀짝에 따라 다른 값 반환하기
-          - [level 0] 조건 문자열
-          - [level 0] 코드 처리하기 : SolvingCode.java
-          - [level 0] 등차수열의 특정한 항만 더하기 : AddingArithmaticProgression.java
-          - [level 0] 주사위 게임 2 : GameOfDice2.java
-          - [level 0] 원소들의 곱과 합 : MultipleAndSum.java
-          - [level 0] 이어 붙인 수 : JoinNums.java
-          - [level 0] 마지막 두 원소 : LastTwoItems.java
-          - [level 0] 수 조작하기 1 : ControlNum.java
-          - [level 0] 수 조작하기 2 : ControlNum2.java
-        - 2024-07
-          - [level 0] 간단한 논리 연산 : SimpleLogicalOperation.java
-          - [level 0] 주사위 게임 3 : DiceGame3.java
-            - 정렬 활용
-        - 2024-09
-          - [level 0] 배열의 원소 삭제하기: DeleteElementOfArray.java
-          - [level 0] 부분 문자열인지 확인하기: CheckIfSubstring.java
+    - 조건문 / 조건문 활용
+      - 2024-03
+        - [level 0] flag에 따라 다른 값 반환하기
+      - 2024-04
+        - [level 0] 홀짝에 따라 다른 값 반환하기
+        - [level 0] 조건 문자열
+        - [level 0] 코드 처리하기 : SolvingCode.java
+        - [level 0] 등차수열의 특정한 항만 더하기 : AddingArithmaticProgression.java
+        - [level 0] 주사위 게임 2 : GameOfDice2.java
+        - [level 0] 원소들의 곱과 합 : MultipleAndSum.java
+        - [level 0] 이어 붙인 수 : JoinNums.java
+        - [level 0] 마지막 두 원소 : LastTwoItems.java
+        - [level 0] 수 조작하기 1 : ControlNum.java
+        - [level 0] 수 조작하기 2 : ControlNum2.java
+      - 2024-07
+        - [level 0] 간단한 논리 연산 : SimpleLogicalOperation.java
+        - [level 0] 주사위 게임 3 : DiceGame3.java
+          - 정렬 활용
+      - 2024-09
+        - [level 0] 배열의 원소 삭제하기: DeleteElementOfArray.java
+        - [level 0] 부분 문자열인지 확인하기: CheckIfSubstring.java
 
-      - 연산
-        - 2024-03
-          - [level 0] 문자열 겹쳐쓰기
-          - [level 0] 문자열 섞기
-          - [level 0] 문자 리스트를 문자열로 변환하기
-          - [level 0] 문자열 곱하기
-          - [level 0] 더 크게 합치기
-        - 2024-04
-          - [level 0] 두 수의 연산값 비교하기
-          - [level 0] n의 배수
-          - [level 0] 공배수
+    - 연산
+      - 2024-03
+        - [level 0] 문자열 겹쳐쓰기
+        - [level 0] 문자열 섞기
+        - [level 0] 문자 리스트를 문자열로 변환하기
+        - [level 0] 문자열 곱하기
+        - [level 0] 더 크게 합치기
+      - 2024-04
+        - [level 0] 두 수의 연산값 비교하기
+        - [level 0] n의 배수
+        - [level 0] 공배수
  
-      - 반복문
-        - 2024-04
-          - [level 0] 수열과 구간 쿼리 3 : NumArrIntervalQuery3.java
-          - [level 0] 수열과 구간 쿼리 2 : NumArrIntervalQuery2.java
-          - [level 0] 수열과 구간 쿼리 4 : NumArrIntervalQuery4.java
-        - 2024-06
-          - [level 0] 배열 만들기 2 : MakingArray2.java
-            - 이진법 활용
-          - [level 0] 카운트 업 : CountUp.java
-          - [level 0] 콜라츠 수열 만들기 : CollatzArray.java
-            - List -> int[] : stream() 활용
-          - [level 0] 배열 만들기 4 : MakeArray4.java
-            - 스택 활용
+    - 반복문
+      - 2024-04
+        - [level 0] 수열과 구간 쿼리 3 : NumArrIntervalQuery3.java
+        - [level 0] 수열과 구간 쿼리 2 : NumArrIntervalQuery2.java
+        - [level 0] 수열과 구간 쿼리 4 : NumArrIntervalQuery4.java
+      - 2024-06
+        - [level 0] 배열 만들기 2 : MakingArray2.java
+          - 이진법 활용
+        - [level 0] 카운트 업 : CountUp.java
+        - [level 0] 콜라츠 수열 만들기 : CollatzArray.java
+          - List -> int[] : stream() 활용
+        - [level 0] 배열 만들기 4 : MakeArray4.java
+          - 스택 활용
     
-      - 리스트(배열)
-        - 2024-03
-          - [level 0] n보다 커질 때까지 더하기: AddOverN.java
-        - 2024-07
-          - [level 0] 문자 개수 세기: CountingChars.java
-          - [level 0] 배열 만들기 1: MakingArray1.java
-          - [level 0] 글자 지우기: ErasingChar.java
-            - split 활용가능
-          - [level 0] 카운트 다운: CountDown.java
-          - [level 0] 가까운 1 찾기: FindingClosest1.java
-          - [level 0] 리스트 자르기: CuttingList.java
-          - [level 0] 첫 번째로 나오는 음수: FirstNegative.java
-          - [level 0] 배열 만들기 3: MakingArray3.java
-          - [level 0] 2의 영역: RangeOf2.java
-          - [level 0] 배열 조각하기: SculptingArray.java
-            - deque
-          - [level 0] n 번째 원소부터: FromNthElement.java
-          - [level 0] 순서 바꾸기: ChangeOrder.java
-          - [level 0] 왼쪽 오른쪽: LeftRight.java
-            - Arrays.copyOfRange
-          - [level 0] n 번째 원소까지: ToNthElement.java
-          - [level 0] n개 간격의 원소들: ElementsInNIntervals.java
-          - [level 0] 홀수 vs 짝수: OddAndEven.java
-          - [level 0] 5명씩: FivePeopleEach.java
-          - [level 0] 할 일 목록: ToDoLists.java
-        - 2024-08
-          - [level 0] 수열과 구간 쿼리 1: NumArrIntervalQuery1.java
-          - [level 0] 조건에 맞게 수열 변환하기 1: ConvertingArrayInCondition1.java
-          - [level 0] 조건에 맞게 수열 변환하기 2: ConvertingArrayInCondition2.java
-          - [level 0] 1로 만들기: MakeToOne.java
-          - [level 0] 길이에 따른 연산: OperationDueToLength.java
-          - [level 0] 배열의 원소만큼 추가하기: AddAsManyAsElements.java
-          - [level 0] 빈 배열에 추가, 삭제하기: AddAndRemoveToEmptyArray.java
-          - [level 0] 배열 만들기 6: MakingArray6.java
-          - [level 0] 무작위로 K개의 수 뽑기: RandomlyDrawKNumbers.java
-            - contains()
+    - 리스트(배열)
+      - 2024-03
+        - [level 0] n보다 커질 때까지 더하기: AddOverN.java
+      - 2024-07
+        - [level 0] 문자 개수 세기: CountingChars.java
+        - [level 0] 배열 만들기 1: MakingArray1.java
+        - [level 0] 글자 지우기: ErasingChar.java
+          - split 활용가능
+        - [level 0] 카운트 다운: CountDown.java
+        - [level 0] 가까운 1 찾기: FindingClosest1.java
+        - [level 0] 리스트 자르기: CuttingList.java
+        - [level 0] 첫 번째로 나오는 음수: FirstNegative.java
+        - [level 0] 배열 만들기 3: MakingArray3.java
+        - [level 0] 2의 영역: RangeOf2.java
+        - [level 0] 배열 조각하기: SculptingArray.java
+          - deque
+        - [level 0] n 번째 원소부터: FromNthElement.java
+        - [level 0] 순서 바꾸기: ChangeOrder.java
+        - [level 0] 왼쪽 오른쪽: LeftRight.java
+          - Arrays.copyOfRange
+        - [level 0] n 번째 원소까지: ToNthElement.java
+        - [level 0] n개 간격의 원소들: ElementsInNIntervals.java
+        - [level 0] 홀수 vs 짝수: OddAndEven.java
+        - [level 0] 5명씩: FivePeopleEach.java
+        - [level 0] 할 일 목록: ToDoLists.java
+      - 2024-08
+        - [level 0] 수열과 구간 쿼리 1: NumArrIntervalQuery1.java
+        - [level 0] 조건에 맞게 수열 변환하기 1: ConvertingArrayInCondition1.java
+        - [level 0] 조건에 맞게 수열 변환하기 2: ConvertingArrayInCondition2.java
+        - [level 0] 1로 만들기: MakeToOne.java
+        - [level 0] 길이에 따른 연산: OperationDueToLength.java
+        - [level 0] 배열의 원소만큼 추가하기: AddAsManyAsElements.java
+        - [level 0] 빈 배열에 추가, 삭제하기: AddAndRemoveToEmptyArray.java
+        - [level 0] 배열 만들기 6: MakingArray6.java
+        - [level 0] 무작위로 K개의 수 뽑기: RandomlyDrawKNumbers.java
+          - contains()
     
-      - 문자열
-        - 2024-07
-          - [level 0] 글자 이어 붙여 문자열 만들기: ConcatCharMakeString.java
-          - [level 0] 9로 나눈 나머지: RemainsOfNine.java
-          - [level 0] 문자열 여러 번 뒤집기: FlippingString.java
-            - reverse 함수
-          - [level 0] 배열 만들기 5 : MakingArray5.java
-          - [level 0] 부분 문자열 이어 붙여 문자열 만들기 : MakeStringAddingSubstrings.java
-          - [level 0] 문자열의 뒤의 n글자 : LastNLettersOfString.java
-          - [level 0] 접미사 배열 : ArrayOfSuffix.java
-          - [level 0] 접미사인지 확인하기 : IsSuffix.java
-            - endsWith
-          - [level 0] 문자열의 앞의 n글자 : NPrefix.java
-          - [level 0] 접미사인지 확인하기 : IsPrefix.java
-            - startsWith
-          - [level 0] 문자열 뒤집기: FlippingString2.java
-            - reverse
-          - [level 0] 세로 읽기: ReadingTopdown.java
-          - [level 0] qr code: QRCode.java
-        - 2024-08
-          - [level 0] 원하는 문자열 찾기: FindingWantedString.java
-          - [level 0] 대문자로 바꾸기: ChangeIntoUpperCase.java
-          - [level 0] 소문자로 바꾸기: ChangeIntoLowerCase.java
-          - [level 0] 배열에서 문자열 대소문자 변환하기: ChangeStringCaseInArray.java
-          - [level 0] A 강조하기: EmphasizeA.java
-          - [level 0] 특정 문자를 대문자로 바꾸기: ChangeSpecificLettersToUpperCase.java
-          - [level 0] 특정 문자열로 끝나는 가장 긴 부분 문자열 찾기: LongestSubStringWithSpecificString.java
-          - [level 0] 문자열이 몇 번 등장하는지 세기: CountingStrings.java
-          - [level 0] ad 제거하기: RemoveAd.java
-          - [level 0] 공백으로 구분하기 1: SeparateBySpace.java
-          - [level 0] 공백으로 구분하기 2: SeparateBySpace2.java
-          - [level 0] x 사이의 개수: NumBetweenX.java
-          - [level 0] 문자열 잘라서 정렬하기: SplitAndSortString.java
-          - [level 0] 간단한 식 계산하기: EvaluateSimpleExpressions.java
-          - [level 0] 문자열 바꿔서 찾기: SwitchAndFindString.java
-          - [level 0] rny_string: RnyString.java
-          - [level 0] 세 개의 구분자: ThreeSeparators.java
-            - 정규식
+    - 문자열
+      - 2024-07
+        - [level 0] 글자 이어 붙여 문자열 만들기: ConcatCharMakeString.java
+        - [level 0] 9로 나눈 나머지: RemainsOfNine.java
+        - [level 0] 문자열 여러 번 뒤집기: FlippingString.java
+          - reverse 함수
+        - [level 0] 배열 만들기 5 : MakingArray5.java
+        - [level 0] 부분 문자열 이어 붙여 문자열 만들기 : MakeStringAddingSubstrings.java
+        - [level 0] 문자열의 뒤의 n글자 : LastNLettersOfString.java
+        - [level 0] 접미사 배열 : ArrayOfSuffix.java
+        - [level 0] 접미사인지 확인하기 : IsSuffix.java
+          - endsWith
+        - [level 0] 문자열의 앞의 n글자 : NPrefix.java
+        - [level 0] 접미사인지 확인하기 : IsPrefix.java
+          - startsWith
+        - [level 0] 문자열 뒤집기: FlippingString2.java
+          - reverse
+        - [level 0] 세로 읽기: ReadingTopdown.java
+        - [level 0] qr code: QRCode.java
+      - 2024-08
+        - [level 0] 원하는 문자열 찾기: FindingWantedString.java
+        - [level 0] 대문자로 바꾸기: ChangeIntoUpperCase.java
+        - [level 0] 소문자로 바꾸기: ChangeIntoLowerCase.java
+        - [level 0] 배열에서 문자열 대소문자 변환하기: ChangeStringCaseInArray.java
+        - [level 0] A 강조하기: EmphasizeA.java
+        - [level 0] 특정 문자를 대문자로 바꾸기: ChangeSpecificLettersToUpperCase.java
+        - [level 0] 특정 문자열로 끝나는 가장 긴 부분 문자열 찾기: LongestSubStringWithSpecificString.java
+        - [level 0] 문자열이 몇 번 등장하는지 세기: CountingStrings.java
+        - [level 0] ad 제거하기: RemoveAd.java
+        - [level 0] 공백으로 구분하기 1: SeparateBySpace.java
+        - [level 0] 공백으로 구분하기 2: SeparateBySpace2.java
+        - [level 0] x 사이의 개수: NumBetweenX.java
+        - [level 0] 문자열 잘라서 정렬하기: SplitAndSortString.java
+        - [level 0] 간단한 식 계산하기: EvaluateSimpleExpressions.java
+        - [level 0] 문자열 바꿔서 찾기: SwitchAndFindString.java
+        - [level 0] rny_string: RnyString.java
+        - [level 0] 세 개의 구분자: ThreeSeparators.java
+          - 정규식
             
-      - 함수(메소드)
-        - 2024-08
-          - [level 0] 배열의 길이를 2의 거듭제곱으로 만들기: MakeTheLengthOfArrayPowerOf2.java
-          - [level 0] 배열 비교하기: ComparingArrays.java
-            - Integer.compare
-          - [level 0] 문자열 묶기: GroupingStringArrays.java
-          - [level 0] 배열의 길이에 따라 다른 연산하기: OperateDueToArrayLength.java
-          - [level 0] 뒤에서 5등까지: ToTopFiveFromBack.java
-          - [level 0] 뒤에서 5등 위로: FifthPlaceFromTheBack.java
-          - [level 0] 전국 대회 선발 고사: NationalCompetitionSelectionTest.java
-          - [level 0] 정수 부분: IntegerPart.java
-        -2024-09
-          - [level 0] 문자열 정수의 합: SumOfStringIntegers.java
-          - [level 0] 문자열을 정수로 변환하기: ConvertStringToInteger.java
-          - [level 0] 0 떼기: RemoveZero.java
-          - [level 0] 두 수의 합: SumOfTwoNums.java
-            - BinInteger(시간복잡도 주의)
-          - [level 0] 문자열로 변환: ConvertToString.java
+    - 함수(메소드)
+      - 2024-08
+        - [level 0] 배열의 길이를 2의 거듭제곱으로 만들기: MakeTheLengthOfArrayPowerOf2.java
+        - [level 0] 배열 비교하기: ComparingArrays.java
+          - Integer.compare
+        - [level 0] 문자열 묶기: GroupingStringArrays.java
+        - [level 0] 배열의 길이에 따라 다른 연산하기: OperateDueToArrayLength.java
+        - [level 0] 뒤에서 5등까지: ToTopFiveFromBack.java
+        - [level 0] 뒤에서 5등 위로: FifthPlaceFromTheBack.java
+        - [level 0] 전국 대회 선발 고사: NationalCompetitionSelectionTest.java
+        - [level 0] 정수 부분: IntegerPart.java
+      -2024-09
+        - [level 0] 문자열 정수의 합: SumOfStringIntegers.java
+        - [level 0] 문자열을 정수로 변환하기: ConvertStringToInteger.java
+        - [level 0] 0 떼기: RemoveZero.java
+        - [level 0] 두 수의 합: SumOfTwoNums.java
+          - BinInteger(시간복잡도 주의)
+        - [level 0] 문자열로 변환: ConvertToString.java
 
     * 코딩테스트 입문
       - 2024-03
@@ -335,101 +334,101 @@
             - 수학 공식**
           - [level 0] 다음에 올 숫자 : NextNum.java
 
-  * 연습문제
-    - 2024-04
-      - [level 1] 문자열 내 p와 y의 개수 : CountingPandY.java
-      - [level 1] 문자열을 정수로 바꾸기 : StringToInteger.java
-      - [level 1] 약수의 합 : SumOfDivisor.java
-      - [level 2] 최댓값과 최솟값 : MaxAndMin.java
-      - [level 1] 자릿수 더하기 : AddingDigits.java
-      - [level 2] 최솟값 만들기 : MakingMinValue.java
-      - [level 2] JadenCase 문자열 만들기 : MakeJadenCaseString.java
-    - 2024-07
-      - [level 1] 크기가 작은 부분 문자열: LittleSizeSubstrings.java
-      - [level 1] 삼총사: ThreeMusketeers.java
-    - 2024-08
-      - [level 1] 가장 가까운 같은 글자: ClosestSameCharacter.java
-        - map, getOrDefault / substring, lastIndexOf
-      - [level 2] 숫자의 표현: ExpressionOfNumber.java
-        - 정수론: 주어진 자연수를 연속된 자연수의 합으로 표현하는 방법의 수 = 주어진 수의 홀수 약수의 개수 
-      - [level 2] 다음 큰 숫자: NextBigNumber.java
-        - Integer.bitCount(n);
-      - [level 2] 피보나치 수: FibonacciNum.java
-        - 반환 자료형
-      - [level 1] 푸드 파이트 대회: FoodFightContest.java
-      - [level 1] 콜라 문제: CokeProblem.java
-      - [level 1] 명예의 전당 (1): HallOfFame1.java
-      - [level 2] 멀리 뛰기: LongJump.java
-        - DP
-      - [level 2] N개의 최소공배수: NLcm.java
-        - 유클리드 호제법 - gcd, lcm
+    * 연습문제
+      - 2024-04
+        - [level 1] 문자열 내 p와 y의 개수 : CountingPandY.java
+        - [level 1] 문자열을 정수로 바꾸기 : StringToInteger.java
+        - [level 1] 약수의 합 : SumOfDivisor.java
+        - [level 2] 최댓값과 최솟값 : MaxAndMin.java
+        - [level 1] 자릿수 더하기 : AddingDigits.java
+        - [level 2] 최솟값 만들기 : MakingMinValue.java
+        - [level 2] JadenCase 문자열 만들기 : MakeJadenCaseString.java
+      - 2024-07
+        - [level 1] 크기가 작은 부분 문자열: LittleSizeSubstrings.java
+        - [level 1] 삼총사: ThreeMusketeers.java
+      - 2024-08
+        - [level 1] 가장 가까운 같은 글자: ClosestSameCharacter.java
+          - map, getOrDefault / substring, lastIndexOf
+        - [level 2] 숫자의 표현: ExpressionOfNumber.java
+          - 정수론: 주어진 자연수를 연속된 자연수의 합으로 표현하는 방법의 수 = 주어진 수의 홀수 약수의 개수 
+        - [level 2] 다음 큰 숫자: NextBigNumber.java
+          - Integer.bitCount(n);
+        - [level 2] 피보나치 수: FibonacciNum.java
+          - 반환 자료형
+        - [level 1] 푸드 파이트 대회: FoodFightContest.java
+        - [level 1] 콜라 문제: CokeProblem.java
+        - [level 1] 명예의 전당 (1): HallOfFame1.java
+        - [level 2] 멀리 뛰기: LongJump.java
+          - DP
+        - [level 2] N개의 최소공배수: NLcm.java
+          - 유클리드 호제법 - gcd, lcm
   
-  * MySQL : TODO : MySQL setting
-    - 2024-03
-      - [level 1] Python 개발자 찾기 : FindingPythonDeveloper.xml
-    - 2024-04
-      - [level 1] 조건에 맞는 도서 리스트 출력하기 : PrintBookListInCondition.xml
-    - 2024-05 
-      - [level 1] 조건에 부합하는 중고거래 댓글 조회하기 : usedTransactionComments
+    * MySQL : TODO : MySQL setting
+      - 2024-03
+        - [level 1] Python 개발자 찾기 : FindingPythonDeveloper.xml
+      - 2024-04
+        - [level 1] 조건에 맞는 도서 리스트 출력하기 : PrintBookListInCondition.xml
+      - 2024-05 
+        - [level 1] 조건에 부합하는 중고거래 댓글 조회하기 : usedTransactionComments
 
-  * 완전탐색
-    - 2024-03
-      - [level 1] 최소직사각형
-    - 2024-08
-      - [level 2] 카펫: Carpet.java
-        - 근의공식 풀이도 존재
-    - 2024-09
-      - [level 1] 모의고사: MockExam.java
-      - [level 2] 피로도: Fatigue.java
+    * 완전탐색
+      - 2024-03
+        - [level 1] 최소직사각형
+      - 2024-08
+        - [level 2] 카펫: Carpet.java
+          - 근의공식 풀이도 존재
+      - 2024-09
+        - [level 1] 모의고사: MockExam.java
+        - [level 2] 피로도: Fatigue.java
   
-  * 스택/큐
-    - [level 2] 올바른 괄호 : RightBracket.java
+    * 스택/큐
+      - [level 2] 올바른 괄호 : RightBracket.java
 
-  * 월간 코드 챌린지 시즌 3
-    - 2024-07
-      - [level 1] 나머지가 1이 되는 수 찾기 : FindingRemain1Num.java
-      - [level 1] 없는 숫자 더하기 : AddNoneExistNums.java
+    * 월간 코드 챌린지 시즌 3
+      - 2024-07
+        - [level 1] 나머지가 1이 되는 수 찾기 : FindingRemain1Num.java
+        - [level 1] 없는 숫자 더하기 : AddNoneExistNums.java
 
-  * 월간 코드 챌린지 시즌 2
-    - 2024-07
-      - [level 1] 음양 더하기 : AddingPlusMinus.java
-      - [level 1] 약수의 개수와 덧셈 : NumOfDivAndAddition.java
-        - 제곱수 & 약수 관계
+    * 월간 코드 챌린지 시즌 2
+      - 2024-07
+        - [level 1] 음양 더하기 : AddingPlusMinus.java
+        - [level 1] 약수의 개수와 덧셈 : NumOfDivAndAddition.java
+          - 제곱수 & 약수 관계
 
-  * 월간 코드 챌린지 시즌 1
-    - 2024-07
-      - [level 1] 내적: DotProduct.java
-      - [level 1] 3진법 뒤집기: FlippingBaseThree.java
-      - [level 2] 이진 변환 반복하기: RepeatBinaryConversion.java
-        - Integer.toBinaryString
-    - 2024-08
-      - [level 1] 두 개 뽑아서 더하기: TakeTwoAndAdd.java
-        - set 활용하기
+    * 월간 코드 챌린지 시즌 1
+      - 2024-07
+        - [level 1] 내적: DotProduct.java
+        - [level 1] 3진법 뒤집기: FlippingBaseThree.java
+        - [level 2] 이진 변환 반복하기: RepeatBinaryConversion.java
+          - Integer.toBinaryString
+      - 2024-08
+        - [level 1] 두 개 뽑아서 더하기: TakeTwoAndAdd.java
+          - set 활용하기
 
-  * 위클리 챌린지
-    - 2024-07
-      - [level 1] 부족한 금액 계산하기: CalculateInsufficientAmount.java
-        - 등차수열의 합
+    * 위클리 챌린지
+      - 2024-07
+        - [level 1] 부족한 금액 계산하기: CalculateInsufficientAmount.java
+          - 등차수열의 합
         
-  * 2021 카카오 채용연계형 인턴십
-    - 2024-08
-      - [level 1] 숫자 문자열과 영단어: StringNumAndWord.java
+    * 2021 카카오 채용연계형 인턴십
+      - 2024-08
+        - [level 1] 숫자 문자열과 영단어: StringNumAndWord.java
   
-  * 2017 팁스타운
-    - 2024-08
-      - [level 2] 짝지어 제거하기: RemovePairs.java
-        - stack
+    * 2017 팁스타운
+      - 2024-08
+        - [level 2] 짝지어 제거하기: RemovePairs.java
+          - stack
 
-  * Summer/Winter Coding(~2018)
-    - 2024-08
-      - [level 2] 점프와 순간 이동: JumpAndTeleports.java
-        - 쉽게 생각하기
-      - [level 2] 영어 끝말잇기: EnglishEnding.java
-        - set 활용
+    * Summer/Winter Coding(~2018)
+      - 2024-08
+        - [level 2] 점프와 순간 이동: JumpAndTeleports.java
+          - 쉽게 생각하기
+        - [level 2] 영어 끝말잇기: EnglishEnding.java
+          - set 활용
 
-  * 탐욕법(Greedy)
-    - 2024-08
-      - [level 2] 구명보트: Lifeboat;
+    * 탐욕법(Greedy)
+      - 2024-08
+        - [level 2] 구명보트: Lifeboat;
 
 - 다시 풀어보기
   - 완전탐색
