@@ -60,43 +60,53 @@ public class Fatigue {
         int answer = 0;
 
         int[] check = new int[dungeons.length];
-        for(int i = 0; i < dungeons.length; i++) {
-            answer = Math.max(answer, game(i, dungeons, check, k, 0, 0));
-        }
+        answer = Math.max(answer, game(dungeons, check, k, 0));
 
         return answer;
     }
 
-    public static int game(int nowIdx, int[][] dungeons, int[] check, int k, int cnt, int dungeonCnt) {
-        // 이미 방문한 경우
-        if(check[nowIdx] == 1) {
-            return 0;
-        }
+    public static int game(int[][] dungeons, int[] check, int k, int cnt) {
+        int answer = 0;
 
-        // 방문 불가
-        if(k < dungeons[nowIdx][0]) {
-            return 0;
-        }
+        // 주석 된 부분은 1차 문제 해결
+//        boolean visit = false;
+//        for(int i = 0; i < check.length; i++) {
+//            if(check[i] == 0) {
+//                visit = false;
+//                break;
+//            } else {
+//                // 전체 방문 완료 시 종료
+//                visit = true;
+//            }
+//        }
+//
+//        if(visit) return cnt;
 
-        if(dungeonCnt > dungeons.length) {
-            return 0;
-        }
-
+        // 주석 안 된 부분이 좀 더 간결하게 푼 풀이
         for(int i = 0; i < dungeons.length; i++) {
-            if(i == nowIdx) continue;
-
-            // 방문
-            check[nowIdx] = 1;
-            k -= dungeons[nowIdx][1];
-            cnt += game(i, dungeons, check, k, cnt, dungeonCnt+1);
-            
-            // 미방문, 다음 던전 탐색
-            check[nowIdx] = 0;
-            k += dungeons[nowIdx][1];
-            cnt += game(i, dungeons, check, k, cnt, dungeonCnt+1);
+            if(check[i] == 0 && k >= dungeons[i][0]) {
+                check[i] = 1;
+                answer = Math.max(answer, game(dungeons, check, k - dungeons[i][1], cnt + 1));
+                check[i] = 0;
+            }
+//            // 방문 확인
+//            if(check[i] == 1) continue;
+//
+//            // 방문
+//            check[i] = 1;
+//
+//            // 던전 탐험
+//            if(k >= dungeons[i][0]) {
+//                answer = Math.max(answer, game(dungeons, check, k - dungeons[i][1], cnt + 1));
+//            } else {
+//                answer = Math.max(answer, game(dungeons, check, k, cnt));
+//            }
+//
+//            // 방문 해제
+//            check[i] = 0;
         }
 
-        return cnt;
+        return Math.max(answer, cnt);
     }
 
     public static void main(String[] args) {
