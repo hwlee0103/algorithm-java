@@ -57,24 +57,46 @@ import java.util.Scanner;
  */
 public class Fatigue {
     public static int solution(int k, int[][] dungeons) {
-        int answer = -1;
+        int answer = 0;
 
-        // TODO: 순서가 달라도 전체를 탐색할 필요가 있음 - check 필요
-
-        // TODO: 아래 방법이 아님
-        answer = function(k, 0, 0, dungeons.length - 1, dungeons);
+        int[] check = new int[dungeons.length];
+        for(int i = 0; i < dungeons.length; i++) {
+            answer = Math.max(answer, game(i, dungeons, check, k, 0, 0));
+        }
 
         return answer;
     }
 
-    public static int function(int now, int cnt, int nowIdx, int maxIdx, int[][] dungeons) {
-        int nowCnt = cnt;
-        if(nowIdx > maxIdx) return 0;
-        if(now < dungeons[nowIdx][0]) return 0;
-        nowCnt += function(now - dungeons[nowIdx][1], cnt + 1, nowIdx + 1, maxIdx, dungeons);
-        nowCnt += function(now, cnt, nowIdx + 1, maxIdx, dungeons);
+    public static int game(int nowIdx, int[][] dungeons, int[] check, int k, int cnt, int dungeonCnt) {
+        // 이미 방문한 경우
+        if(check[nowIdx] == 1) {
+            return 0;
+        }
 
-        return nowCnt;
+        // 방문 불가
+        if(k < dungeons[nowIdx][0]) {
+            return 0;
+        }
+
+        if(dungeonCnt > dungeons.length) {
+            return 0;
+        }
+
+        for(int i = 0; i < dungeons.length; i++) {
+            if(i == nowIdx) continue;
+
+            // 방문
+            check[nowIdx] = 1;
+            k -= dungeons[nowIdx][1];
+            cnt += game(i, dungeons, check, k, cnt, dungeonCnt+1);
+            
+            // 미방문, 다음 던전 탐색
+            check[nowIdx] = 0;
+            k += dungeons[nowIdx][1];
+            cnt += game(i, dungeons, check, k, cnt, dungeonCnt+1);
+        }
+
+        return cnt;
     }
 
     public static void main(String[] args) {
