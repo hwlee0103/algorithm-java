@@ -383,6 +383,10 @@
   
     * 스택/큐
       - [level 2] 올바른 괄호 : RightBracket.java
+    
+    * 깊이/너비 우선 탐색(DFS/BFS)
+      - 2024-09
+        - [level 3] 네트워크: Network.java
 
     * 월간 코드 챌린지 시즌 3
       - 2024-07
