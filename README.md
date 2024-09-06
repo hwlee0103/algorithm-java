@@ -387,6 +387,15 @@
     * 깊이/너비 우선 탐색(DFS/BFS)
       - 2024-09
         - [level 3] 네트워크: Network.java
+       
+    * 탐욕법(Greedy)
+      - 2024-08
+        - [level 2] 구명보트: Lifeboat;
+    
+    * 해시
+      - 2024-09
+        - [level 1] 완주하지 못한 선수: DidntFinishRace.java
+
 
     * 월간 코드 챌린지 시즌 3
       - 2024-07
@@ -429,10 +438,6 @@
           - 쉽게 생각하기
         - [level 2] 영어 끝말잇기: EnglishEnding.java
           - set 활용
-
-    * 탐욕법(Greedy)
-      - 2024-08
-        - [level 2] 구명보트: Lifeboat;
 
 - 다시 풀어보기
   - 완전탐색
