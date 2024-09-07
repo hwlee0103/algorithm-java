@@ -79,6 +79,7 @@
       - 2024-09
         - [level 0] 배열의 원소 삭제하기: DeleteElementOfArray.java
         - [level 0] 부분 문자열인지 확인하기: CheckIfSubstring.java
+        - [level 0] 부분 문자열: SubStrings.java
 
     - 연산
       - 2024-03
