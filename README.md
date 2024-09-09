@@ -81,6 +81,7 @@
         - [level 0] 부분 문자열인지 확인하기: CheckIfSubstring.java
         - [level 0] 부분 문자열: SubStrings.java
         - [level 0] 꼬리 문자열: TailString.java
+        - [level 0] 정수 찾기: FindingInteger.java
 
     - 연산
       - 2024-03
