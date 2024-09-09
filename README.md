@@ -399,7 +399,6 @@
       - 2024-09
         - [level 1] 완주하지 못한 선수: DidntFinishRace.java
 
-
     * 월간 코드 챌린지 시즌 3
       - 2024-07
         - [level 1] 나머지가 1이 되는 수 찾기 : FindingRemain1Num.java
@@ -434,6 +433,9 @@
       - 2024-08
         - [level 2] 짝지어 제거하기: RemovePairs.java
           - stack
+      - 2024-09
+        - [level 2] 예상 대진표: ExpectedBracket.java
+          - toBinaryString / bit연산
 
     * Summer/Winter Coding(~2018)
       - 2024-08
@@ -442,37 +444,6 @@
         - [level 2] 영어 끝말잇기: EnglishEnding.java
           - set 활용
 
-- 다시 풀어보기
-  - 완전탐색
-    - [level 1] 최소직사각형
-    - [level 0] 구슬을 나누는 경우의 수
-  
-  - 코딩테스트 입문
-    - [level 0] 문자열 정렬하기(1) : SortingString1.java
-    - [level 0] 컨트롤 제트 : ControlZ.java
-    - [level 0] 삼각형의 완성조건 (1) : TrangleCompleteCondition.java
-    - [level 0] 중복된 문자 제거 : EraseRepeatChar.java
-    - [level 0] 영어가 싫어요 : DontLikeEng.java
-    - [level 0] 인덱스 바꾸기 : ChangingIndex.java
-    - [level 0] 다항식 더하기 : AddingPolynomial.java
-    - [level 0] 삼각형의 완성조건 (2) : TriangleCompleteCondition.java
-    - [level 0] 외계어 사전 : AlienDictionary.java
-    - [level 0] 저주의 숫자 3 : CurseNum3.java
-    - [level 0] 겹치는 선분의 길이 : LengthOfOverlap.java
-    - [level 0] 등수 매기기 : Ranking.java
-    - [level 0] 이진수 더하기 : AddingBinaries.java
-    - [level 0] 문자열 밀기 : PushingString.java
-    - [level 0] 연속된 수의 합 : SumOfConsecutiveNums.java
-    
-  - 반복문
-    - [level 0] 배열 만들기 2 : MakingArray2.java
-      - 이진수 연산 활용해보기
-
-  - 리스트(배열)
-    - [level 0] 글자 지우기 : ErasingChar.java
-
-  - 월간 코드 챌린지 시즌 2
-    - [level 1] 약수의 개수와 덧셈 : NumOfDivAndAddition.java
 
 - UnSolved
   - 연습문제
