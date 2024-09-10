@@ -83,6 +83,7 @@
         - [level 0] 꼬리 문자열: TailString.java
         - [level 0] 정수 찾기: FindingInteger.java
         - [level 0] 주사위 게임 1: DiceGame1.java
+        - [level 0] 날짜 비교하기: CompareDate.java
 
     - 연산
       - 2024-03
