@@ -99,22 +99,19 @@
         - [level 0] n의 배수
         - [level 0] 공배수
  
-    - 반복문 / 반복문 활용
+    - 반복문
       - 2024-04
-        - [level 0] 수열과 구간 쿼리 3: NumArrIntervalQuery3.java
-        - [level 0] 수열과 구간 쿼리 2: NumArrIntervalQuery2.java
-        - [level 0] 수열과 구간 쿼리 4: NumArrIntervalQuery4.java
+        - [level 0] 수열과 구간 쿼리 3 : NumArrIntervalQuery3.java
+        - [level 0] 수열과 구간 쿼리 2 : NumArrIntervalQuery2.java
+        - [level 0] 수열과 구간 쿼리 4 : NumArrIntervalQuery4.java
       - 2024-06
-        - [level 0] 배열 만들기 2: MakingArray2.java
+        - [level 0] 배열 만들기 2 : MakingArray2.java
           - 이진법 활용
-        - [level 0] 카운트 업: CountUp.java
-        - [level 0] 콜라츠 수열 만들기: CollatzArray.java
+        - [level 0] 카운트 업 : CountUp.java
+        - [level 0] 콜라츠 수열 만들기 : CollatzArray.java
           - List -> int[] : stream() 활용
-        - [level 0] 배열 만들기 4: MakeArray4.java
+        - [level 0] 배열 만들기 4 : MakeArray4.java
           - 스택 활용
-      - 2024-09
-        - [level 0] 그림 확대: ExpandPicture.java
-          - repeat();
     
     - 리스트(배열)
       - 2024-03
