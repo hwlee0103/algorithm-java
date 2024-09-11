@@ -84,6 +84,8 @@
         - [level 0] 정수 찾기: FindingInteger.java
         - [level 0] 주사위 게임 1: DiceGame1.java
         - [level 0] 날짜 비교하기: CompareDate.java
+        - [level 0] 커피 심부름: CoffeeBuying.java
+          - String 만으로 더 쉽게 푸는 방법 생각해보기
 
     - 연산
       - 2024-03
@@ -252,92 +254,92 @@
         - [level 0] 가위 바위 보 : RockPaperScissors.java
         - [level 0] 구슬을 나누는 경우의 수 : NumsOfSplitBeads.java
           - 완전탐색 / 재귀 / Combination (조합)
-        - 2024-05
-          - [level 0] 점의 위치 구하기 : LocationOfDot.java
-          - [level 0] 2차원으로 만들기 : MakeTwoD.java
-            - 나누기 / 나머지
-          - [level 0] 공 던지기 : ThrowingBall.java
-          - [level 0] 배열 회전시키기 : CyclingArray.java
-          - [level 0] 주사위의 개수 : NumOfDice.java
-          - [level 0] 합성수 찾기 : FindingCompositeNum.java
-          - [level 0] 최댓값 만들기(1) : MakingMaxVal.java
-          - [level 0] 팩토리얼 : Factorial.java
-            - DP
-          - [level 0] 모음 제거 : RemoveVowels.java
-            - 정규식
-          - [level 0] 문자열 정렬하기(1) : SortingString1.java
-            - 정규식 활용하기
-          - [level 0] 숨어있는 숫자의 덧셈(1) : SumOfHiddenNums.java
-          - [level 0] 컨트롤 제트 : ControlZ.java
-            - 스택 활용
-          - [level 0] 배열 원소의 길이 : LengthOfArrayItem.java
-          - [level 0] 삼각형의 완성조건 (1) : TrangleCompleteCondition.java
-            - sort 활용
-          - [level 0] 소인수분해 : Factorization.java
-            - LinkedHashSet / 구현
-          - [level 0] 중복된 문자 제거 : EraseRepeatChar.java
-            - LinkedHashSet & Arrays / Stream distinct
-          - [level 0] 가까운 수 : ClosestNum.java
-          - [level 0] 369게임 : ThreeSixNine.java
-          - [level 0] 암호 해독 : Decryption.java
-          - [level 0] 대문자와 소문자 : UpperAndLowerLetter.java
-          - [level 0] 영어가 싫어요 : DontLikeEng.java
-            - map 없이 풀어보기
-          - [level 0] 인덱스 바꾸기 : ChangingIndex.java
-            - Collections.swap / char[] 사용
-          - [level 0] 한 번만 등장한 문자 : CharOnlyOnce.java
-          - [level 0] 약수 구하기 : FindingDivisors.java
-            - list.stream().mapToInt(e -> e).toArray() : ArrayList to Arrays
-          - [level 0] 편지 : Letter.java
-          - [level 0] 가장 큰 수 찾기 : FindingMaxNum.java
-          - [level 0] 문자열 계산하기 : CalculateString.java
-          - [level 0] 배열의 유사도 : SimilarityOfArray.java
-          - [level 0] 숫자 찾기 : FindingNum.java
-            - indexOf
-          - [level 0] n의 배수 고르기 : ChooseMultipleN.java
-          - [level 0] 자릿수 더하기 : AddDigits.java
-          - [level 0] OX퀴즈 : OXQuiz.java
-          - [level 0] 문자열안에 문자열 : StringInString.java
-          - [level 0] 제곱수 판별하기 : IdentifySquare.java
-          - [level 0] 세균 증식 : BacterialGrowth.java
-          - [level 0] 문자열 정렬하기 (2) : SortString2.java
-          - [level 0] 7의 개수 : NumOfSeven.java
-          - [level 0] 잘라서 배열로 저장하기 : CutAndSaveArray.java
-          - [level 0] 중복된 숫자 개수 : NumOfDuplicateNums.java
-          - [level 0] 머쓱이보다 키 큰 사람 : TallerThanMusseuk.java
-          - [level 0] 직사각형 넓이 구하기 : AreaOfRectangle.java
-          - [level 0] 캐릭터의 좌표 : CoordinatesOfCharacter.java
-          - [level 0] 최댓값 만들기 (2) : MakeMathVal2.java
-            - Arrays.sort()
-          - [level 0] 다항식 더하기 : AddingPolynomial.java
-        - 2024-06
-          - [level 0] 숨어있는 숫자의 덧셈 (2) : AddingHiddenNum2.java
-          - [level 0] 안전지대 : SafeZone.java
-          - [level 0] 삼각형의 완성조건 (2) : TriangleCompleteCondition.java
-            - 공식
-          - [level 0] 외계어 사전 : AlienDictionary.java
-            - Array 활용법 익히기
-          - [level 0] 저주의 숫자 3 : CurseNum3.java
-          - [level 0] 평행 : Parallel.java
-          - [level 0] 겹치는 선분의 길이 : LengthOfOverlap.java
-          - [level 0] 유한소수 판별하기 : FinitDecimalNums.java
-          - [level 0] 특이한 정렬 : UnusualArrangement.java
-          - [level 0] 등수 매기기 : Ranking.java
-            - 반례 구상
-          - [level 0] 옹알이 (1) : Babbling.java 
-            - replaceFirst
-          - [level 0] 로그인 성공? : LoginSuccess.java
-          - [level 0] 치킨 쿠폰 : ChickenCoupon.java
-          - [level 0] 이진수 더하기 : AddingBinaries.java
-            - binary String
-          - [level 0] A로 B 만들기 : MakeBwithA.java
-          - [level 0] k의 개수 : NumOfK.java
-          - [level 0] 문자열 밀기 : PushingString.java
-            - indexOf 활용 가능 (B+B)
-          - [level 0] 종이 자르기 : CuttingPaper.java
-          - [level 0] 연속된 수의 합 : SumOfConsecutiveNums.java
-            - 수학 공식**
-          - [level 0] 다음에 올 숫자 : NextNum.java
+      - 2024-05
+        - [level 0] 점의 위치 구하기 : LocationOfDot.java
+        - [level 0] 2차원으로 만들기 : MakeTwoD.java
+          - 나누기 / 나머지
+        - [level 0] 공 던지기 : ThrowingBall.java
+        - [level 0] 배열 회전시키기 : CyclingArray.java
+        - [level 0] 주사위의 개수 : NumOfDice.java
+        - [level 0] 합성수 찾기 : FindingCompositeNum.java
+        - [level 0] 최댓값 만들기(1) : MakingMaxVal.java
+        - [level 0] 팩토리얼 : Factorial.java
+          - DP
+        - [level 0] 모음 제거 : RemoveVowels.java
+          - 정규식
+        - [level 0] 문자열 정렬하기(1) : SortingString1.java
+          - 정규식 활용하기
+        - [level 0] 숨어있는 숫자의 덧셈(1) : SumOfHiddenNums.java
+        - [level 0] 컨트롤 제트 : ControlZ.java
+          - 스택 활용
+        - [level 0] 배열 원소의 길이 : LengthOfArrayItem.java
+        - [level 0] 삼각형의 완성조건 (1) : TrangleCompleteCondition.java
+          - sort 활용
+        - [level 0] 소인수분해 : Factorization.java
+          - LinkedHashSet / 구현
+        - [level 0] 중복된 문자 제거 : EraseRepeatChar.java
+          - LinkedHashSet & Arrays / Stream distinct
+        - [level 0] 가까운 수 : ClosestNum.java
+        - [level 0] 369게임 : ThreeSixNine.java
+        - [level 0] 암호 해독 : Decryption.java
+        - [level 0] 대문자와 소문자 : UpperAndLowerLetter.java
+        - [level 0] 영어가 싫어요 : DontLikeEng.java
+          - map 없이 풀어보기
+        - [level 0] 인덱스 바꾸기 : ChangingIndex.java
+          - Collections.swap / char[] 사용
+        - [level 0] 한 번만 등장한 문자 : CharOnlyOnce.java
+        - [level 0] 약수 구하기 : FindingDivisors.java
+          - list.stream().mapToInt(e -> e).toArray() : ArrayList to Arrays
+        - [level 0] 편지 : Letter.java
+        - [level 0] 가장 큰 수 찾기 : FindingMaxNum.java
+        - [level 0] 문자열 계산하기 : CalculateString.java
+        - [level 0] 배열의 유사도 : SimilarityOfArray.java
+        - [level 0] 숫자 찾기 : FindingNum.java
+          - indexOf
+        - [level 0] n의 배수 고르기 : ChooseMultipleN.java
+        - [level 0] 자릿수 더하기 : AddDigits.java
+        - [level 0] OX퀴즈 : OXQuiz.java
+        - [level 0] 문자열안에 문자열 : StringInString.java
+        - [level 0] 제곱수 판별하기 : IdentifySquare.java
+        - [level 0] 세균 증식 : BacterialGrowth.java
+        - [level 0] 문자열 정렬하기 (2) : SortString2.java
+        - [level 0] 7의 개수 : NumOfSeven.java
+        - [level 0] 잘라서 배열로 저장하기 : CutAndSaveArray.java
+        - [level 0] 중복된 숫자 개수 : NumOfDuplicateNums.java
+        - [level 0] 머쓱이보다 키 큰 사람 : TallerThanMusseuk.java
+        - [level 0] 직사각형 넓이 구하기 : AreaOfRectangle.java
+        - [level 0] 캐릭터의 좌표 : CoordinatesOfCharacter.java
+        - [level 0] 최댓값 만들기 (2) : MakeMathVal2.java
+          - Arrays.sort()
+        - [level 0] 다항식 더하기 : AddingPolynomial.java
+      - 2024-06
+        - [level 0] 숨어있는 숫자의 덧셈 (2) : AddingHiddenNum2.java
+        - [level 0] 안전지대 : SafeZone.java
+        - [level 0] 삼각형의 완성조건 (2) : TriangleCompleteCondition.java
+          - 공식
+        - [level 0] 외계어 사전 : AlienDictionary.java
+          - Array 활용법 익히기
+        - [level 0] 저주의 숫자 3 : CurseNum3.java
+        - [level 0] 평행 : Parallel.java
+        - [level 0] 겹치는 선분의 길이 : LengthOfOverlap.java
+        - [level 0] 유한소수 판별하기 : FinitDecimalNums.java
+        - [level 0] 특이한 정렬 : UnusualArrangement.java
+        - [level 0] 등수 매기기 : Ranking.java
+          - 반례 구상
+        - [level 0] 옹알이 (1) : Babbling.java 
+          - replaceFirst
+        - [level 0] 로그인 성공? : LoginSuccess.java
+        - [level 0] 치킨 쿠폰 : ChickenCoupon.java
+        - [level 0] 이진수 더하기 : AddingBinaries.java
+          - binary String
+        - [level 0] A로 B 만들기 : MakeBwithA.java
+        - [level 0] k의 개수 : NumOfK.java
+        - [level 0] 문자열 밀기 : PushingString.java
+          - indexOf 활용 가능 (B+B)
+        - [level 0] 종이 자르기 : CuttingPaper.java
+        - [level 0] 연속된 수의 합 : SumOfConsecutiveNums.java
+          - 수학 공식**
+        - [level 0] 다음에 올 숫자 : NextNum.java
 
     * 연습문제
       - 2024-04
