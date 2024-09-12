@@ -376,6 +376,8 @@
           - DP
         - [level 2] N개의 최소공배수: NLcm.java
           - 유클리드 호제법 - gcd, lcm
+      - 2024-09
+        - [level 2] 귤 고르기: SelectingTangerine.java
   
     * MySQL : TODO : MySQL setting
       - 2024-03
