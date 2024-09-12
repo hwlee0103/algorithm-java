@@ -116,6 +116,7 @@
         - [level 0] 그림 확대: ExpandPicture.java
           - repeat();
         - [level 0] 조건에 맞게 수열 변환하기 3: ConvertArray3.java
+        - [level 0] l로 만들기: MakeToL.java
     
     - 리스트(배열)
       - 2024-03
