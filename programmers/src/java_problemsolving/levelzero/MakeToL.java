@@ -1,6 +1,5 @@
 package java_problemsolving.levelzero;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -9,7 +8,7 @@ import java.util.Scanner;
  * 문제 유형 : 반복문 활용
  *
  * Started : 2024-09-12
- * Solved : 2024-09-
+ * Solved : 2024-09-12
  *
  * 문제
  * 알파벳 소문자로 이루어진 문자열 myString이 주어집니다.
