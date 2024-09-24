@@ -214,6 +214,11 @@
         - [level 0] 두 수의 합: SumOfTwoNums.java
           - BinInteger(시간복잡도 주의)
         - [level 0] 문자열로 변환: ConvertToString.java
+  
+    - 이차원 리스트(배열)
+      - 2024-09
+        - [level 0] 정수를 나선형으로 배치하기: ArrangeIntegerSpiral.java
+          - BFS 응용
 
     * 코딩테스트 입문
       - 2024-03
