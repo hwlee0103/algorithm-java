@@ -10,7 +10,6 @@ import java.util.Scanner;
  * Started : 2024-03-19
  * Solved : 2024-03-20
  *
- * TODO : 다시 풀어보기
  *
  */
 public class MinimumRectangle {
