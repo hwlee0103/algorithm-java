@@ -219,6 +219,7 @@
       - 2024-09
         - [level 0] 정수를 나선형으로 배치하기: ArrangeIntegerSpiral.java
           - BFS 응용
+        - [level 0] 특별한 이차원 배열 2: UniqueTwoDimensionalArray.java
 
     * 코딩테스트 입문
       - 2024-03
