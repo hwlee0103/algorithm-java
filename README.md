@@ -221,6 +221,7 @@
           - BFS 응용
         - [level 0] 특별한 이차원 배열 2: UniqueTwoDimensionalArray.java
         - [level 0] 정사각형으로 만들기: MakeSquare.java
+        - [level 0] 이차원 배열 대각선 순회하기: TraversingArranInDiagonal.java
 
     * 코딩테스트 입문
       - 2024-03
