@@ -1,7 +1,6 @@
 package java_problemsolving.leveltwo;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Level : 2
@@ -9,24 +8,26 @@ import java.util.Scanner;
  * 문제 유형 : 연습문제
  *
  * Started : 2024-09-12
- * Solved : 2024-09-
+ * Retry : 2024-09-26
+ * Solved : 2024-09-26
  *
  */
 public class SelectingTangerine {
     public static int solution(int k, int[] tangerine) {
         int answer = 0;
 
-        Arrays.sort(tangerine);
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < tangerine.length; i++) {
+            map.put(tangerine[i], map.getOrDefault(tangerine[i], 0) + 1);
+        }
+        List<Map.Entry<Integer, Integer>> list = new ArrayList<>(map.entrySet());
+        list.sort(Map.Entry.comparingByValue(Comparator.reverseOrder()));
 
-        int now = tangerine[tangerine.length-1];
-
-        for(int i = tangerine.length - 1; i >= 0; --i) {
-            if(k <= 0) break;
-            if(now != tangerine[i]) {
+        for(Map.Entry<Integer, Integer> entry : list) {
+            if(k > 0) {
                 answer++;
-                now = tangerine[i];
+                k -= entry.getValue();
             }
-            k--;
         }
 
         return answer;
@@ -35,7 +36,8 @@ public class SelectingTangerine {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
-        int[] tangerine = Arrays.stream(input.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+        input.nextLine();
+        int[] tangerine = Arrays.stream(input.nextLine().split(", ")).mapToInt(Integer::parseInt).toArray();
         System.out.println(solution(n, tangerine));
     }
 }
