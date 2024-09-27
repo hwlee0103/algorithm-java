@@ -470,6 +470,7 @@
         - [level 0] [PCCE 기출문제] 1번 / 문자 출력: PrintCharacter.java
         - [level 0] [PCCE 기출문제] 5번 / 산책: Walk.java
         - [level 0] [PCCE 기출문제] 4번 / 저축: Save.java
+        - [level 0] [PCCE 기출문제] 2번 / 피타고라스의 정리: PythagoreanTheorem.java
 
 - UnSolved
   - 연습문제
