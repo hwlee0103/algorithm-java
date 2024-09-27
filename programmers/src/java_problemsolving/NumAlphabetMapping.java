@@ -1,9 +1,6 @@
 package java_problemsolving;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
-import java.util.Set;
 
 public class NumAlphabetMapping {
     public static int solution(String s) {
