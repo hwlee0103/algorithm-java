@@ -468,6 +468,7 @@
     * PCCE 기출문제
       - 2024-09
         - [level 0] [PCCE 기출문제] 1번 / 문자 출력: PrintCharacter.java
+        - [level 0] [PCCE 기출문제] 5번 / 산책: Walk.java
 
 - UnSolved
   - 연습문제
