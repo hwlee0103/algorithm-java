@@ -387,6 +387,8 @@
       - 2024-09
         - [level 2] 귤 고르기: SelectingTangerine.java
         - [level 1] 추억 점수: MemoriesScore.java 
+        - [level 2] 연속 부분 수열 합의 개수: NumberOfConsecutiveSubSums.java
+          - DP
   
     * MySQL : TODO : MySQL setting
       - 2024-03
@@ -481,8 +483,6 @@
   - 코딩 기초 트레이닝
     - 리스트(배열)
     - 함수(메서드)
-      
-      
 
   - 월간 코드 챌린지 시즌1
  
