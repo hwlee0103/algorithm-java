@@ -471,7 +471,7 @@
         - [level 0] [PCCE 기출문제] 5번 / 산책: Walk.java
         - [level 0] [PCCE 기출문제] 4번 / 저축: Save.java
         - [level 0] [PCCE 기출문제] 2번 / 피타고라스의 정리: PythagoreanTheorem.java
-
+        - [level 0] [PCCE 기출문제] 3번 / 나이 계산: CalculateAge.java
 - UnSolved
   - 연습문제
     - [level 1] 햄버거 만들기
