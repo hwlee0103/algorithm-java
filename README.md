@@ -386,6 +386,7 @@
           - 유클리드 호제법 - gcd, lcm
       - 2024-09
         - [level 2] 귤 고르기: SelectingTangerine.java
+        - [level 1] 추억 점수: MemoriesScore.java 
   
     * MySQL : TODO : MySQL setting
       - 2024-03
