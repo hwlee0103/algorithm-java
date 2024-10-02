@@ -389,6 +389,8 @@
         - [level 1] 추억 점수: MemoriesScore.java 
         - [level 2] 연속 부분 수열 합의 개수: NumberOfConsecutiveSubSums.java
           - DP
+      - 2024-10
+        - [level 1] 카드 뭉치: PackOfCards.java
   
     * MySQL : TODO : MySQL setting
       - 2024-03
