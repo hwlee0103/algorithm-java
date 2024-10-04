@@ -391,6 +391,7 @@
           - DP
       - 2024-10
         - [level 1] 카드 뭉치: PackOfCards.java
+        - [level 2] 할인 행사: DiscountEvent.java
   
     * MySQL : TODO : MySQL setting
       - 2024-03
