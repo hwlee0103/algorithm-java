@@ -9,7 +9,7 @@ import java.util.Stack;
  * 문제 유형 : 월간 코드 챌린지 시즌 2
  *
  * Started : 2024-10-02
- * Solved : 2024-10-
+ * Solved : 2024-10-02
  *
  *
  */

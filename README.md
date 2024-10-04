@@ -481,7 +481,7 @@
         - [level 0] [PCCE 기출문제] 3번 / 나이 계산: CalculateAge.java
       - 2024-10
         - [level 0] [PCCE 기출문제] 1번 / 출력: Printing.java
-  
+        - [level 0] [PCCE 기출문제] 7번 / 가습기: Humidifier.java
 
 - UnSolved
   - 연습문제
