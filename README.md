@@ -409,6 +409,8 @@
       - 2024-09
         - [level 1] 모의고사: MockExam.java
         - [level 2] 피로도: Fatigue.java
+      - 2024-10
+        
   
     * 스택/큐
       - [level 2] 올바른 괄호 : RightBracket.java
@@ -490,10 +492,8 @@
     - [level 2] 할인 행사: DiscountEvent.java
   - 스택/큐
 
-  - 코딩 기초 트레이닝
-    - 리스트(배열)
-    - 함수(메서드)
-
+  - 완전탐색
+    - [level 2] 모음사전: VowelDictionary.java
   - 월간 코드 챌린지 시즌1
  
 ===============================================================

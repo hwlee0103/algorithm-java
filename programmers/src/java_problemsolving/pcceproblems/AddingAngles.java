@@ -3,8 +3,8 @@ package java_problemsolving.pcceproblems;
 import java.util.Scanner;
 
 /**
- * Level : 02번 / 각도 합치기
- * Title : [PCCE 기출문제]
+ * Level : 0
+ * Title : [PCCE 기출문제] 2번 / 각도 합치기
  * 문제 유형 : [PCCE 기출문제]
  *
  * Started : 2024-10-07
