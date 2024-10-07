@@ -482,6 +482,7 @@
       - 2024-10
         - [level 0] [PCCE 기출문제] 1번 / 출력: Printing.java
         - [level 0] [PCCE 기출문제] 7번 / 가습기: Humidifier.java
+        - [level 0] [PCCE 기출문제] 2번 / 각도 합치기: AddingAngles.java
 
 - UnSolved
   - 연습문제
