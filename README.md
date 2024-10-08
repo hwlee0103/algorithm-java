@@ -410,8 +410,7 @@
         - [level 1] 모의고사: MockExam.java
         - [level 2] 피로도: Fatigue.java
       - 2024-10
-        
-  
+
     * 스택/큐
       - [level 2] 올바른 괄호 : RightBracket.java
     
@@ -485,6 +484,7 @@
         - [level 0] [PCCE 기출문제] 1번 / 출력: Printing.java
         - [level 0] [PCCE 기출문제] 7번 / 가습기: Humidifier.java
         - [level 0] [PCCE 기출문제] 2번 / 각도 합치기: AddingAngles.java
+        - [level 0] [PCCE 기출문제] 6번 / 가채점: TentativeScoring.java
 
 - UnSolved
   - 연습문제

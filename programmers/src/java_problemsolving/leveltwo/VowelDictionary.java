@@ -22,7 +22,9 @@ public class VowelDictionary {
     }
 
     public static boolean func(String nowWord) {
+        boolean flag = false;
 
+        return flag;
     }
 
     public static void main(String[] args) {
