@@ -23,6 +23,8 @@ public class VowelDictionary {
 
     public static boolean func(String nowWord) {
         boolean flag = false;
+        String[] vowels = {"A", "E", "I", "O", "U"};
+
 
         return flag;
     }
