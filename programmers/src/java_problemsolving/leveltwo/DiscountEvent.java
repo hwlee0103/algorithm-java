@@ -11,7 +11,7 @@ import java.util.Scanner;
  * 문제 유형 : 연습문제
  *
  * Started : 2024-10-04
- * Solved : 2024-10-
+ * Solved : 2024-10-08
  *
  *
  */
@@ -26,11 +26,14 @@ public class DiscountEvent {
             totalCnt += number[i];
         }
 
-        for(int i = 0; i < discount.length - 10; ++i) {
+        for(int i = 0; i <= discount.length - 10; ++i) {
             Map<String, Integer> tmpMap = new HashMap<>(map);
             int totalTmp = totalCnt;
             for(int j = i; j < i + 10; ++j) {
                 if(tmpMap.containsKey(discount[j])) {
+                    if(tmpMap.get(discount[j]) - 1 < 0) {
+                        break;
+                    }
                     tmpMap.put(discount[j], tmpMap.get(discount[j]) - 1);
                     totalTmp--;
                 } else {

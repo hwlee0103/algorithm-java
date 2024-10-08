@@ -391,6 +391,8 @@
           - DP
       - 2024-10
         - [level 1] 카드 뭉치: PackOfCards.java
+        - [level 2] 할인 행사: DiscountEvent.java
+          - list 활용
   
     * MySQL : TODO : MySQL setting
       - 2024-03
@@ -489,7 +491,6 @@
 - UnSolved
   - 연습문제
     - [level 1] 햄버거 만들기
-    - [level 2] 할인 행사: DiscountEvent.java
   - 스택/큐
 
   - 완전탐색
