@@ -13,18 +13,34 @@ import java.util.Scanner;
  *
  */
 public class VowelDictionary {
-    int count = 0;
+    static int count = 0;
 
     public static int solution(String word) {
-        int answer = 0;
-
-        return answer;
+        boolean[] check = new boolean[26];
+        func("", word, check);
+        return count;
     }
 
-    public static boolean func(String nowWord) {
+    public static boolean func(String nowWord, String targetWord, boolean[] check) {
         boolean flag = false;
         String[] vowels = {"A", "E", "I", "O", "U"};
 
+        if(nowWord.equals(targetWord)) {
+            return true;
+        }
+        if(nowWord.length() >= 5) {
+            return false;
+        }
+
+        for(int i = 0; i < 5; i++) {
+            if(!check[i]) {
+                VowelDictionary.count += 1;
+                flag = func(nowWord + vowels[i], targetWord, check);
+            }
+            if(flag) {
+                return flag;
+            }
+        }
 
         return flag;
     }
