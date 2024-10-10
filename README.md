@@ -412,6 +412,8 @@
         - [level 1] 모의고사: MockExam.java
         - [level 2] 피로도: Fatigue.java
       - 2024-10
+        - [level 2] 모음사전: VowelDictionary.java
+          - DFS
 
     * 스택/큐
       - [level 2] 올바른 괄호 : RightBracket.java
@@ -495,7 +497,7 @@
   - 스택/큐
 
   - 완전탐색
-    - [level 2] 모음사전: VowelDictionary.java
+    
   - 월간 코드 챌린지 시즌1
  
 ===============================================================

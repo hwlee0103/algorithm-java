@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 문제 유형 : 완전탐색
  *
  * Started : 2024-10-07
- * Solved : 2024-10-
+ * Solved : 2024-10-10
  *
  *
  */
