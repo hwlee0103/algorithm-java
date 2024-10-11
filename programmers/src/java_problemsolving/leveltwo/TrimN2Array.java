@@ -1,6 +1,8 @@
 package java_problemsolving.leveltwo;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -14,27 +16,20 @@ import java.util.Scanner;
  *
  */
 // TODO: 메모리 초과 문제 해결 : DP? 방법 수정?
+    // 시간초과& 런타임에러
 public class TrimN2Array {
-    public static int[] solution(int n, long left, long right) {
-        int[] answer = new int[(int)(right - left + 1)];
-        int[][] matrix = new int[n+1][n+1];
-
-        for(int i = 1; i <= n; ++i) {
-            for(int j = 1; j <= n; ++j) {
-                matrix[i][j] = Math.max(i, j);
-            }
-        }
-        System.out.println(Arrays.toString(matrix[0]));
-        System.out.println(Arrays.toString(matrix[1]));
-        System.out.println(Arrays.toString(matrix[2]));
-        System.out.println(Arrays.toString(matrix[3]));
+    public static long[] solution(int n, long left, long right) {
+        long[] answer = new long[(int)(right - left + 1)];
+//        int[][] matrix = new int[n+1][n+1];
+        List<Long> list = new ArrayList<>();
 
         int cnt = 0;
         int idx = 0;
-        for(int i = 1; i <= n ; ++i) {
-            for(int j = 1; j <= n; ++j) {
+        for(int i = 1; i <= n; i++) {
+            for(int j = 1; j <= n; j++) {
                 if(cnt >= left && cnt <= right) {
-                    answer[idx++] = matrix[i][j];
+                    list.add((long)(Math.max(i, j)));
+                    answer[idx++] = Math.max(i, j);
                 }
                 cnt++;
             }
