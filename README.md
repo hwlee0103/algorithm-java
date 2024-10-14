@@ -494,6 +494,7 @@
         - [level 0] [PCCE 기출문제] 4번 / 병과분류: Classification.java 
         - [level 0] [PCCE 기출문제] 3번 / 수 나누기: DividingNumbers.java
         - [level 0] [PCCE 기출문제] 5번 / 심폐소생술: Cpr.java
+        - [level 0] [PCCE 기출문제] 8번 / 닉네임 규칙: NicknameRules.java
 
 - UnSolved
   - 연습문제
