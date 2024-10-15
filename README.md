@@ -495,6 +495,7 @@
         - [level 0] [PCCE 기출문제] 3번 / 수 나누기: DividingNumbers.java
         - [level 0] [PCCE 기출문제] 5번 / 심폐소생술: Cpr.java
         - [level 0] [PCCE 기출문제] 8번 / 닉네임 규칙: NicknameRules.java
+        - [level 0] [PCCE 기출문제] 8번 / 창고 정리: WarehouseOrganization.java
 
 - UnSolved
   - 연습문제
