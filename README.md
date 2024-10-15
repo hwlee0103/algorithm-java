@@ -429,6 +429,8 @@
     * 해시
       - 2024-09
         - [level 1] 완주하지 못한 선수: DidntFinishRace.java
+      - 2024-10
+        - [level 1] 폰켓몬: Phoneketmon.java
 
     * 월간 코드 챌린지 시즌 3
       - 2024-07
