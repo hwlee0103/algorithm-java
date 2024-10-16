@@ -393,6 +393,7 @@
         - [level 1] 카드 뭉치: PackOfCards.java
         - [level 2] 할인 행사: DiscountEvent.java
           - list 활용
+        - [level 1] 기사단원의 무기: WeaponOfTemplar.java
   
     * MySQL : TODO : MySQL setting
       - 2024-03
