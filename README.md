@@ -394,6 +394,8 @@
         - [level 2] 할인 행사: DiscountEvent.java
           - list 활용
         - [level 1] 기사단원의 무기: WeaponOfTemplar.java
+        - [level 1] 과일 장수: Fruiterer.java
+          - 단순하게 생각해보기
   
     * MySQL : TODO : MySQL setting
       - 2024-03
