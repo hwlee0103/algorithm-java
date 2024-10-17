@@ -483,6 +483,8 @@
           - 쉽게 생각하기
         - [level 2] 영어 끝말잇기: EnglishEnding.java
           - set 활용
+      - 2024-10
+        - [level 1] 소수 만들기: MakingPrimeNumber.java
     
     * PCCE 기출문제
       - 2024-09
