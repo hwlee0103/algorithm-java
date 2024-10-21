@@ -396,6 +396,8 @@
         - [level 1] 기사단원의 무기: WeaponOfTemplar.java
         - [level 1] 과일 장수: Fruiterer.java
           - 단순하게 생각해보기
+        - [level 1] 옹알이 (2): Babbling.java
+          - 직관적으로 생각해보기 / String methods로 해결 가능
   
     * MySQL : TODO : MySQL setting
       - 2024-03
