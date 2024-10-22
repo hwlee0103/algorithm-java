@@ -508,6 +508,10 @@
         - [level 0] [PCCE 기출문제] 8번 / 닉네임 규칙: NicknameRules.java
         - [level 0] [PCCE 기출문제] 8번 / 창고 정리: WarehouseOrganization.java
         - [level 0] [PCCE 기출문제] 6번 / 물 부족: WaterShortage.java
+    
+    * 2021 Dev-Matching: 웹 백엔드 개발자(상반기)
+      - 2024-10
+        - [level 1] 로또의 최고 순위와 최저 순위: HighestLowestLotto.java
 
 - UnSolved
   - 연습문제
