@@ -508,6 +508,7 @@
         - [level 0] [PCCE 기출문제] 8번 / 닉네임 규칙: NicknameRules.java
         - [level 0] [PCCE 기출문제] 8번 / 창고 정리: WarehouseOrganization.java
         - [level 0] [PCCE 기출문제] 6번 / 물 부족: WaterShortage.java
+        - [level 1] [PCCE 기출문제] 9번 / 지폐 접기: FoldingBanknote.java
     
     * 2021 Dev-Matching: 웹 백엔드 개발자(상반기)
       - 2024-10
