@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 문제 유형 : 연습문제
  *
  * Started : 2024-10-23
- * Solved : 2024-
+ * Solved : 2024-10-23
  *
  *
  */

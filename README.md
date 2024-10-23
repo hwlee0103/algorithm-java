@@ -398,6 +398,7 @@
           - 단순하게 생각해보기
         - [level 1] 옹알이 (2): Babbling.java
           - 직관적으로 생각해보기 / String methods로 해결 가능
+        - [level 1] 문자열 나누기: DividingString.java
         - [level 1] 둘만의 암호: CodeBetweenTwo.java
           - char & ascii 활용, 보다 간단히 코드 작성 가능
   
