@@ -401,6 +401,7 @@
         - [level 1] 문자열 나누기: DividingString.java
         - [level 1] 둘만의 암호: CodeBetweenTwo.java
           - char & ascii 활용, 보다 간단히 코드 작성 가능
+        - [level 1] 대충 만든 자판: RoughKeyboard.java
   
     * MySQL : TODO : MySQL setting
       - 2024-03
