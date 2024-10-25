@@ -13,8 +13,6 @@ import java.util.Set;
  * Started : 2024-07-01
  * Solved : 2024-07-07
  *
- *
- * 입출력 예
  * a	b	c	d	result
  * 2	2	2	2	2222
  * 4	1	4	4	1681
