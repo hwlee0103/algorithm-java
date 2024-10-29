@@ -22,19 +22,22 @@ public class TrimN2Array {
         long[] answer = new long[(int)(right - left + 1)];
 //        int[][] matrix = new int[n+1][n+1];
         List<Long> list = new ArrayList<>();
+        StringBuffer str = new StringBuffer();
 
         int cnt = 0;
         int idx = 0;
         for(int i = 1; i <= n; i++) {
             for(int j = 1; j <= n; j++) {
                 if(cnt >= left && cnt <= right) {
+//                    str.append((long)(Math.max(i, j)));
                     list.add((long)(Math.max(i, j)));
                     answer[idx++] = Math.max(i, j);
                 }
                 cnt++;
             }
         }
-
+//        String strans = str.toString();
+//        return Arrays.stream(strans.split("")).mapToLong(Long::parseLong).toArray();
         return answer;
     }
 
