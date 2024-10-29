@@ -402,7 +402,8 @@
         - [level 1] 둘만의 암호: CodeBetweenTwo.java
           - char & ascii 활용, 보다 간단히 코드 작성 가능
         - [level 1] 대충 만든 자판: RoughKeyboard.java
-  
+        - [level 1] 숫자 짝꿍: NumberPartner.java
+
     * MySQL : TODO : MySQL setting
       - 2024-03
         - [level 1] Python 개발자 찾기 : FindingPythonDeveloper.xml
@@ -522,6 +523,7 @@
 - UnSolved
   - 연습문제
     - [level 1] 햄버거 만들기
+    
   - 스택/큐
 
   - 완전탐색
