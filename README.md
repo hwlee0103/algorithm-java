@@ -403,6 +403,7 @@
           - char & ascii 활용, 보다 간단히 코드 작성 가능
         - [level 1] 대충 만든 자판: RoughKeyboard.java
         - [level 1] 숫자 짝꿍: NumberPartner.java
+        - [level 2] 행렬의 곱셈: MatrixMultiplication.java
 
     * MySQL : TODO : MySQL setting
       - 2024-03
