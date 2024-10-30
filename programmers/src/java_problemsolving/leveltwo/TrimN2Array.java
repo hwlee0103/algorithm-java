@@ -15,30 +15,18 @@ import java.util.Scanner;
  *
  *
  */
-// TODO: 메모리 초과 문제 해결 : DP? 방법 수정?
-    // 시간초과& 런타임에러
 public class TrimN2Array {
     public static long[] solution(int n, long left, long right) {
-        long[] answer = new long[(int)(right - left + 1)];
-//        int[][] matrix = new int[n+1][n+1];
         List<Long> list = new ArrayList<>();
-        StringBuffer str = new StringBuffer();
-
-        int cnt = 0;
-        int idx = 0;
-        for(int i = 1; i <= n; i++) {
-            for(int j = 1; j <= n; j++) {
-                if(cnt >= left && cnt <= right) {
-//                    str.append((long)(Math.max(i, j)));
-                    list.add((long)(Math.max(i, j)));
-                    answer[idx++] = Math.max(i, j);
-                }
-                cnt++;
-            }
+        long x = 0;
+        long y = 0;
+        for(long i = left; i <= right; ++i) {
+            x = (i/n) + 1;
+            y = (i%n) + 1;
+            list.add(Math.max(x, y));
         }
-//        String strans = str.toString();
-//        return Arrays.stream(strans.split("")).mapToLong(Long::parseLong).toArray();
-        return answer;
+
+        return list.stream().mapToLong(l -> l).toArray();
     }
 
     public static void main(String[] args) {

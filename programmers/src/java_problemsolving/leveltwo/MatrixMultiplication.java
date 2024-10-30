@@ -1,7 +1,5 @@
 package java_problemsolving.leveltwo;
 
-import java_problemsolving.levelzero.introductionsofps.SumOfConsecutiveNums;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
