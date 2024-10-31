@@ -444,6 +444,10 @@
         - [level 1] 완주하지 못한 선수: DidntFinishRace.java
       - 2024-10
         - [level 1] 폰켓몬: Phoneketmon.java
+  
+    * 정렬
+      - 2024-10
+        - [level 2] H-Index: HIndex.java
 
     * 월간 코드 챌린지 시즌 3
       - 2024-07
