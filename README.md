@@ -444,7 +444,9 @@
         - [level 1] 완주하지 못한 선수: DidntFinishRace.java
       - 2024-10
         - [level 1] 폰켓몬: Phoneketmon.java
-  
+      - 2024-11
+        - [level 2] 의상: Clothes.java
+
     * 정렬
       - 2024-10
         - [level 2] H-Index: HIndex.java
