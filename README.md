@@ -446,6 +446,7 @@
         - [level 1] 폰켓몬: Phoneketmon.java
       - 2024-11
         - [level 2] 의상: Clothes.java
+          - 수학
 
     * 정렬
       - 2024-10
