@@ -404,6 +404,9 @@
         - [level 1] 대충 만든 자판: RoughKeyboard.java
         - [level 1] 숫자 짝꿍: NumberPartner.java
         - [level 2] 행렬의 곱셈: MatrixMultiplication.java
+      - 2024-11
+        - [level 1] 햄버거 만들기: MakingHamburger.java
+          - stack 활용 *
 
     * MySQL : TODO : MySQL setting
       - 2024-03
