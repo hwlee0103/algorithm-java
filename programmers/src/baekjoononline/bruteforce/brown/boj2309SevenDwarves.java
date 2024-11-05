@@ -15,6 +15,7 @@ import java.util.Scanner;
  */
 public class boj2309SevenDwarves {
     public static int[] solution(int[] dwarves) {
+        // 반복문 풀이
         int[] answer = new int[7];
         int height = 100;
         int total = 0;
