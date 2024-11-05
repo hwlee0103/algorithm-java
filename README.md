@@ -39,6 +39,10 @@
     - [BOJ 25304] Receipt
     - [BOJ 8393] Sum
     - [BOJ 10950] A + B - 3
+
+  - BruteForce
+    - 2024-11
+      - [BOJ 2309] 일곱난쟁이: SevenDwarves.java
   
 ===============================================================
 # Programmers
