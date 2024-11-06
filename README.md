@@ -509,6 +509,9 @@
           - set 활용
       - 2024-10
         - [level 1] 소수 만들기: MakingPrimeNumber.java
+      - 2024-11
+        - [level 2] 스킬트리: SkillTree.java
+          - 정규표현식; "[^" + skill + "]"
     
     * PCCE 기출문제
       - 2024-09
