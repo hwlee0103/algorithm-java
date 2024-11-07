@@ -458,6 +458,11 @@
     * 정렬
       - 2024-10
         - [level 2] H-Index: HIndex.java
+    
+    * 2022 KAKAO BLIND RECRUITMENT
+      - 2024-11
+
+[//]: # (        - [level 2] 주차 요금 계산: ParkingFeeCalculation.java)
 
     * 월간 코드 챌린지 시즌 3
       - 2024-07
@@ -548,7 +553,9 @@
     
   - 월간 코드 챌린지 시즌3
     - [level 2] n^2 배열 자르기: TrimN2Array.java
- 
+
+    - [level 2] 주차 요금 계산: ParkingFeeCalculation.java
+  
 ===============================================================
 # Leetcode
 ---------------------------------------------------------------
