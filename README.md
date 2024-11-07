@@ -461,7 +461,6 @@
     
     * 2022 KAKAO BLIND RECRUITMENT
       - 2024-11
-
 [//]: # (        - [level 2] 주차 요금 계산: ParkingFeeCalculation.java)
 
     * 월간 코드 챌린지 시즌 3
