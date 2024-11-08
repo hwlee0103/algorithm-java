@@ -411,6 +411,8 @@
       - 2024-11
         - [level 1] 햄버거 만들기: MakingHamburger.java
           - stack 활용 *
+        - [level 2] 택배 상자: CourierBox.java
+          - refector 하면서 보다 간결한 코드 작성가능
 
     * MySQL : TODO : MySQL setting
       - 2024-03

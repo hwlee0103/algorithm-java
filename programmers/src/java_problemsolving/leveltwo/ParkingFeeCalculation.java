@@ -8,7 +8,7 @@ import java.util.*;
  * 문제 유형 : 2022 KAKAO BLIND RECRUITMENT
  *
  * Started : 2024-11-07
- * Solved : 2024-
+ * Solved : 2024-11-07
  *
  *
  * 180, 5000, 10, 600
