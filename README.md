@@ -43,6 +43,7 @@
   - BruteForce
     - 2024-11
       - [BOJ 2309] 일곱난쟁이: SevenDwarves.java
+      - [BOJ 10974] 모든 순열: AllPermutations.java
   
 ===============================================================
 # Programmers
