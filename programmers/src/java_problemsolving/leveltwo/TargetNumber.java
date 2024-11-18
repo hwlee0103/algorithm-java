@@ -34,8 +34,8 @@ public class TargetNumber {
         }
 
         // TODO:
-        // 모든 원소에 대해 +와 -를 노드로 생각하고 순서대로 탐색해나가야 함
-        // + - 모두 이미 실행 했을 때 방문 횟수 2
+        // 모든 원소에 대해 +와 -를 노드로 생각하고 순서대로 탐색해나가야 함 - dfs?
+        // + - 모두 이미 실행 했을 때 방문 횟수 2?
         for(int i = 0; i < numbers.length; i++) {
             if(check[i] != 0) continue;
             check[i] = 1;
