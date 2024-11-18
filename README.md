@@ -462,6 +462,7 @@
       - 2024-11
         - [level 2] 의상: Clothes.java
           - 수학
+        - [level 2] 전화번호 목록: PhoneNumberList.java
 
     * 정렬
       - 2024-10
@@ -561,8 +562,9 @@
   - 스택/큐
 
   - 완전탐색
-    
-  - 월간 코드 챌린지 시즌3
+  - 
+  - 해시
+    - [level 2] 전화번호 목록: PhoneNumberList.java
 
   - 깊이/너비 우선 탐색(DFS/BFS)
     - [level 2] 타겟 넘버: TargetNumber.java
