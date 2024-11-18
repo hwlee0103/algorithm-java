@@ -447,8 +447,7 @@
       - 2024-09
         - [level 3] 네트워크: Network.java
       - 2024-11
-
-[//]: # (        - [level 2] 타겟 넘버: TargetNumber.java)
+        - [level 2] 타겟 넘버: TargetNumber.java
        
     * 탐욕법(Greedy)
       - 2024-08
