@@ -566,7 +566,6 @@
     - [level 2] 전화번호 목록: PhoneNumberList.java
 
   - 깊이/너비 우선 탐색(DFS/BFS)
-    - [level 2] 타겟 넘버: TargetNumber.java
   
 ===============================================================
 # Leetcode
