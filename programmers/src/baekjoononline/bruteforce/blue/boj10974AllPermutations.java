@@ -18,39 +18,8 @@ public class boj10974AllPermutations {
         int n = input.nextInt();
         boolean[] check = new boolean[n];
         int[] answer = new int[n];
-//        // 방법 1: 재귀
-//        permut(n, 0, check, answer);
-
-        // 방법 2: 반복문
-        int ansIdx = 0;
-        for(int i=0; i<n; i++) {
-            check[i] = true;
-            answer[ansIdx] = i + 1;
-            ansIdx++;
-            for(int j=0; j<n; j++) {
-                if(check[j]) continue;
-                check[j] = true;
-                answer[ansIdx] = j + 1;
-                ansIdx++;
-                for(int k=0; k<n; k++) {
-                    if(check[k]) continue;
-                    check[k] = true;
-                    answer[ansIdx] = k + 1;
-                    ansIdx++;
-                    if(ansIdx >= n) {
-                        for(int m = 0; m<n; m++) {
-                            System.out.print(answer[m] + " ");
-                            if(m == n - 1) System.out.println();
-                        }
-                    }
-
-                }
-
-            }
-            ansIdx--;
-            check[i] = false;
-            answer[ansIdx] = 0;
-        }
+        // 방법 1: 재귀
+        permut(n, 0, check, answer);
     }
 
     public static void permut(int n, int nowIdx, boolean[] check, int[] answer) {
