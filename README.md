@@ -414,6 +414,7 @@
           - stack 활용 *
         - [level 2] 택배 상자: CourierBox.java
           - refector 하면서 보다 간결한 코드 작성가능
+        - [level 2] 롤케이크 자르기: CuttingRollCake.java
 
     * MySQL : TODO : MySQL setting
       - 2024-03
