@@ -30,10 +30,19 @@ public class boj10974AllPermutations {
             for(int j=0; j<n; j++) {
                 if(check[j]) continue;
                 check[j] = true;
-                answer[ansIdx] = i + 1;
+                answer[ansIdx] = j + 1;
                 ansIdx++;
                 for(int k=0; k<n; k++) {
                     if(check[k]) continue;
+                    check[k] = true;
+                    answer[ansIdx] = k + 1;
+                    ansIdx++;
+                    if(ansIdx >= n) {
+                        for(int m = 0; m<n; m++) {
+                            System.out.print(answer[m] + " ");
+                            if(m == n - 1) System.out.println();
+                        }
+                    }
 
                 }
 
