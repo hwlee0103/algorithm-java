@@ -443,6 +443,7 @@
       - [level 2] 올바른 괄호 : RightBracket.java
       - 2024-11
         - [level 2] 프로세스: Process.java
+        - [level 2] 주식가격: StockPrice.java
     
     * 깊이/너비 우선 탐색(DFS/BFS)
       - 2024-09
