@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 문제 유형 : 해시
  *
  * Started : 2024-11-18
- * Solved : 2024-
+ * Solved : 2024-11-21
  *
  *
  */
