@@ -31,16 +31,11 @@ public class StockPrice {
         int[] answer = new int[prices.length];
         Stack<Pair> stack = new Stack<>();
         for(int i = 0;i < prices.length;i++) {
-            if(stack.empty() || (!stack.empty() && stack.peek().price <= prices[i])) {
-                stack.push(new Pair(prices[i], i));
-            } else {
-                int cnt = 1;
-                while(!stack.empty() && stack.peek().price > prices[i]) {
-                    answer[stack.peek().index] = cnt++;
-                    stack.pop();
-                }
-                stack.push(new Pair(prices[i], i));
+            while(!stack.empty() && stack.peek().price > prices[i]) {
+                answer[stack.peek().index] = i - stack.peek().index;
+                stack.pop();
             }
+            stack.push(new Pair(prices[i], i));
         }
 
         while(!stack.empty()) {

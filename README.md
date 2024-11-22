@@ -444,6 +444,7 @@
       - 2024-11
         - [level 2] 프로세스: Process.java
         - [level 2] 주식가격: StockPrice.java
+          - stack 활용 - 시간복잡도
     
     * 깊이/너비 우선 탐색(DFS/BFS)
       - 2024-09
