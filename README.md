@@ -561,6 +561,7 @@
     - [level 1] 햄버거 만들기
     
   - 스택/큐
+    - [level 2] 주식가격: StockPrice.java
 
   - 완전탐색
   - 
