@@ -451,6 +451,7 @@
         - [level 3] 네트워크: Network.java
       - 2024-11
         - [level 2] 타겟 넘버: TargetNumber.java
+        - [level 2] 게임 맵 최단거리: GameMapShortestDistance.java
        
     * 탐욕법(Greedy)
       - 2024-08
