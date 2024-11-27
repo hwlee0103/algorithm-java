@@ -40,10 +40,15 @@
     - [BOJ 8393] Sum
     - [BOJ 10950] A + B - 3
 
+  - Stack
+    - 2024-11
+      - [BOJ 9012] 괄호: Parenthesis.java
+
   - BruteForce
     - 2024-11
       - [BOJ 2309] 일곱난쟁이: SevenDwarves.java
       - [BOJ 10974] 모든 순열: AllPermutations.java
+
   
 ===============================================================
 # Programmers
