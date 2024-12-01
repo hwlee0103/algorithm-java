@@ -8,7 +8,7 @@ import java.util.*;
  * 문제 유형 : 깊이/너비 우선 탐색(DFS/BFS)
  *
  * Started : 2024-11-27
- * Solved : 2024-
+ * Solved : 2024-11-
  *
  *
  */
@@ -78,7 +78,7 @@ public class WordConversion {
 
         // map으로 어떻게 탐색할거냐, List에서 찾아서 map에서 연결된 애들 찾기? 방문 여부는 List랑 똑같은 visited로 해줄건지?
 //        boolean[] visited = new boolean[list.size()];
-        answer = new WordConversion().bfs(begin, target, );
+//        answer = new WordConversion().bfs(begin, target, );
 
         return answer;
     }
@@ -98,7 +98,7 @@ public class WordConversion {
     public int bfs(String begin, String target, List<String> list, Map<String, List<String>> map) {
         int answer = 100000000;
         Queue<Item> queue = new LinkedList<>();
-        queue.add(new Item(list.get(0), true, 0));
+//        queue.add(new Item(list.get(0), true, 0));
 
         while(!queue.isEmpty()) {
             Item item = queue.poll();
@@ -107,7 +107,7 @@ public class WordConversion {
             for(int i = 0; i < nextList.size(); i++) {
 //                if(visited[i+1]) continue;
 //                visited[i] = true;
-                queue.add(new Item(nextList.get(i), true, item.distance + 1));
+//                queue.add(new Item(nextList.get(i), true, item.distance + 1));
             }
         }
 
