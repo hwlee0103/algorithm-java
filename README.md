@@ -458,7 +458,7 @@
         - [level 2] 타겟 넘버: TargetNumber.java
         - [level 2] 게임 맵 최단거리: GameMapShortestDistance.java
         - [level 3] 단어 변환: WordConversion.java
-          - 좀 더 쉽게 생각해볼 것
+          - 좀 더 쉽게 생각해볼 것 / DFS & BFS (둘 다 해결해보기)
        
     * 탐욕법(Greedy)
       - 2024-08
