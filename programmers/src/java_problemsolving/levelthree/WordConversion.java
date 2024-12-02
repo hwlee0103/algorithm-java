@@ -15,12 +15,26 @@ import java.util.*;
 public class WordConversion {
     public class Node {
         String word;
-        List<Node> nextNodes;
+        int dist;
+        boolean visited = false;
+        LinkedList<Node> nextNodes;
 
-        public Node(String word, List<Node> nextNodes) {
+        public Node(String word, int dist, boolean visited, LinkedList<Node> nextNodes) {
             this.word = word;
-            nextNodes = new ArrayList<>();
+            this.dist = dist;
+            this.visited = visited;
+            nextNodes = new LinkedList<>();
         }
+    }
+
+    public int solution2(String begin, String target, String[] words) {
+        int answer = 0;
+        ArrayList<Node> graph = new ArrayList<>();
+
+        // 1: 1개 차이인 단어 연결
+        
+
+        return answer;
     }
 
     public int solution(String begin, String target, String[] words) {
