@@ -10,6 +10,7 @@ import java.util.*;
  * Started : 2024-11-27
  * Solved : 2024-12-
  *
+ * 너무 어렵게 생각하지 말 것! 다시 풀어보기
  *
  */
 public class WordConversion {
@@ -27,6 +28,43 @@ public class WordConversion {
         }
     }
 
+    public int solution3(String begin, String target, String[] words) {
+        int answer = 0;
+
+        // 그래프 만들기 - ArrayList로 만들어보기
+        ArrayList<ArrayList<String>> wordGraph = new ArrayList<>();
+        for(int i = 0; i <= words.length; i++) { // node 수 만큼 add
+            wordGraph.add(new ArrayList<>());
+        }
+
+        String now = "";
+        for(int i = 0; i < wordGraph.size(); i++) { // 모든 node 수 만큼
+            if(i == 0) now = begin;
+            else now = words[i - 1];
+            for(int j = i; j < words.length; j++) {
+                int cnt = 0;
+                for(int k = 0; k < words[j].length(); k++) {
+                    if(words[j].charAt(k) != now.charAt(k)) {
+                        cnt++;
+                    }
+                }
+                if(cnt == 1) {
+                    // 그래프 연결
+                    wordGraph.get(i).add(words[j]);
+                    wordGraph.get(j + 1).add(now);
+                }
+            }
+            // 출력
+            System.out.println("now Node : " + now);
+            for(int j = 0; j < wordGraph.get(i).size(); j++) {
+                System.out.println("     next Node : " + wordGraph.get(i).get(j));
+            }
+        }
+
+
+        return answer;
+    }
+
     public int solution2(String begin, String target, String[] words) {
         int answer = 0;
         ArrayList<Node> graph = new ArrayList<>();
@@ -38,19 +76,20 @@ public class WordConversion {
             graph.add(new Node(word, 0, false, new LinkedList<>()));
         }
         // 1-2: graph 연결 / 조건: 알파벳 1개 차이
-        for(Node node: graph) { // 모든 word에 대해
+        for(int k = 0; k < graph.size(); ++k) { // 모든 word에 대해
+            Node node = graph.get(k);
             String now = node.word;
-            for(int j = 0; j < words.length; ++j) { // 단어 전부 확인
+            for(int i = k; i < words.length; ++i) { // 단어 전부 확인
                 int cnt = 0;
-                for(int i = 0; i < words[j].length(); i++) {
-                    if(words[j].charAt(i) != now.charAt(i)) {
+                for(int j = 0; j < words[i].length(); j++) {
+                    if(words[i].charAt(j) != now.charAt(j)) {
                         cnt++;
                     }
                 }
                 if(cnt == 1) {
-                    // 양방향 그래프
-                    node.nextNodes.add(new Node(words[j], 0, false, new LinkedList<>()));
-//                    graph.get(j + 1).nextNodes.add(new Node(now, 0, false, new LinkedList<>()));
+                    // 양방향 그래프 ? - 그래프 다시 만들기 - 어떻게 '연결'할 수 있을까?
+                    node.nextNodes.add(new Node(words[i], 0, false, new LinkedList<>()));
+                    graph.get(i + 1).nextNodes.add(new Node(now, 0, false, new LinkedList<>()));
                 }
             }
             // 출력
@@ -62,8 +101,39 @@ public class WordConversion {
             }
         }
 
+        answer = bfs2(graph, target);
         return answer;
     }
+
+    public int bfs2(List<Node> graph, String target) {
+        int answer = 1000001;
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(graph.get(0));
+
+        while(!queue.isEmpty()) {
+            Node node = queue.poll();
+            String now = node.word;
+            int dist = node.dist;
+            List<Node> nextNodes = node.nextNodes; // 여기서 hot을 가져와도, hot에 nextNodes가 없음 -> 어떻게 해줘야 할 지?
+
+            if(now.equals(target)) {
+                // 현재까지의 distance
+                answer = Math.min(answer, dist);
+                break;
+            }
+
+            for(int i = 0; i < nextNodes.size(); ++i) {
+                Node nextNode = nextNodes.get(i);
+                if(nextNode.visited) continue;
+                nextNode.visited = true;
+                nextNode.dist = dist + 1; // TODO: 값 잘 들어가는지 확인
+                queue.offer(nextNode);
+            }
+        }
+
+        return answer;
+    }
+
 
     public int solution(String begin, String target, String[] words) {
         int answer = 0;
@@ -162,6 +232,7 @@ public class WordConversion {
         String target = input.nextLine();
         String[] words = input.nextLine().replaceAll("\"", "").split(", ");
 //        System.out.println(new WordConversion().solution(begin, target, words));
-        System.out.println(new WordConversion().solution2(begin, target, words));
+//        System.out.println(new WordConversion().solution2(begin, target, words));
+        System.out.println(new WordConversion().solution3(begin, target, words));
     }
 }
