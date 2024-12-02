@@ -8,7 +8,7 @@ import java.util.*;
  * 문제 유형 : 깊이/너비 우선 탐색(DFS/BFS)
  *
  * Started : 2024-11-27
- * Solved : 2024-11-
+ * Solved : 2024-12-
  *
  *
  */
@@ -17,7 +17,7 @@ public class WordConversion {
         String word;
         int dist;
         boolean visited = false;
-        LinkedList<Node> nextNodes;
+        LinkedList<Node> nextNodes = new LinkedList<>();
 
         public Node(String word, int dist, boolean visited, LinkedList<Node> nextNodes) {
             this.word = word;
@@ -31,8 +31,36 @@ public class WordConversion {
         int answer = 0;
         ArrayList<Node> graph = new ArrayList<>();
 
-        // 1: 1개 차이인 단어 연결
-        
+        // 1: 1개 차이인 단어 연결 - 그래프 구현
+        // 1-1: graph 뼈대 생성
+        graph.add(new Node(begin, 0, false, new LinkedList<>()));
+        for (String word : words) {
+            graph.add(new Node(word, 0, false, new LinkedList<>()));
+        }
+        // 1-2: graph 연결 / 조건: 알파벳 1개 차이
+        for(Node node: graph) { // 모든 word에 대해
+            String now = node.word;
+            for(int j = 0; j < words.length; ++j) { // 단어 전부 확인
+                int cnt = 0;
+                for(int i = 0; i < words[j].length(); i++) {
+                    if(words[j].charAt(i) != now.charAt(i)) {
+                        cnt++;
+                    }
+                }
+                if(cnt == 1) {
+                    // 양방향 그래프
+                    node.nextNodes.add(new Node(words[j], 0, false, new LinkedList<>()));
+//                    graph.get(j + 1).nextNodes.add(new Node(now, 0, false, new LinkedList<>()));
+                }
+            }
+            // 출력
+            System.out.println("now node : " + now);
+            System.out.println("    dist : " + node.dist);
+            System.out.println("    visited : " + node.visited);
+            for(int i = 0 ; i < node.nextNodes.size(); ++i) {
+                System.out.println("    nextNodes(" + i + ") : " + node.nextNodes.get(i).word);
+            }
+        }
 
         return answer;
     }
@@ -133,6 +161,7 @@ public class WordConversion {
         String begin = input.nextLine();
         String target = input.nextLine();
         String[] words = input.nextLine().replaceAll("\"", "").split(", ");
-        System.out.println(new WordConversion().solution(begin, target, words));
+//        System.out.println(new WordConversion().solution(begin, target, words));
+        System.out.println(new WordConversion().solution2(begin, target, words));
     }
 }
