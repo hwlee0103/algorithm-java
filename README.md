@@ -43,6 +43,8 @@
   - Stack
     - 2024-11
       - [BOJ 9012] 괄호: Parenthesis.java
+    - 2024-12
+      - [BOJ 10828] 스택: Stack.java
 
   - BruteForce
     - 2024-11
