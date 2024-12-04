@@ -45,6 +45,7 @@
       - [BOJ 9012] 괄호: Parenthesis.java
     - 2024-12
       - [BOJ 10828] 스택: Stack.java
+        - 배열, 리스트 구현
 
   - BruteForce
     - 2024-11
