@@ -1,7 +1,5 @@
 package baekjoononline.stack.blue;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -10,8 +8,9 @@ import java.util.Scanner;
  * 문제 유형 : 스택
  *
  * Started : 2024-12-04
- * Solved : 2024-
+ * Solved : 2024-12-04
  *
+ * TODO: list구현?
  *
  */
 public class boj10828Stack {
@@ -44,7 +43,8 @@ public class boj10828Stack {
                 if(idx == 0) System.out.println("1");
                 else System.out.println("0");
             } else if(strList[i].contains("top")) {
-                System.out.println(arr[idx - 1]);
+                if(idx == 0) System.out.println("-1");
+                else System.out.println(arr[idx - 1]);
             }
         }
     }
