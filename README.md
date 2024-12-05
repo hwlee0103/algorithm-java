@@ -455,6 +455,7 @@
           - stack 활용 - 시간복잡도
       - 2024-12
         - [level 1] 같은 숫자는 싫어: NoSameNumbers.java
+        - [level 2] 다리를 지나는 트럭: TrucksPassingBridge.java
     
     * 깊이/너비 우선 탐색(DFS/BFS)
       - 2024-09
