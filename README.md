@@ -42,10 +42,11 @@
 
   - Stack
     - 2024-11
-      - [BOJ 9012] 괄호: Parenthesis.java
+      - [BOJ 9012] 괄호 Parenthesis: Parenthesis.java
     - 2024-12
       - [BOJ 10828] 스택: Stack.java
         - 배열, 리스트 구현
+      - [BOJ 10773] 제로 ZeroThatOut: ZeroThatOut.java
 
   - BruteForce
     - 2024-11
