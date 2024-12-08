@@ -47,6 +47,7 @@
       - [BOJ 10828] 스택: Stack.java
         - 배열, 리스트 구현
       - [BOJ 10773] 제로 ZeroThatOut: ZeroThatOut.java
+      - [BOJ 1874] 스택 수열: StackArray.java
 
   - BruteForce
     - 2024-11
