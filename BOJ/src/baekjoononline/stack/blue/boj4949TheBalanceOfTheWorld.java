@@ -11,7 +11,7 @@ import java.util.Stack;
  * 문제 유형 : 스택
  *
  * Started : 2024-12-09
- * Solved : 2024-12-
+ * Solved : 2024-12-09
  *
  *
 [)].
@@ -31,7 +31,7 @@ hello[[i like (apple)and(banana)]].
 .
  */
 
-public class TheBalanceOfTheWorld {
+public class boj4949TheBalanceOfTheWorld {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String str = "";
