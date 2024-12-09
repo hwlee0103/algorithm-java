@@ -35,15 +35,27 @@ public class TheBalanceOfTheWorld {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String str = "";
-        List<String> strList = new ArrayList<String>();
+
+        List<String> list = new ArrayList<String>();
         while(true) {
             str = scan.nextLine();
-            strList.add(str);
+            list.add(str);
             if(str.equals(".")) {break;}
         }
 
-        // TODO: 각 문장은 온점으로 끝남! -> 이 조건 넣어준다면? 온점으로 끝나지 않은 문장은(엔터 포함이라면) 사실상 두 줄로 된 문장이라는 뜻?
+        List<String> strList = new ArrayList<String>();
+        StringBuilder temp = new StringBuilder();
+        for(int i=0; i<list.size(); i++) {
+            if(!list.get(i).endsWith(".")) {
+                temp.append(list.get(i));
+            } else {
+                strList.add(temp + list.get(i));
+                temp = new StringBuilder();
+            }
+        }
+
         for (String s : strList) {
+            if(s.equals(".")) break; // 문제 이해의 중요성!
             Stack<Character> stack = new Stack<Character>();
             boolean flag = false;
             for (int j = 0; j < s.length(); j++) {
