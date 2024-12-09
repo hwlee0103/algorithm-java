@@ -486,7 +486,9 @@
     * 정렬
       - 2024-10
         - [level 2] H-Index: HIndex.java
-    
+      - 2024-12
+        - [level 1] K번째수: KthNum.java
+
     * 2022 KAKAO BLIND RECRUITMENT
       - 2024-11
         - [level 2] 주차 요금 계산: ParkingFeeCalculation.java
