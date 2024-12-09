@@ -48,6 +48,7 @@
         - 배열, 리스트 구현
       - [BOJ 10773] 제로 ZeroThatOut: ZeroThatOut.java
       - [BOJ 1874] 스택 수열: StackArray.java
+      - [BOJ 4949] 균형잡힌 세상 The Balance of the World: TheBalanceOfTheWorld.java
 
   - BruteForce
     - 2024-11
