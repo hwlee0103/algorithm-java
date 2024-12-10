@@ -426,6 +426,9 @@
         - [level 2] 택배 상자: CourierBox.java
           - refector 하면서 보다 간결한 코드 작성가능
         - [level 2] 롤케이크 자르기: CuttingRollCake.java
+      - 2024-12
+        - [level 2] 숫자 변환하기: ConvertingNumbers.java
+          - BFS / DP풀이
 
     * MySQL : TODO : MySQL setting
       - 2024-03
