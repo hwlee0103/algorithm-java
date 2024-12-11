@@ -578,6 +578,10 @@
     * 2021 Dev-Matching: 웹 백엔드 개발자(상반기)
       - 2024-10
         - [level 1] 로또의 최고 순위와 최저 순위: HighestLowestLotto.java
+    
+    * PCCP 기출문제
+      - 2024-12
+        - [level 1] [PCCP 기출문제] 1번 / 동영상 재생기: VideoPlayer.java
 
 - UnSolved
   - 연습문제
