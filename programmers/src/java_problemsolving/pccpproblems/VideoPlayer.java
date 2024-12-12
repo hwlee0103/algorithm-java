@@ -8,9 +8,26 @@ import java.util.Scanner;
  * 문제 유형 : PCCP 기출문제
  *
  * Started : 2024-12-11
- * Solved : 2024-12-
+ * Solved : 2024-12-12
  *
- *
+34:33
+13:00
+00:55
+02:55
+"next", "prev"
+
+10:55
+00:05
+00:15
+06:55
+"prev", "next", "next"
+
+10:00
+00:03
+00:00
+00:05
+prev, next
+-> 00:15
  */
 
 public class VideoPlayer {
@@ -21,13 +38,13 @@ public class VideoPlayer {
         String[] opStartTime = op_start.split(":");
         String[] opEndTime = op_end.split(":");
 
-        // TODO: 전부 '초'로 바꿔서 계산한다면
+        // 전부 '초'로 바꿔서 계산한다면
         int videoTimeInt = Integer.parseInt(videoTime[0]) * 60 + Integer.parseInt(videoTime[1]);
         int posInt = Integer.parseInt(posTime[0]) * 60 + Integer.parseInt(posTime[1]);
         int opStartInt = Integer.parseInt(opStartTime[0]) * 60 + Integer.parseInt(opStartTime[1]);
         int opEndInt = Integer.parseInt(opEndTime[0]) * 60 + Integer.parseInt(opEndTime[1]);
 
-        // TODO: 오프닝 시간은 매번 체크
+        // 오프닝 시간은 매번 체크
         for(String command : commands) {
             if(opStartInt < posInt && posInt < opEndInt) {
                 posInt = opEndInt;
@@ -39,11 +56,18 @@ public class VideoPlayer {
                 posInt += 10;
             }
 
-            if(opStartInt < posInt && posInt < opEndInt) {
-                posInt = opEndInt;
-            } else if()
+            if(posInt < 0) {
+                posInt = 0;
+            } else if(posInt > videoTimeInt) {
+                posInt = videoTimeInt;
+            }
 
+            if(opStartInt <= posInt && posInt <= opEndInt) {
+                posInt = opEndInt;
+            }
         }
+
+        answer = (posInt / 60 >= 10 ? String.valueOf(posInt / 60) : "0" + posInt / 60) + ":" + (posInt % 60 >= 10 ? String.valueOf(posInt % 60) : "0" + posInt % 60);
 
         return answer;
     }
