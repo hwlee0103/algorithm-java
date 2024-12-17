@@ -22,32 +22,36 @@ public class boj10799IronBar {
 
         boolean lazerFlag = false;
         int answer = 0;
+        // TODO: 시간복잡도 확인 - 시간초과
         for(int i=0; i<str.length(); i++) {
             char c = str.charAt(i);
 
             if(c == '(') {
                 stack.push(c);
             } else {
-                if(stack.peek() == '('){
-                    // 레이저 일단 stack에 in
+                if(stack.peek() == '('){ // 레이저 일 때
                     stack.push(c);
                 } else { // stack.peek() == ')' 일 때
-                    // TODO: 레이저 여부 판단
-
-                    // 계산
-                    if(stack.peek() == '(') {
-                        lazer.push(c);
+                    // 레이저 일 때 // lazer에 넣기
+                    lazerFlag = true;
+                    while(lazerFlag) {
                         lazer.push(stack.pop());
-                        // () 를 lazer에 담기
+                        if(lazer.peek() == '(' && stack.peek() == '(') {
+                            lazerFlag = false;
+                        }
                     }
 
-
-
+                    // 계산
                     answer += lazer.size()/2 + 1;
+                    stack.pop();
+
+                    //계산 끝나고 레이저 다시 in
+                    while(!lazer.isEmpty()) {
+                        stack.push(lazer.pop());
+                    }
                 }
             }
         }
         System.out.println(answer);
     }
-
 }
