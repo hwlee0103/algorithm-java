@@ -9,7 +9,7 @@ import java.util.Stack;
  * 문제 유형 : 스택
  *
  * Started : 2024-12-13
- * Solved : 2024-12-
+ * Solved : 2024-12-17
  *
  *
  */

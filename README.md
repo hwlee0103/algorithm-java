@@ -50,6 +50,7 @@
       - [BOJ 1874] 스택 수열: StackArray.java
       - [BOJ 4949] 균형잡힌 세상 The Balance of the World: TheBalanceOfTheWorld.java
       - [BOJ 10799] 쇠막대기: IronBar.java
+        - 도식화 & 규칙 찾기
 
   - BruteForce
     - 2024-11
