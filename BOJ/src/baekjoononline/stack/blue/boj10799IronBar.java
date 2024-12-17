@@ -18,37 +18,24 @@ public class boj10799IronBar {
         Scanner input = new Scanner(System.in);
         String str = input.nextLine();
         Stack<Character> stack = new Stack<Character>();
-        Stack<Character> lazer = new Stack<Character>();
 
         boolean lazerFlag = false;
         int answer = 0;
-        // TODO: 시간복잡도 확인 - 시간초과
         for(int i=0; i<str.length(); i++) {
-            char c = str.charAt(i);
-
-            if(c == '(') {
-                stack.push(c);
-            } else {
-                if(stack.peek() == '('){ // 레이저 일 때
-                    stack.push(c);
-                } else { // stack.peek() == ')' 일 때
-                    // 레이저 일 때 // lazer에 넣기
+            char now = str.charAt(i);
+            if(now == '(') {
+                if(str.charAt(i+1) == ')') {
                     lazerFlag = true;
-                    while(lazerFlag) {
-                        lazer.push(stack.pop());
-                        if(lazer.peek() == '(' && stack.peek() == '(') {
-                            lazerFlag = false;
-                        }
-                    }
-
-                    // 계산
-                    answer += lazer.size()/2 + 1;
+                } else {
+                    stack.push(now);
+                }
+            } else {
+                if(lazerFlag) {
+                    answer += stack.size();
+                    lazerFlag = false;
+                } else {
+                    answer++;
                     stack.pop();
-
-                    //계산 끝나고 레이저 다시 in
-                    while(!lazer.isEmpty()) {
-                        stack.push(lazer.pop());
-                    }
                 }
             }
         }
