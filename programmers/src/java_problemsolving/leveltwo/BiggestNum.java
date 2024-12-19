@@ -14,63 +14,53 @@ import java.util.*;
 
 public class BiggestNum {
     public String solution(int[] numbers) {
-        String answer = "";
+        StringBuilder answer = new StringBuilder();
         String[] strNums = new String[numbers.length];
         for(int i = 0; i < numbers.length; ++i) {
             strNums[i] = String.valueOf(numbers[i]);
         }
 
-        // 1차 내림차순 정렬
-//        Arrays.sort(strNums, new sComparator());
-        System.out.println(Arrays.toString(strNums));
+        // 시간초과 --..
 
-        // 2차 내림차순 정렬 - 앞 숫자가 같을 경우(3, 30) 다음 자리수 비교(3 > 32, 31, 30) - 이게 1000까지 ..
-        // 300 < 3 -> 3300 > 3003
-        // TODO 버블 정렬?
-        List<String> ans = new ArrayList<>();
         for(int i = 0; i < strNums.length - 1; ++i) {
             for(int j = i + 1; j < strNums.length; ++j) {
-                int dv = 1000;
-//                int nowA = numbers[i];
-//                int nowB = numbers[j];
                 String a = strNums[i];
                 String b = strNums[j];
-                int aidx = 0;
-                int bidx = 0;
 
-                while(dv > 0) {
-                    if(a > b) { // 앞 숫자가 더 클 경우
-                        ans.add(String.valueOf(nowA));
+                while(true) {
+                    if (Objects.equals(a, "")){
                         break;
-                    } else if(nowA / dv < nowB / dv) {
-                        String tmp = strNums[i];
+                    } else if(Objects.equals(b, "")) {
+                        String temp = strNums[i];
                         strNums[i] = strNums[j];
-                        strNums[j] = tmp;
-//                        int tmp = numbers[i];
-//                        numbers[i] = numbers[j];
-//                        numbers[j] = tmp;
+                        strNums[j] = temp;
                         break;
-                    } else { // 앞자리가 같을 때 뒷자리 비교필요 --> String
-                        nowA %= dv;
-                        nowB %= dv;
-                        dv /= 10;
+                    }
+
+                    if ((int) a.charAt(0) < (int) b.charAt(0)) {
+                        String temp = strNums[i];
+                        strNums[i] = strNums[j];
+                        strNums[j] = temp;
+                        break;
+                    } else if ((int) a.charAt(0) == (int) b.charAt(0)) {
+                        if(a.length() != 1) {
+                            a = a.substring(1);
+                        }
+                        if(b.length() != 1) {
+                            b = b.substring(1);
+                        }
+                    } else {
+                        break;
                     }
                 }
             }
         }
-        System.out.println(Arrays.toString(numbers));
 
-//        for(String str: strNums) {
-//            answer += str;
-//        }
-
-        return answer;
-    }
-
-    public class sComparator implements Comparator<String> {
-        public int compare(String o1, String o2) {
-            return o2.compareTo(o1);
+        for(String str: strNums) {
+            answer.append(str);
         }
+
+        return answer.toString();
     }
 
     public static void main(String[] args) {
