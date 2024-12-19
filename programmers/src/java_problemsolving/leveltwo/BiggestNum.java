@@ -21,22 +21,13 @@ public class BiggestNum {
         }
 
         // 시간초과 --..
-
+        // 2중 for문 개선 방안 찾기 - 다른 정렬 방법?
         for(int i = 0; i < strNums.length - 1; ++i) {
             for(int j = i + 1; j < strNums.length; ++j) {
                 String a = strNums[i];
                 String b = strNums[j];
 
                 while(true) {
-                    if (Objects.equals(a, "")){
-                        break;
-                    } else if(Objects.equals(b, "")) {
-                        String temp = strNums[i];
-                        strNums[i] = strNums[j];
-                        strNums[j] = temp;
-                        break;
-                    }
-
                     if ((int) a.charAt(0) < (int) b.charAt(0)) {
                         String temp = strNums[i];
                         strNums[i] = strNums[j];
