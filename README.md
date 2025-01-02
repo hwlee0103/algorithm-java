@@ -496,7 +496,8 @@
         - [level 2] H-Index: HIndex.java
       - 2024-12
         - [level 1] K번째수: KthNum.java
-        - [level 2] 가장 큰 수: BiggestNum.java
+
+[//]: # (        - [level 2] 가장 큰 수: BiggestNum.java)
 
     * 2022 KAKAO BLIND RECRUITMENT
       - 2024-11
@@ -580,6 +581,8 @@
         - [level 0] [PCCE 기출문제] 6번 / 물 부족: WaterShortage.java
         - [level 1] [PCCE 기출문제] 9번 / 지폐 접기: FoldingBanknote.java
         - [level 1] [PCCE 기출문제] 9번 / 이웃한 칸: NeighboringArea.java
+      - 2025-01
+        - [level 1] [PCCE 기출문제] 10번 / 데이터 분석: DataAnalysis.java
     
     * 2021 Dev-Matching: 웹 백엔드 개발자(상반기)
       - 2024-10
@@ -591,7 +594,6 @@
 
 - UnSolved
   - 연습문제
-    - [level 1] 햄버거 만들기
     
   - 스택/큐
 
@@ -600,6 +602,9 @@
   - 해시
 
   - 깊이/너비 우선 탐색(DFS/BFS)
+
+  - 정렬
+    - [level 2] 가장 큰 수: BiggestNum.java
   
 ===============================================================
 # Leetcode
