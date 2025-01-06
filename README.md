@@ -583,6 +583,7 @@
         - [level 1] [PCCE 기출문제] 9번 / 이웃한 칸: NeighboringArea.java
       - 2025-01
         - [level 1] [PCCE 기출문제] 10번 / 데이터 분석: DataAnalysis.java
+        - [level 1] [PCCE 기출문제] 10번 / 공원: Park.java
     
     * 2021 Dev-Matching: 웹 백엔드 개발자(상반기)
       - 2024-10
