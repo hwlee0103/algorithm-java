@@ -57,6 +57,10 @@
       - [BOJ 2309] 일곱난쟁이: SevenDwarves.java
       - [BOJ 10974] 모든 순열: AllPermutations.java
 
+ - Binary Search
+   - 2025-01
+     - [BOJ 1920] 수 찾기: FindingNum.java
+
   
 ===============================================================
 # Programmers
