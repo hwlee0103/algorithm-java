@@ -36,18 +36,18 @@ public class boj1920FindingNum {
 
     public static int binarySearch(int[] arr, int target) {
         int answer = 0;
-        int i = 0, j = arr.length - 1;
+        int left = 0, right = arr.length - 1;
 
-        while(i <= j) {
-            int mid = (i + j) / 2;
+        while(left <= right) {
+            int mid = (left + right) / 2;
             if(arr[mid] == target) {
                 answer = 1;
                 break;
             }
             if(arr[mid] < target) {
-                i = mid + 1;
+                left = mid + 1;
             } else{
-                j = mid - 1;
+                right = mid - 1;
             }
         }
 
