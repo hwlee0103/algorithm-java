@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 문제 유형 : 이분 탐색 Binary Search
  *
  * Started : 2025-01-09
- * Solved : 2025-01-
+ * Solved : 2025-01-09
  *
  *
  */
@@ -23,17 +23,56 @@ public class boj10816NumberCard2 {
             cards[i] = input.nextInt();
         }
         int M = input.nextInt();
-        int[] querys = new int[M];
+        int[] query = new int[M];
         for(int i=0; i<M; i++) {
-            querys[i] = input.nextInt();
+            query[i] = input.nextInt();
         }
 
         Arrays.sort(cards);
 
-        // upper bound
+        int upper = 0;
+        int lower = 0;
+        StringBuilder sb = new StringBuilder();
 
-        // lower bound
+        for(int i = 0; i < M; i++) {
+            // upper bound
+            upper = upperBoundBinarySearch(cards, query[i]);
+            // lower bound
+            lower = lowerBoundBinarySearch(cards, query[i]);
+            // upper - lower
+//            System.out.print(upper - lower + " ");
+            sb.append(upper - lower).append(" ");
+        }
+        System.out.println(sb.toString());
+    }
 
-        // upper - lower
+    public static int upperBoundBinarySearch(int[] nums, int target) {
+        int low = 0, high = nums.length; //상한, 하한 구할 시에는 left = right일 때 return해야하므로
+
+        while(low < high) {
+            int mid = low + (high - low) / 2;
+            if(nums[mid] > target) {
+                high = mid;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        return high;
+    }
+
+    public static int lowerBoundBinarySearch(int[] nums, int target) {
+        int low = 0, high = nums.length;
+
+        while(low < high) {
+            int mid = low + (high - low) / 2;
+            if(nums[mid] >= target) {
+                high = mid;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        return low;
     }
 }
