@@ -17,6 +17,14 @@ public class boj1654CuttingLan {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int k = input.nextInt();
+        int n = input.nextInt();
+        int[] arr = new int[n];
+        int maxLen = 0;
+        for(int i=0; i<n; i++) {
+            arr[i] = input.nextInt();
+            maxLen = Math.max(maxLen, arr[i]);
+        }
 
+        
     }
 }
