@@ -17,14 +17,33 @@ public class boj1654CuttingLan {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int k = input.nextInt();
-        int n = input.nextInt();
-        int[] arr = new int[n];
-        int maxLen = 0;
-        for(int i=0; i<n; i++) {
+        long n = input.nextLong();
+        long[] arr = new long[k];
+        long maxLen = 0;
+        for(int i=0; i<k; i++) {
             arr[i] = input.nextInt();
             maxLen = Math.max(maxLen, arr[i]);
         }
 
-        
+        long low = 1, high = maxLen;
+        long answer = 0;
+        long mid = low + (high - low) / 2;
+        while(low < high) {
+            // count
+            int cnt = 0;
+            for(int i = 0; i < arr.length; i++) {
+                cnt += arr[i]/mid;
+            }
+
+            if(cnt >= n) {
+                if(cnt == n) answer = Math.max(answer, mid);
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+
+            mid = low + (high - low) / 2;
+        }
+        System.out.println(answer);
     }
 }
