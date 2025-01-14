@@ -63,6 +63,7 @@
      - [BOJ 10815] 숫자 카드: NumberCard.java
      - [BOJ 10816] 숫자 카드2: NumberCard2.java
      - [BOJ 1654] 랜선 자르기: CuttingLan.java
+     - [BOJ 2512] 예산: Budget.java
 
   
 ===============================================================
