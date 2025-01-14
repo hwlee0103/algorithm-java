@@ -31,18 +31,19 @@ public class boj2512Budget {
             System.out.println(maxBudget);
         } else {
             // binary search
-
+            System.out.println(binarySearch(budgets, totalBudget));
         }
     }
 
+    // upper_bound 이해 필요
     public static int binarySearch(int[] budgets, int total) {
-        int maxBudget = 0;
         int low = 1;
         int high = total;
+        int mid = 0;
         while(low <= high) {
-            int mid = low + (high - low) / 2;
+            mid = low + (high - low) / 2;
 
-            int sum = 0;
+            long sum = 0;
             for(int i = 0; i < budgets.length; i++) {
                 if(budgets[i] > mid) {
                     sum += mid;
@@ -54,11 +55,11 @@ public class boj2512Budget {
             if(sum > total) {
                 high = mid - 1;
             } else {
-                low = mid;
+                low = mid + 1;
             }
         }
 
-        return maxBudget;
+        return high;
     }
 
 }
