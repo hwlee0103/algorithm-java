@@ -442,11 +442,13 @@
 
     * MySQL : TODO : MySQL setting
       - 2024-03
-        - [level 1] Python 개발자 찾기 : FindingPythonDeveloper.xml
+        - [level 1] Python 개발자 찾기: FindingPythonDeveloper.xml
       - 2024-04
-        - [level 1] 조건에 맞는 도서 리스트 출력하기 : PrintBookListInCondition.xml
+        - [level 1] 조건에 맞는 도서 리스트 출력하기: PrintBookListInCondition.xml
       - 2024-05 
-        - [level 1] 조건에 부합하는 중고거래 댓글 조회하기 : usedTransactionComments
+        - [level 1] 조건에 부합하는 중고거래 댓글 조회하기: usedTransactionComments
+      - 2025-01
+        - [level 1] 평균 일일 대여 요금 구하기: AverageDailyRentalFee.sql
 
     * 완전탐색
       - 2024-03
