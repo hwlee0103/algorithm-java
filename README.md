@@ -65,6 +65,7 @@
      - [BOJ 1654] 랜선 자르기: CuttingLan.java
      - [BOJ 2512] 예산: Budget.java
         : 파라메트릭 서치?
+     - [BOJ 2805] 나무자르기: CuttingTrees.java
   
 ===============================================================
 # Programmers
