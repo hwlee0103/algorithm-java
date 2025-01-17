@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 문제 유형 : 이분 탐색 Binary Search
  *
  * Started : 2025-01-13
- * Solved : 2025-01-
+ * Solved : 2025-01-14
  *
  *
  */
