@@ -74,6 +74,7 @@
 
  - Implementation
    - [BOJ 11382] 꼬마 정민: LittleJeongMin.java
+   - [BOJ 10807] 개수 세기: Counting.java
   
 ===============================================================
 # Programmers
