@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 문제 유형 : 구현 Implementation
  *
  * Started : 2025-02-03
- * Solved : 2025-
+ * Solved : 2025-02-03
  *
  *
  */
