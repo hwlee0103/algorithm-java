@@ -75,6 +75,7 @@
  - Implementation
    - [BOJ 11382] 꼬마 정민: LittleJeongMin.java
    - [BOJ 10807] 개수 세기: Counting.java
+   - [BOJ 2750] 수 정렬하기: NumberSorting.java
   
 ===============================================================
 # Programmers
