@@ -79,7 +79,12 @@
    - 2025-02
      - [BOJ 2750] 수 정렬하기: NumberSorting.java
      - [BOJ 11718] 그대로 출력하기: PrintingAsIs.java
-  
+
+ - Prime numbers, Sieve of Eratosthenes
+   - 2025-02
+     - [BOJ 4948] 베르트랑 공준: BertrandPostulate.java
+
+
 ===============================================================
 # Programmers
 ---------------------------------------------------------------
