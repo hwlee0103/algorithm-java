@@ -61,7 +61,6 @@ public class boj4948BertrandPostulate {
                     eratosArr[j] = false;
                 }
             }
-
         }
     }
 }
