@@ -84,6 +84,7 @@
    - 2025-02
      - [BOJ 4948] 베르트랑 공준: BertrandPostulate.java
      - [BOJ 2960] 에라토스테네스의 체: SieveOfEratosthenes.java
+     - [BOJ 9020] 골드바흐의 추측: GoldbachsConjecture.java
 
 
 ===============================================================
