@@ -35,10 +35,10 @@ public class boj9020GoldbachsConjecture {
     public static int[] goldBachConjecture(int target, boolean[] isPrime) {
         int[] answer = new int[2];
         int diff = 10001;
-        for(int i = target / 2; i >= 2; --i) {
+        for(int i = target / 2; i >= 2; --i) { // 최적화 1 - 차이가 최소가 되는 수를 찾기 위해서는 2가 아닌 target/2부터 시작해서 숫자를 감소시켜가며 찾기
             if(isPrime[i]) {
-                if(isPrime[target - i]) {
-                    if(Math.abs(target - i) < diff) {
+                if(isPrime[target - i]) { // 최적화 2 - 소수 + 소수를 찾는 것이기 때문에 i가 소수이면 target-i도 소수여야 답의 후보가 됨. 굳이 이중 반복문을 쓸 필요가 없이 확인 가능
+                    if(Math.abs(target - i) < diff) { // Q. 최적화 1 - 그렇다면 diff 판별은 필요 없을까? 찾자마자 return 하면 되는걸까?
                         diff = Math.abs(target - i);
                         answer[0] = target - i;
                         answer[1] = i;
