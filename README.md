@@ -43,6 +43,7 @@
     - [BOJ 25304] Receipt
     - [BOJ 8393] Sum
     - [BOJ 10950] A + B - 3
+    - [BOJ 2558] A + B - 2: AplusB2.java
 
   - Stack
     - 2024-11
