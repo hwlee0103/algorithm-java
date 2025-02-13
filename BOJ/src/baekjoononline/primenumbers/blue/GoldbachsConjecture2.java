@@ -3,7 +3,6 @@ package baekjoononline.primenumbers.blue;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.Scanner;
 
 /**
  * Level : Blue 1
@@ -11,7 +10,7 @@ import java.util.Scanner;
  * 문제 유형 : 소수 Prime Numbers, 에라토스테네스의 체 Sieve of Eratosthenes
  *
  * Started : 2025-02-12
- * Solved : 2025-02-
+ * Solved : 2025-02-13
  *
  *
  */
