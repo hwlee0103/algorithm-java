@@ -44,16 +44,29 @@ public class GoldbachsConjecture2 {
 
     public static String GoldbachsConjecture(boolean[] isPrime, int target) {
         String answer = String.valueOf(target) + " = ";
-
-
+        int a = 0;
+        int b = 0;
+        for(int i = 2 ; i <= target/2; ++i) {
+            if(isPrime[i] && i % 2 != 0) {
+                if(isPrime[target - i] && (target - i) % 2 != 0) {
+                    a = Math.min(i, target - i);
+                    b = Math.max(i, target - i);
+                    break;
+                }
+            }
+        }
         // 답이 없으면
-        answer = "Goldbach's conjecture is wrong.";
+        if(a == 0) {
+            answer = "Goldbach's conjecture is wrong.";
+        } else {
+            answer += String.valueOf(a) + " + " + String.valueOf(b);
+        }
 
         return answer;
     }
 
     public static void SieveOfEratosthenes(boolean[] isPrime) {
-        for(int i = 2; i * i < isPrime.length; i++) {
+        for(int i = 2; i < Math.sqrt(isPrime.length); i++) {
             if(isPrime[i]) {
                 for(int j = i * i; j < isPrime.length; j += i) {
                     isPrime[j] = false;
