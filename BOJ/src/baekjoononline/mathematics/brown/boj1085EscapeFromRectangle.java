@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 문제 유형 : 수학 Mathematics
  *
  * Started : 2025-02-14
- * Solved : 2025-02-
+ * Solved : 2025-02-14
  *
  *
  */
