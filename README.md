@@ -27,7 +27,7 @@
     - [BOJ 2741] print N
     - [BOJ 2742] N print
      
-  - Math
+  - Mathematics
     - [BOJ 1000] A plus B
     - [BOJ 1001] A minus B
     - [BOJ 1008] A divide B
@@ -43,7 +43,10 @@
     - [BOJ 25304] Receipt
     - [BOJ 8393] Sum
     - [BOJ 10950] A + B - 3
-    - [BOJ 2558] A + B - 2: AplusB2.java
+    - 2025-02
+      - [BOJ 2558] A + B - 2: AplusB2.java
+      - [BOJ 1085] 직사각형에서 탈출: EscapeFromRectangle.java
+      - 
 
   - Stack
     - 2024-11
