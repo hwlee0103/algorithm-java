@@ -46,7 +46,7 @@
     - 2025-02
       - [BOJ 2558] A + B - 2: AplusB2.java
       - [BOJ 1085] 직사각형에서 탈출: EscapeFromRectangle.java
-      - 
+      - [BOJ 2839] 설탕 배달: SugarDelivery.java
 
   - Stack
     - 2024-11
