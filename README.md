@@ -46,7 +46,6 @@
     - 2025-02
       - [BOJ 2558] A + B - 2: AplusB2.java
       - [BOJ 1085] 직사각형에서 탈출: EscapeFromRectangle.java
-      - [BOJ 2839] 설탕 배달: SugarDelivery.java
 
   - Stack
     - 2024-11
@@ -65,32 +64,36 @@
       - [BOJ 2309] 일곱난쟁이: SevenDwarves.java
       - [BOJ 10974] 모든 순열: AllPermutations.java
 
- - Binary Search
-   - 2025-01
-     - [BOJ 1920] 수 찾기: FindingNum.java
-     - [BOJ 10815] 숫자 카드: NumberCard.java
-     - [BOJ 10816] 숫자 카드2: NumberCard2.java
-     - [BOJ 1654] 랜선 자르기: CuttingLan.java
-     - [BOJ 2512] 예산: Budget.java
-        : 파라메트릭 서치?
-     - [BOJ 2805] 나무자르기: CuttingTrees.java
-     - [BOJ 1072] 게임: Game.java 
+  - Binary Search
+    - 2025-01
+      - [BOJ 1920] 수 찾기: FindingNum.java
+      - [BOJ 10815] 숫자 카드: NumberCard.java
+      - [BOJ 10816] 숫자 카드2: NumberCard2.java
+      - [BOJ 1654] 랜선 자르기: CuttingLan.java
+      - [BOJ 2512] 예산: Budget.java
+         : 파라메트릭 서치?
+      - [BOJ 2805] 나무자르기: CuttingTrees.java
+      - [BOJ 1072] 게임: Game.java 
 
- - Implementation
-   - 2025-01
-     - [BOJ 11382] 꼬마 정민: LittleJeongMin.java
-     - [BOJ 10807] 개수 세기: Counting.java
-   - 2025-02
-     - [BOJ 2750] 수 정렬하기: NumberSorting.java
-     - [BOJ 11718] 그대로 출력하기: PrintingAsIs.java
+  - Implementation
+    - 2025-01
+      - [BOJ 11382] 꼬마 정민: LittleJeongMin.java
+      - [BOJ 10807] 개수 세기: Counting.java
+    - 2025-02
+      - [BOJ 2750] 수 정렬하기: NumberSorting.java
+      - [BOJ 11718] 그대로 출력하기: PrintingAsIs.java
 
- - Prime numbers, Sieve of Eratosthenes
-   - 2025-02
-     - [BOJ 4948] 베르트랑 공준: BertrandPostulate.java
-     - [BOJ 2960] 에라토스테네스의 체: SieveOfEratosthenes.java
-     - [BOJ 9020] 골드바흐의 추측: GoldbachsConjecture.java
-     - [BOJ 6588] 골드바흐의 추측: GoldbachsConjecture2.java
+  - Prime numbers, Sieve of Eratosthenes
+    - 2025-02
+      - [BOJ 4948] 베르트랑 공준: BertrandPostulate.java
+      - [BOJ 2960] 에라토스테네스의 체: SieveOfEratosthenes.java
+      - [BOJ 9020] 골드바흐의 추측: GoldbachsConjecture.java
+      - [BOJ 6588] 골드바흐의 추측: GoldbachsConjecture2.java
 
+  - Dynamic Programming
+    - 2025-02
+      - [BOJ 2839] 설탕 배달: SugarDelivery.java
+ 
 
 ===============================================================
 # Programmers
