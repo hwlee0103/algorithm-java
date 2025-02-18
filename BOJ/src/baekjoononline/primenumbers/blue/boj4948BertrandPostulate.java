@@ -38,6 +38,7 @@ public class boj4948BertrandPostulate {
             eratosArr[0] = eratosArr[1] = false;
             Eratosthenes(maxNum, eratosArr);
 
+            // 테스트케이스 별 탐색
             for(String now : queries) {
                 int count = 0;
                 int start = Integer.parseInt(now);
