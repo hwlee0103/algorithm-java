@@ -71,7 +71,7 @@
       - [BOJ 10816] 숫자 카드2: NumberCard2.java
       - [BOJ 1654] 랜선 자르기: CuttingLan.java
       - [BOJ 2512] 예산: Budget.java
-         : 파라메트릭 서치?
+         - 파라메트릭 서치?
       - [BOJ 2805] 나무자르기: CuttingTrees.java
       - [BOJ 1072] 게임: Game.java 
 
@@ -82,6 +82,7 @@
     - 2025-02
       - [BOJ 2750] 수 정렬하기: NumberSorting.java
       - [BOJ 11718] 그대로 출력하기: PrintingAsIs.java
+      - [BOJ 2743] 단어 길이 재기: MeasureWordLength.java 
 
   - Prime numbers, Sieve of Eratosthenes
     - 2025-02
