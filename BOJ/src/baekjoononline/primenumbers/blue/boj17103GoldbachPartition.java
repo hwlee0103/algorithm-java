@@ -31,23 +31,31 @@ public class boj17103GoldbachPartition {
         sieveOfEratosthenes(isPrime);
 
         for(int query: queries) {
-
+            System.out.println(goldbachPartition(query, isPrime));
         }
     }
 
     // 골드바흐 파티션
     public static int goldbachPartition(int query, boolean[] isPrime) {
         int answer = 0;
-        // TODO: 골드바흐 파티션 판별
-        
+        // 두 소수의 순서만 다른 것은 같은 파티션이다. -> query/2 까지만 탐색
+        for(int i = 2; i <= query/2; i++) {
+            if(isPrime[i]) {
+                int pair = query - i;
+                if(isPrime[query - i]) {
+                    answer++;
+                }
+            }
+        }
+
         return answer;
     }
 
     // 소수판별 - 에라토스테네스의 체
     public static void sieveOfEratosthenes(boolean[] isPrime) {
-        for(int i = 2; i * i <= isPrime.length; ++i) {
+        for(int i = 2; i * i < isPrime.length; ++i) {
             if(isPrime[i]) {
-                for(int j = i * i; j <= isPrime.length; ++j) {
+                for(int j = i * i; j < isPrime.length; ++j) {
                     isPrime[j] = false;
                 }
             }
