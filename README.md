@@ -7,6 +7,9 @@
 ===============================================================
 # Blog 이론 정리
 --------------------------------------------------------------
+- Tistory: https://melodyblue.tistory.com/
+  - Algorithm
+    - 에라토스테네스의 체 Sieve of Eratosthenes: https://melodyblue.tistory.com/54
 
 ===============================================================
 # Baekjoon Online Judge
