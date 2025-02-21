@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 문제 유형 : 소수 Prime Numbers, 에라토스테네스의 체 Sieve of Eratosthenes
  *
  * Started : 2025-02-20
- * Solved : 2025-02-
+ * Solved : 2025-02-21
  *
  *
  */
