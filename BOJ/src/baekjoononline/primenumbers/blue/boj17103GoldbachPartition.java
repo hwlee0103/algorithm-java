@@ -55,7 +55,7 @@ public class boj17103GoldbachPartition {
     public static void sieveOfEratosthenes(boolean[] isPrime) {
         for(int i = 2; i * i < isPrime.length; ++i) {
             if(isPrime[i]) {
-                for(int j = i * i; j < isPrime.length; ++j) {
+                for(int j = i * i; j < isPrime.length; j += i) {
                     isPrime[j] = false;
                 }
             }
