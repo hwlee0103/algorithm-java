@@ -97,7 +97,8 @@
 
   - Dynamic Programming
     - 2025-02
-      - [BOJ 2839] 설탕 배달: SugarDelivery.java
+      - (unsolved)[BOJ 2839] 설탕 배달: SugarDelivery.java
+      - (solving)[BOJ 2579] 계단 오르기: ClimbingStairs.java
  
 
 ===============================================================
