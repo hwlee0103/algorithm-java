@@ -1,5 +1,6 @@
 package baekjoononline.dynamicprogramming.blue;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -17,6 +18,11 @@ public class boj2579ClimbingStairs {
     public static class Pair {
         int scoreSum = 0;
         int stepCount = 0;
+
+        public Pair(int scoreSum, int stepCount) {
+            this.scoreSum = scoreSum;
+            this.stepCount = stepCount;
+        }
     }
 
     public static void main(String[] args) {
@@ -28,20 +34,34 @@ public class boj2579ClimbingStairs {
         }
 
         Pair[] pairs = new Pair[n];
+        Arrays.fill(pairs, new Pair(0,0));
+        pairs[0] = new Pair(arr[0],1);
         for(int i = 0; i < n; ++i) {
-            int sum = 0;
-            for(int j = i; j >= i-2 ; j--) {
-                if(j < 0) {
-                    pairs[i].scoreSum = arr[i];
-                    pairs[i].stepCount = 1;
+            for(int j = i - 1; j >= i - 2 ; j--) {
+                int step = 1;
+                int nowSum = 0;
+                if(j >= 0) {
+                    if(j == i - 1) {
+                        if(pairs[j].stepCount == 2) {
+                            continue;
+                        } else {
+                            step++;
+                        }
+                    } else { // j == i - 2
+                        step = 1;
+                    }
+                    nowSum = pairs[j].scoreSum + arr[i];
+                } else { // j < 0
+                    // TODO: 초기세팅 말고, 여기서 로직 넣어줄 수 있는 지 보기
+                    continue;
                 }
-                else {
-                    // TODO; 조건 확인
-                    pairs[i].scoreSum = Math.max(pairs[i].scoreSum, pairs[j].scoreSum + arr[i]);
-
+                if(nowSum > pairs[i].scoreSum) {
+                    pairs[i].scoreSum = nowSum;
+                    pairs[i].stepCount = step;
                 }
             }
         }
-    }
 
+        System.out.println(pairs[n - 1].scoreSum);
+    }
 }
