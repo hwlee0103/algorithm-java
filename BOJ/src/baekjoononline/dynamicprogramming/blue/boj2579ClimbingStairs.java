@@ -98,7 +98,7 @@ public class boj2579ClimbingStairs {
  answer 3
  12
  ------------------------------
- example 4
+ example 4 ---> 확인 필요
  5
  1
  1000
@@ -107,6 +107,17 @@ public class boj2579ClimbingStairs {
  1
  answer 4
  2001
+ ------------------------------
+ example 5 ---> 확인 필요
+ 6
+ 50
+ 100
+ 10
+ 10
+ 100
+ 1
+ answer 5
+ 211
  ------------------------------
  *
  *
