@@ -1,6 +1,5 @@
 package baekjoononline.dynamicprogramming.blue;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -12,19 +11,11 @@ import java.util.Scanner;
  * Solved : 2025-02-
  *
  *
+ *
+ *
  */
 
 public class boj2579ClimbingStairs {
-    public static class Pair {
-        int scoreSum = 0;
-        int stepCount = 0;
-
-        public Pair(int scoreSum, int stepCount) {
-            this.scoreSum = scoreSum;
-            this.stepCount = stepCount;
-        }
-    }
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
@@ -33,16 +24,19 @@ public class boj2579ClimbingStairs {
             arr[i] = input.nextInt();
         }
 
-        Pair[] pairs = new Pair[n];
-        Arrays.fill(pairs, new Pair(0,0));
-        pairs[0] = new Pair(arr[0],1);
+        int[] dp = new int[n];
+        int[] stepCnt = new int[n];
+
+        dp[0] = arr[0];
+        stepCnt[0] = 1;
+
         for(int i = 0; i < n; ++i) {
             for(int j = i - 1; j >= i - 2 ; j--) {
                 int step = 1;
                 int nowSum = 0;
                 if(j >= 0) {
                     if(j == i - 1) {
-                        if(pairs[j].stepCount == 2) {
+                        if(stepCnt[j] == 2) {
                             continue;
                         } else {
                             step++;
@@ -50,18 +44,71 @@ public class boj2579ClimbingStairs {
                     } else { // j == i - 2
                         step = 1;
                     }
-                    nowSum = pairs[j].scoreSum + arr[i];
+                    nowSum = dp[j] + arr[i];
                 } else { // j < 0
-                    // TODO: 초기세팅 말고, 여기서 로직 넣어줄 수 있는 지 보기
-                    continue;
+                    step = 1;
+                    nowSum = arr[i];
                 }
-                if(nowSum > pairs[i].scoreSum) {
-                    pairs[i].scoreSum = nowSum;
-                    pairs[i].stepCount = step;
+                if(nowSum > dp[i]) {
+                    dp[i] = nowSum;
+                    stepCnt[i] = step;
                 }
             }
         }
 
-        System.out.println(pairs[n - 1].scoreSum);
+        System.out.println(dp[n - 1]);
     }
 }
+
+
+/**
+ * 반례 모음
+ ------------------------------
+ example 1
+ 6
+ 1
+ 2
+ 3
+ 100
+ 1
+ 100
+ answer 1
+ 204
+ example 2
+ 9
+ 2
+ 3
+ 1
+ 2
+ 3
+ 3
+ 1
+ 2
+ 3
+ answer 2
+ 15
+ ------------------------------
+ example 3
+ 5
+ 5
+ 4
+ 3
+ 2
+ 1
+ answer 3
+ 12
+ ------------------------------
+ example 4
+ 5
+ 1
+ 1000
+ 1000
+ 1
+ 1
+ answer 4
+ 2001
+ ------------------------------
+ *
+ *
+ *
+ * */
