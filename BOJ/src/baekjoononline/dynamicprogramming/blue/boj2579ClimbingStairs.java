@@ -19,41 +19,20 @@ public class boj2579ClimbingStairs {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
-        int[] arr = new int[n];
+        int[] arr = new int[300];
         for(int i=0; i<n; i++) {
             arr[i] = input.nextInt();
         }
 
-        int[] dp = new int[n];
-        int[] stepCnt = new int[n];
+        int[] dp = new int[300];
 
         dp[0] = arr[0];
-        stepCnt[0] = 1;
+        dp[1] = dp[0] + arr[1];
+        dp[2] = Math.max(arr[0], arr[1]) + arr[2];
 
-        for(int i = 0; i < n; ++i) {
-            for(int j = i - 1; j >= i - 2 ; j--) {
-                int step = 1;
-                int nowSum = 0;
-                if(j >= 0) {
-                    if(j == i - 1) {
-                        if(stepCnt[j] == 2) {
-                            continue;
-                        } else {
-                            step++;
-                        }
-                    } else { // j == i - 2
-                        step = 1;
-                    }
-                    nowSum = dp[j] + arr[i];
-                } else { // j < 0
-                    step = 1;
-                    nowSum = arr[i];
-                }
-                if(nowSum > dp[i]) {
-                    dp[i] = nowSum;
-                    stepCnt[i] = step;
-                }
-            }
+        for(int i = 3; i < n; ++i) {
+            // '연속된 3 계단은 밟지 않는다'
+            dp[i] = Math.max(dp[i-2], dp[i-3] + arr[i-1]) + arr[i];
         }
 
         System.out.println(dp[n - 1]);
@@ -98,7 +77,7 @@ public class boj2579ClimbingStairs {
  answer 3
  12
  ------------------------------
- example 4 ---> 확인 필요
+ example 4
  5
  1
  1000
@@ -108,7 +87,7 @@ public class boj2579ClimbingStairs {
  answer 4
  2001
  ------------------------------
- example 5 ---> 확인 필요
+ example 5
  6
  50
  100
