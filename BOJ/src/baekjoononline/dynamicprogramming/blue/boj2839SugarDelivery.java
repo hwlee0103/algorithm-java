@@ -23,6 +23,18 @@ public class boj2839SugarDelivery {
         int[] dp = new int[5001];
         Arrays.fill(dp, -1);
 
+        dp[3] = dp[5] = 1;
+
+        for(int i = 6; i <= n; i++) {
+            if(dp[i-3] == -1 && dp[i-5] == -1) {
+                continue;
+            } else if(dp[i-3] == -1 || dp[i-5] == -1) {
+                dp[i] = Math.max(dp[i-3], dp[i-5]) + 1;
+            }
+            else {
+                dp[i] = Math.min(dp[i-3], dp[i-5]) + 1;
+            }
+        }
 
         System.out.println(dp[n]);
     }
