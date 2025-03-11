@@ -86,6 +86,8 @@
       - [BOJ 2750] 수 정렬하기: NumberSorting.java
       - [BOJ 11718] 그대로 출력하기: PrintingAsIs.java
       - [BOJ 2743] 단어 길이 재기: MeasureWordLength.java 
+    - 2025-03
+      - [BOJ 2440] 별 찍기 - 3: PrintStars3.java
 
   - Prime numbers, Sieve of Eratosthenes
     - 2025-02
