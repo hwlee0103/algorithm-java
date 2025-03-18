@@ -1,0 +1,5 @@
+[(greek, 7, 5, 10), (texas, 8, 9, 13), (european, 5, 10, 13)], [(texas, Medium, 1), (european, Small, 2)]
+[(margherita, 90, 80, 100), (hawaii, 80, 90, 120), (capricciosa, 50, 70, 130), (greek, 50, 70, 130)], [(greek, Small, 5), (margherita, Small, 4), (hawaii, Large, 1), (margherita, Medium, 2), (capricciosa, Small, 7)]
+[(margherita, 7, 8, 10), (hawaii, 8, 9, 12), (capricciosa, 5, 7, 13)], [(margherita, Small, 3), (capricciosa, Large, 2), (hawaii, Large, 3), (margherita, Large, 1), (hawaii, Medium, 1), (capricciosa, Small, 5), (capricciosa, Medium, 1)]
+[(boston, 7, 5, 10), (hawaii, 8, 9, 12), (newyorker, 8, 9, 130), (philadelphia, 5, 10, 13)], [(boston, Small, 3), (hawaii, Large, 3), (newyorker, Large, 1), (boston, Large, 2), (philadelphia, Large, 2)]
+[(margherita, 7, 8, 10), (hawaii, 8, 9, 12), (capricciosa, 5, 7, 13)], [(margherita, Small, 1), (hawaii, Large, 1)]
