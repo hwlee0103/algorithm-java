@@ -91,6 +91,8 @@
       - [BOJ 25314] 코딩은 체육과목 입니다: CodingIsAPhysicalEducationSubject.java
       - [BOJ 27866] 문자와 문자열: LettersAndStrings.java
       - [BOJ 5597] 과제 안 내신 분..?: NotTurnedInHomework.java
+      - (Solving) [BOJ 2444] 별 찍기 - 7: PrintStars7.java
+      - [BOJ 2441] 별 찍기 - 4: PrintStars4.java
 
   - Prime numbers, Sieve of Eratosthenes
     - 2025-02
