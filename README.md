@@ -93,6 +93,7 @@
       - [BOJ 5597] 과제 안 내신 분..?: NotTurnedInHomework.java
       - (Solving) [BOJ 2444] 별 찍기 - 7: PrintStars7.java
       - [BOJ 2441] 별 찍기 - 4: PrintStars4.java
+      - [BOJ 9086] 문자열: String.java
 
   - Prime numbers, Sieve of Eratosthenes
     - 2025-02
