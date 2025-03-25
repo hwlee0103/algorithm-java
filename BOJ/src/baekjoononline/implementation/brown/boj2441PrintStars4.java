@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 /**
  * Level : Brown 3
- * Title : 2444 별 찍기 - 7
+ * Title : 2441 별 찍기 - 4
  * 문제 유형 : 구현 Implementation
  *
  * Started : 2025-03-21
- * Solved : 2025-03-
+ * Solved : 2025-03-21
  *
  *
  *
