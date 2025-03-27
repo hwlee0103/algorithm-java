@@ -558,6 +558,10 @@
     * 이분 탐색
       - 2025-01
         - [level 3] 입국심사: ImmigrationScreening.java 
+  
+    * 동적계획법 / Dynamic Programming
+      - 2025-03
+        - (solving) [level 3] N으로 표현: NExpression.java
 
     * 2022 KAKAO BLIND RECRUITMENT
       - 2024-11
