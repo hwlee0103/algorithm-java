@@ -113,6 +113,7 @@
       - [BOJ 1463] 1로 만들기: MakeToOne.java
     - 2025-04
       - [BOJ 2747] 피보나치 수: FibonacciNumber.java
+      - [BOJ 24416] 알고리즘 수업 - 피보나치 수 1: AlgorithmFibonacciNumber1.java
  
 
 ===============================================================
