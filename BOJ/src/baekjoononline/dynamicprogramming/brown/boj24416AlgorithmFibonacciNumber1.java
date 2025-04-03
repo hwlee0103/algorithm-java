@@ -1,6 +1,5 @@
 package baekjoononline.dynamicprogramming.brown;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
