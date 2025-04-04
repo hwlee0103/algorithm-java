@@ -114,7 +114,8 @@
     - 2025-04
       - [BOJ 2747] 피보나치 수: FibonacciNumber.java
       - [BOJ 24416] 알고리즘 수업 - 피보나치 수 1: AlgorithmFibonacciNumber1.java
-      - [BOJ 11726] 2xn 타일링 - TwoByNTiling.java 
+      - [BOJ 11726] 2xn 타일링: TwoByNTiling.java 
+      - [BOJ 2775] 부녀회장이 될테야: AssociationPresident.java
  
 
 ===============================================================

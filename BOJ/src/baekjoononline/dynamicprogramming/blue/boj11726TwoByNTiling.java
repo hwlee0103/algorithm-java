@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 문제 유형 : 동적계획법 Dynamic Programming
  *
  * Started : 2025-04-02
- * Solved : 2025-04-02
+ * Solved : 2025-04-03
  *
  *
  */
