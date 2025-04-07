@@ -117,6 +117,10 @@
       - [BOJ 11726] 2xn 타일링: TwoByNTiling.java 
       - [BOJ 2775] 부녀회장이 될테야: AssociationPresident.java
  
+  - Euclidean Algorithm
+    - 2025-04
+      - [BOJ 1934] 최소공배수: LeastCommonMultiple.java
+      - 
 
 ===============================================================
 # Programmers
