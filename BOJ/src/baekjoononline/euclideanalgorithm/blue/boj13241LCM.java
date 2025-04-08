@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 문제 유형 : 유클리드 호제법 Euclidean Algorithm
  *
  * Started : 2025-04-08
- * Solved : 2025-04-
+ * Solved : 2025-04-08
  *
  *
  */
