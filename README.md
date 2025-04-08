@@ -120,7 +120,7 @@
   - Euclidean Algorithm
     - 2025-04
       - [BOJ 1934] 최소공배수: LeastCommonMultiple.java
-      - 
+      - [BOJ 13241] LCM: LCM.java
 
 ===============================================================
 # Programmers
