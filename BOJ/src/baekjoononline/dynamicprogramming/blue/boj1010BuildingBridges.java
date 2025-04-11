@@ -1,5 +1,6 @@
 package baekjoononline.dynamicprogramming.blue;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -27,8 +28,16 @@ public class boj1010BuildingBridges {
             queries[i][1] = m;
         }
 
+        long[][] dp = new long[35][35];
+        for(int i = 1; i < dp.length; ++i) {
+            for(int j = i; j < dp[0].length; ++j) {
+                if(i == 1) dp[i][j] = j;
+                else dp[i][j] = dp[i][j-1] + dp[i-1][j-1];
+            }
+        }
+
         for(int i=0; i<t; i++) {
-            
+            System.out.println(dp[queries[i][0]][queries[i][1]]);
         }
     }
 }
