@@ -124,6 +124,7 @@
       - [BOJ 13241] LCM: LCM.java
       - [BOJ 9613] SumOfGCD: SumOfGCD.java
       - [BOJ 1735] 분수 합: FractionSum.java
+      - [BOJ 2609] 최대공약수와 최소공배수: GCDandLCM.java
 
 ===============================================================
 # Programmers
