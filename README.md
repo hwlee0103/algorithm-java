@@ -123,6 +123,7 @@
       - [BOJ 1934] 최소공배수: LeastCommonMultiple.java
       - [BOJ 13241] LCM: LCM.java
       - [BOJ 9613] SumOfGCD: SumOfGCD.java
+      - [BOJ 1735] 분수 합: FractionSum.java
 
 ===============================================================
 # Programmers
