@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 문제 유형 : 분할 정복 Divide And Conquer
  *
  * Started : 2025-04-21
- * Solved : 2025-
+ * Solved : 2025-04-23
  *
  *
  */
@@ -43,8 +43,8 @@ public class boj2630MakingColoredPaper {
         Colors ans = new Colors();
         ColorCheck check = colorChecker(paper, startX, startY, size);
 
-        int[] nextX = {startX, startX, size/2, size/2};
-        int[] nextY = {startY, size/2, startY, size/2};
+        int[] nextX = {startX, startX, startX + size/2, startX + size/2};
+        int[] nextY = {startY, startY + size/2, startY, startY + size/2};
 
         if(check.isSameColor) {
             if(check.color == 0) {
