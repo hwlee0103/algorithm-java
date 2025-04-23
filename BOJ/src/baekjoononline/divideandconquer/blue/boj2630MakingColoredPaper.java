@@ -43,8 +43,8 @@ public class boj2630MakingColoredPaper {
         Colors ans = new Colors();
         ColorCheck check = colorChecker(paper, startX, startY, size);
 
-        int[] nextX = {0, 0, size/2, size/2};
-        int[] nextY = {0, size/2, 0, size/2};
+        int[] nextX = {startX, startX, size/2, size/2};
+        int[] nextY = {startY, size/2, startY, size/2};
 
         if(check.isSameColor) {
             if(check.color == 0) {
