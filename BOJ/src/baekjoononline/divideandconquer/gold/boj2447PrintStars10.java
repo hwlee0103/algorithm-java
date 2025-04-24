@@ -1,6 +1,8 @@
 package baekjoononline.divideandconquer.gold;
 
-import java.util.Arrays;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.util.Scanner;
 
 /**
@@ -9,30 +11,32 @@ import java.util.Scanner;
  * 문제 유형 : 분할 정복 Divide And Conquer
  *
  * Started : 2025-04-24
- * Solved : 2025-
+ * Solved : 2025-04-24
  *
  *
  */
 
 public class boj2447PrintStars10 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner input = new Scanner(System.in);
         int N = input.nextInt();
         char[][] starBoard = new char[N][N];
-
-        // TODO: BufferWriter 로 바꿔보기
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         makeStars(starBoard, 0, 0, N);
 
         for(int i = 0; i < N; i++) {
             for(int j = 0; j < N; j++) {
                 if(starBoard[i][j] == '\0') {
-                    System.out.print(" ");
+                    bw.write(" ");
                 }
-                else System.out.print(starBoard[i][j]);
+                else bw.write(starBoard[i][j]);
             }
-            System.out.println();
+            bw.write("\n");
         }
+
+        bw.flush();
+        bw.close();
     }
 
     public static void makeStars(char[][] starBoard, int startX, int startY, int size) {
