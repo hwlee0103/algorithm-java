@@ -31,7 +31,6 @@ public class boj1074Z {
         int[] dr = {0, 0, size/2, size/2};
         int[] dc = {0, size/2, 0, size/2};
 
-        if(ans.flag) return ans;
         if(nowR == r && nowC == c) {
             ans.flag = true;
             return ans;
@@ -43,9 +42,17 @@ public class boj1074Z {
 
         for(int i = 0; i < 4; ++i) {
             if(ans.flag) break;
-            ans = zDivide(nowR + dr[i], nowC + dc[i], r, c, size/2, ans);
+            // 범위에 해당하지 않으면 탐색하지 않고 개수만 증가시키
+            int nextR = nowR + dr[i];
+            int nextC = nowC + dc[i];
+            if(nextR + size/2 >= r && nextC + size/2 >= c && nextR <= r && nextC <= c) {
+                ans = zDivide(nextR, nextC, r, c, size/2, ans);
+            } else {
+                ans.count += size;
+            }
         }
         return ans;
     }
 
+    // TODO: 리펙토링
 }
