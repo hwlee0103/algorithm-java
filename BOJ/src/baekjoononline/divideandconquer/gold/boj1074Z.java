@@ -18,27 +18,34 @@ public class boj1074Z {
         int n = input.nextInt();
         int r = input.nextInt();
         int c = input.nextInt();
-
-        System.out.println(zDivide(0, 0, r, c, (int) Math.pow(2, n), 0));
+        FindCheck ans = new FindCheck();
+        System.out.println(zDivide(0, 0, r, c, (int) Math.pow(2, n), ans).count);
     }
 
-    // todo Z 분할정복
-    public static int zDivide(int nowR, int nowC, int r, int c, int size, int cnt) {
+    public static class FindCheck {
+        boolean flag = false;
+        int count;
+    }
+
+    public static FindCheck zDivide(int nowR, int nowC, int r, int c, int size, FindCheck ans) {
         int[] dr = {0, 0, size/2, size/2};
         int[] dc = {0, size/2, 0, size/2};
 
+        if(ans.flag) return ans;
         if(nowR == r && nowC == c) {
-            return ++cnt;
+            ans.flag = true;
+            return ans;
         }
         if(size == 1) {
-            return ++cnt;
+            ans.count++;
+            return ans;
         }
 
         for(int i = 0; i < 4; ++i) {
-            // todo: 확인
-            cnt += zDivide(nowR + dr[i], nowC + dc[i], r, c, size/2, cnt);
+            if(ans.flag) break;
+            ans = zDivide(nowR + dr[i], nowC + dc[i], r, c, size/2, ans);
         }
-        return cnt;
+        return ans;
     }
 
 }
