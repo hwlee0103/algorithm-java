@@ -130,6 +130,7 @@
     - 2025-04
       - [BOJ 2630] 색종이 만들기: MakingColoredPaper.java
       - [BOJ 2447] 별 찍기 - 10: PrintStars10.java
+      - (solving) [BOJ 1074] Z: Z.java
 
 ===============================================================
 # Programmers
