@@ -48,11 +48,9 @@ public class boj1074Z {
             if(nextR + size/2 >= r && nextC + size/2 >= c && nextR <= r && nextC <= c) {
                 ans = zDivide(nextR, nextC, r, c, size/2, ans);
             } else {
-                ans.count += size;
+                ans.count += (size/2) * (size/2);
             }
         }
         return ans;
     }
-
-    // TODO: 리펙토링
 }
