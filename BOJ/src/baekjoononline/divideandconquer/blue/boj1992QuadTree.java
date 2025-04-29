@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 문제 유형 : 분할 정복 Divide And Conquer
  *
  * Started : 2025-04-29
- * Solved : 2025-
+ * Solved : 2025-04-29
  *
  *
  */
