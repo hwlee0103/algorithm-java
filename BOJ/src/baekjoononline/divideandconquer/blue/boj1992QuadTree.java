@@ -38,11 +38,11 @@ public class boj1992QuadTree {
         boolean now = checkBoard(board, size, startX, startY);
 
         if(now) {
-            answer.append("(").append(String.valueOf(board[startX][startY]));
+            answer.append(String.valueOf(board[startX][startY]));
         } else {
             int[] dx = {0, 0, size/2, size/2};
             int[] dy = {0, size/2, 0, size/2};
-
+            answer.append("(");
             for(int i = 0; i < 4; ++i) {
                 answer.append(QuadTree(board, startX + dx[i], startY + dy[i], size / 2));
             }
