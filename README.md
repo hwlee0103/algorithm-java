@@ -132,7 +132,7 @@
       - [BOJ 2447] 별 찍기 - 10: PrintStars10.java
       - [BOJ 1074] Z: Z.java
       - [BOJ 1992] 쿼드트리: QuadTree.java
-      - 
+      - [BOJ 1780] 종이의 개수: NumberOfPapers.javs
 
 ===============================================================
 # Programmers
