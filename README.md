@@ -131,7 +131,7 @@
       - [BOJ 2630] 색종이 만들기: MakingColoredPaper.java
       - [BOJ 2447] 별 찍기 - 10: PrintStars10.java
       - [BOJ 1074] Z: Z.java
-      - (solving) [BOJ 1992] 쿼드트리: QuadTree.java
+      - [BOJ 1992] 쿼드트리: QuadTree.java
       - 
 
 ===============================================================
