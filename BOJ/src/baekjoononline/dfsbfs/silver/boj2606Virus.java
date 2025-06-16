@@ -10,7 +10,7 @@ import java.util.Scanner;
  * 문제 유형 : DFS and BFS
  *
  * Started : 2025-06-13
- * Solved : 2025-0
+ * Solved : 2025-06-16
  *
  *
  */
@@ -22,7 +22,7 @@ public class boj2606Virus {
 
         // 그래프 초기화
         List<List<Integer>> network = new ArrayList<>();
-        for(int i = 0; i < v; ++i) {
+        for(int i = 0; i <= v; ++i) {
             network.add(new ArrayList<>());
         }
 
@@ -35,13 +35,22 @@ public class boj2606Virus {
             network.get(b).add(a);
         }
 
-        boolean[] visited = new boolean[v];
+        boolean[] visited = new boolean[v + 1];
         int result = dfs(1, visited, network);
 
+        System.out.println(result - 1);
     }
 
     public static int dfs(int vertex, boolean[] visited, List<List<Integer>> graph) {
+        int cnt = 0;
         visited[vertex] = true;
-        
+        cnt++;
+
+        for(int next: graph.get(vertex)) {
+            if(!visited[next]) {
+                cnt += dfs(next, visited, graph);
+            }
+        }
+        return cnt;
     }
 }
