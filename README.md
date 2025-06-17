@@ -139,6 +139,7 @@
   - DFS and BFS
     - 2025-06
       - [BOJ 2606] 바이러스: Virus.java
+      - (Solving) [BOJ 2667] 단지번호붙이기 (DFS): NumberingComplex_dfs.java
 
 ===============================================================
 # Programmers
