@@ -10,7 +10,7 @@ import java.util.Scanner;
  * 문제 유형 : DFS and BFS
  *
  * Started : 2025-06-17
- * Solved : 2025-06-
+ * Solved : 2025-06-17
  *
  *
  */
