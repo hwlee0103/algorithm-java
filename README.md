@@ -142,6 +142,7 @@
       - [BOJ 2667] 단지번호붙이기 (DFS): NumberingComplex_dfs.java
       - [BOJ 11724] 연결요소의 개수 (DFS): NumberOfConnectedComponent.java
       - [BOJ 1012] 유기농 배추 (DFS): OrganicCabbage.java
+      - [BOJ 10026] 적록색약 (DFS): RedGreenColorBlindness.java
 
 ===============================================================
 # Programmers
