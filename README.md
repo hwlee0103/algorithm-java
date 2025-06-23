@@ -143,6 +143,7 @@
       - [BOJ 11724] 연결요소의 개수 (DFS): NumberOfConnectedComponent.java
       - [BOJ 1012] 유기농 배추 (DFS): OrganicCabbage.java
       - [BOJ 10026] 적록색약 (DFS): RedGreenColorBlindness.java
+      - (Solving) [BOJ 2468] 안전 영역 (DFS): SafetyZone.java
 
 ===============================================================
 # Programmers
