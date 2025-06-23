@@ -29,7 +29,7 @@ public class boj2468SafetyZone {
 
         boolean[][] visited = new boolean[n][n];
         int result = 0;
-        for(int k = 1; k < maxHeight; ++k) {
+        for(int k = 1; k <= maxHeight; ++k) {
             for(int i=0; i<n; i++) {
                 Arrays.fill(visited[i], false);
             }
@@ -63,9 +63,8 @@ public class boj2468SafetyZone {
 
             if(nx < 0 || ny < 0 || nx >= area.length || ny >= area.length || visited[nx][ny] || area[nx][ny] <= height) {
                 continue;
-            } else {
-                dfs(nx, ny, area, visited, height);
             }
+            dfs(nx, ny, area, visited, height);
         }
     }
 }
