@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 문제 유형 : DFS and BFS
  *
  * Started : 2025-06-23
- * Solved : 2025-06-
+ * Solved : 2025-06-24
  *
  *
  */
@@ -19,17 +19,17 @@ public class boj2468SafetyZone {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         int[][] area = new int[n][n];
-        int maxHeight = 0;
+        //int maxHeight = 0;
         for(int i=0; i<n; i++) {
             for(int j=0; j<n; j++) {
                 area[i][j] = input.nextInt();
-                maxHeight = Math.max(maxHeight, area[i][j]);
+                //maxHeight = Math.max(maxHeight, area[i][j]);
             }
         }
 
         boolean[][] visited = new boolean[n][n];
         int result = 0;
-        for(int k = 1; k <= maxHeight; ++k) {
+        for(int k = 0; k <= 100; ++k) {
             for(int i=0; i<n; i++) {
                 Arrays.fill(visited[i], false);
             }
