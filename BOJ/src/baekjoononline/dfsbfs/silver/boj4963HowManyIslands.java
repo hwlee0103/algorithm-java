@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.Scanner;
+import java.util.StringTokenizer;
 
 /**
  * Level : Sliver 2
@@ -17,32 +19,53 @@ import java.util.Arrays;
  */
 
 public class boj4963HowManyIslands {
-    public static void main(String[] args) {
-        
-//        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
-//            String line;
-//            String firstline = "";
-//            // input
-//            while((line = br.readLine()) != null) {
-//                if(line.equals("0 0")) break;
-//                if(firstline.equals("")) {
-//                    firstline = line;
-//                } else {
-//                    int[] mapInfo = Arrays.stream(line.split(" ")).mapToInt(Integer::parseInt).toArray();
-//                    int[][] map = new int[mapInfo[0]][mapInfo[1]];
-//
-//
-//
-//                    firstline = "";
-//                }
-//            }
-//
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        String line;
+        // input
+        while((line = br.readLine()) != null) {
+            if(line.equals("0 0")) break;
+
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            int w = Integer.parseInt(st.nextToken());
+            int h = Integer.parseInt(st.nextToken());
+
+            int[][] map = new int[h][w];
+            for(int i=0; i<h; i++) {
+                st = new StringTokenizer(br.readLine());
+                for(int j=0; j<w; j++) {
+                    map[i][j] = Integer.parseInt(st.nextToken());
+                }
+            }
+
+            // 연결 요소 탐색
+            boolean[][] visited = new boolean[h][w];
+            int result = 0;
+            for(int i = 0; i < map.length; ++i) {
+                for(int j = 0; j < map[0].length; ++j) {
+                    if(!visited[i][j] && map[i][j] == 1) {
+                        dfs(i, j, visited, map);
+                        result++;
+                    }
+                }
+            }
+        }
     }
 
-    public static void dfs(int x, int y) {
+    public static void dfs(int x, int y, boolean[][] visited, int[][] map) {
+        visited[x][y] = true;
 
+        int[] dx = {-1, -1, -1, 0, 0, 1, 1, 1};
+        int[] dy = {-1, 0, 1, -1, 1, -1, 0, 1};
+
+        for(int i = 0; i < dx.length; i++) {
+            int nx = x + dx[i];
+            int ny = y + dy[i];
+
+            if(nx < 0 || ny < 0 || nx >= map.length || ny >= map[0].length || visited[nx][ny] || map[nx][ny] == 0) {
+                dfs(nx, ny, visited, map);
+            }
+        }
     }
 }
