@@ -3,8 +3,6 @@ package baekjoononline.dfsbfs.silver;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.Scanner;
 import java.util.StringTokenizer;
 
 /**
@@ -22,18 +20,17 @@ public class boj4963HowManyIslands {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        String line;
         // input
-        while((line = br.readLine()) != null) {
-            if(line.equals("0 0")) break;
+        while(true) {
+            StringTokenizer line = new StringTokenizer(br.readLine());
 
-            StringTokenizer st = new StringTokenizer(br.readLine());
-            int w = Integer.parseInt(st.nextToken());
-            int h = Integer.parseInt(st.nextToken());
+            int w = Integer.parseInt(line.nextToken());
+            int h = Integer.parseInt(line.nextToken());
+            if(w == 0 && h == 0) break;
 
             int[][] map = new int[h][w];
             for(int i=0; i<h; i++) {
-                st = new StringTokenizer(br.readLine());
+                StringTokenizer st = new StringTokenizer(br.readLine());
                 for(int j=0; j<w; j++) {
                     map[i][j] = Integer.parseInt(st.nextToken());
                 }
@@ -50,6 +47,7 @@ public class boj4963HowManyIslands {
                     }
                 }
             }
+            System.out.println(result);
         }
     }
 
@@ -64,8 +62,9 @@ public class boj4963HowManyIslands {
             int ny = y + dy[i];
 
             if(nx < 0 || ny < 0 || nx >= map.length || ny >= map[0].length || visited[nx][ny] || map[nx][ny] == 0) {
-                dfs(nx, ny, visited, map);
+                continue;
             }
+            dfs(nx, ny, visited, map);
         }
     }
 }
