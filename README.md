@@ -144,7 +144,7 @@
       - [BOJ 1012] 유기농 배추 (DFS): OrganicCabbage.java
       - [BOJ 10026] 적록색약 (DFS): RedGreenColorBlindness.java
       - [BOJ 2468] 안전 영역 (DFS): SafetyZone.java
-      - (Solving) [BOJ 4963] 섬의 개수 (DFS): HowManyIslands.java
+      - [BOJ 4963] 섬의 개수 (DFS): HowManyIslands.java
 
 ===============================================================
 # Programmers
