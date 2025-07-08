@@ -145,6 +145,8 @@
       - [BOJ 10026] 적록색약 (DFS): RedGreenColorBlindness.java
       - [BOJ 2468] 안전 영역 (DFS): SafetyZone.java
       - [BOJ 4963] 섬의 개수 (DFS): HowManyIslands.java
+    - 2025-07
+      - (Solving) [BOJ 2178] 미로탐색 (BFS only): MazeNavigation.java
 
 ===============================================================
 # Programmers
