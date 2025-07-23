@@ -77,6 +77,9 @@
          - 파라메트릭 서치?
       - [BOJ 2805] 나무자르기: CuttingTrees.java
       - [BOJ 1072] 게임: Game.java 
+    - 2025-07
+      - Parametric Search
+        - [BOJ 2110] 공유기 설치: AggressiveCows.java
 
   - Implementation
     - 2025-01
