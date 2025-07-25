@@ -80,6 +80,7 @@
     - 2025-07
       - Parametric Search
         - [BOJ 2110] 공유기 설치: AggressiveCows.java
+          - 다시 풀어보기
 
   - Implementation
     - 2025-01
