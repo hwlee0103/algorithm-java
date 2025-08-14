@@ -11,7 +11,7 @@ import java.util.*;
  * 문제 유형 : 다익스트라 Dijkstra's
  *
  * Started : 2025-08-12
- * Solved : 2025-0
+ * Solved : 2025-08-14
  *
  *
  */
@@ -75,7 +75,7 @@ public class boj1753ShortestPath {
                 int nextDist = v + w;
                 if(nextDist < distances[node]){
                     distances[node] = nextDist;
-                    pq.offer(new Edge(w, nextDist));
+                    pq.offer(new Edge(node, nextDist));
                 }
             }
         }
