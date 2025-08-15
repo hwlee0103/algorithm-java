@@ -606,7 +606,17 @@
     * 동적계획법 / Dynamic Programming
       - 2025-03
         - (solving) [level 3] N으로 표현: NExpression.java
+  
+    * 다익스트라 / Dijkstra
+  
+    * 플로이드 워셜 / Floyd-Warshall
+        - []
 
+    * 2021 KAKAO BLIND RECRUITMENT
+      - 2025-08
+        - 플로이드 워셜 / Floyd-Warshall
+          - [level 3] 합승 택시 요금: SharedTaxiFare.java
+        
     * 2022 KAKAO BLIND RECRUITMENT
       - 2024-11
         - [level 2] 주차 요금 계산: ParkingFeeCalculation.java
