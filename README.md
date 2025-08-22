@@ -155,7 +155,10 @@
   - Dijkstra's
     - 2025-08
       - [BOJ 1753] 최단경로: ShortestPath.java
-      - 
+
+  - Greedy
+    - 2025-08
+      - [BOJ 11399] ATM: Atm.java
 
 ===============================================================
 # Programmers
