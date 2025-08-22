@@ -84,7 +84,72 @@ public class boj1753ShortestPath {
 //
 //        return distances;
 //    }
-    // 수정 코드
+
+    //#region 수정 코드 - start
     static final int INF = 1_000_000_000;
 
+    // 인접 리스트 용: 목적지, 간선 가중치
+    static class Edge{
+        int to, weight;
+        Edge(int to, int weight){
+            this.to = to;
+            this.weight = weight;
+        }
+    }
+
+    // Priority Queue 용: 정점, 현재까지의 누적 최단경로 후보 거리
+    static class Node {
+        int v, dist;
+        Node(int v, int dist) {
+            this.v = v;
+            this.dist = dist;
+        }
+    }
+
+    static List<List<Edge>> graph;
+    static int[] dist;
+
+    public static void main(String[] args) throws Exception {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+
+        int V =  Integer.parseInt(st.nextToken());
+        int E = Integer.parseInt(st.nextToken());
+
+        int start = Integer.parseInt(br.readLine());
+
+        graph = new ArrayList<>();
+        for(int i = 0; i <= V; i++){
+            graph.add(new ArrayList<>());
+        }
+        dist = new int[V + 1];
+        Arrays.fill(dist, INF);
+
+        for(int i = 0; i < E; i++){
+            st = new StringTokenizer(br.readLine());
+            int u = Integer.parseInt(st.nextToken());
+            int v = Integer.parseInt(st.nextToken());
+            int w = Integer.parseInt(st.nextToken());
+            graph.get(u).add(new Edge(v, w));
+        }
+
+        dijkstra(start);
+
+        StringBuilder sb = new StringBuilder();
+        for(int i = 1; i <= V; ++i) {
+            sb.append(dist[i] == INF ? "INF": dist[i]).append('\n');
+        }
+        System.out.println(sb);
+    }
+
+    static void dijkstra(int start){
+        PriorityQueue<Node> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a.dist));
+        dist[start] = 0;
+        pq.offer(new Node(start, 0));
+
+        while(!pq.isEmpty()) {
+
+        }
+    }
+    //#region 수정 코드 - end
 }
