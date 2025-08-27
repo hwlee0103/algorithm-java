@@ -130,7 +130,7 @@ public class boj1753ShortestPath {
             int u = Integer.parseInt(st.nextToken());
             int v = Integer.parseInt(st.nextToken());
             int w = Integer.parseInt(st.nextToken());
-            graph.get(u).add(new Edge(v, w));
+            graph.get(u).add(new Edge(v, w));   // 방향 그래프
         }
 
         dijkstra(start);
@@ -148,7 +148,21 @@ public class boj1753ShortestPath {
         pq.offer(new Node(start, 0));
 
         while(!pq.isEmpty()) {
+            Node cur = pq.poll();
 
+            // stale entry skip: 이미 더 좋은 거리로 갱신되어 있다면 스킵
+            if(cur.dist != dist[cur.v]) continue;
+
+            for(Edge e: graph.get(cur.v)) {
+                // overflow guard
+                if(cur.dist > INF - e.weight) continue;
+
+                int nd = cur.dist + e.weight;
+                if(nd < dist[e.to]) {
+                    dist[e.to] = nd;
+                    pq.offer(new Node(e.to, nd));
+                }
+            }
         }
     }
     //#region 수정 코드 - end
