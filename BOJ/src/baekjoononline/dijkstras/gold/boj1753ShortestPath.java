@@ -18,7 +18,7 @@ import java.util.*;
 
 public class boj1753ShortestPath {
 
-    // 내가 직접 작성한 코드 - Dijkstra 기본 유형 소스 참고 x
+    // first trial - 참고 없이 직접 작성한 코드
 //    static final int INF = Integer.MAX_VALUE;
 //
 //    public static void main(String[] args) throws IOException {
