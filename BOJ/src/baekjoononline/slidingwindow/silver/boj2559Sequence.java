@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
  * 문제 유형 : 슬라이딩 윈도우 Sliding Window
  *
  * Started : 2025-09-23
- * Solved : 2025-09
+ * Solved : 2025-09-23
  *
  *
  */
