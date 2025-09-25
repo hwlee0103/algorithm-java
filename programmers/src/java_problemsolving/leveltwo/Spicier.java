@@ -1,8 +1,10 @@
 package java_problemsolving.leveltwo;
 
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.List;
 import java.util.PriorityQueue;
 
@@ -17,17 +19,39 @@ import java.util.PriorityQueue;
  *
  */
 public class Spicier {
-    public static void main(String[] args) {
-        // todo - file input
+    public static void main(String[] args) throws IOException {
         Path inputPath = Paths.get("programmers/src/java_problemsolving/leveltwo/Spicier_input.txt");
         Path outputPath = Paths.get("programmers/src/java_problemsolving/leveltwo/Spicier_output.txt");
 
         List<String> inputLines = Files.readAllLines(inputPath);
         List<String> outputLines = Files.readAllLines(outputPath);
 
-        int n = 2;
-        int[] scoville = new int[n];
-        int k = 0;
+        int idx = 0;
+        for(String line: inputLines) {
+            String[] lineArray = line.split(" \\[");
+            String[] lineArr = lineArray[0].split(" ");
+
+            int n = Integer.valueOf(lineArr[0]);
+            int k = Integer.valueOf(lineArr[1]);
+            int[] scoville = new int[n];
+            String[] scovilleArray = lineArray[1].replace("]", "").split(", ");
+            for(int i = 0; i < n; i++) {
+                scoville[i] = Integer.valueOf(scovilleArray[i]);
+            }
+
+            // print
+            System.out.println("n: " + n);
+            System.out.println("k: " + k);
+            System.out.println("scoville: " + Arrays.toString(scoville));
+            int answer = solution(scoville, k);
+            System.out.println("answer: " + answer);
+            if(answer == Integer.valueOf(outputLines.get(idx))) {
+                System.out.println("====> Success");
+            } else {
+                System.out.println("====> Fail");
+            }
+            idx++;
+        }
     }
 
     public static int solution(int[] scoville, int K) {
