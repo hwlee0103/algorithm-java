@@ -618,6 +618,10 @@
   
     * 플로이드 워셜 / Floyd-Warshall
         - []
+  
+    * 힙 / Heap
+      - 2025-09
+        - [level 2] 더 맵게: Spicier.java
 
     * 2021 KAKAO BLIND RECRUITMENT
       - 2025-08
