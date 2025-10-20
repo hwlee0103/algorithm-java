@@ -562,6 +562,8 @@
           - DFS
         - [level 1] 덧칠하기: MorePainting.java
           - 구현, 다시풀어보기 / 정답확인
+      - 2015-10
+        - [level 2] 소수 찾기: FindingPrimeNumbers.java
 
     * 스택/큐
       - [level 2] 올바른 괄호 : RightBracket.java
