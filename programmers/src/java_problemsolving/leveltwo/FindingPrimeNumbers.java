@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -34,7 +35,7 @@ public class FindingPrimeNumbers {
             System.out.println("numbers: " + numbers);
             System.out.println("-------------");
             System.out.println("answer: " + answer);
-            if(answer == outputLines.indexOf(idx)) {
+            if(answer == Integer.parseInt(outputLines.get(idx))) {
                 System.out.println("Success!");
             } else {
                 System.out.println("Failed!");
@@ -53,8 +54,30 @@ public class FindingPrimeNumbers {
         }
 
         // 에라토스테네스의 체 (생성 가능한 최대 숫자 기준)
+        int sz = numbers.length();
+        int sizeN = 1;
+        while(sz > 0) {
+            sizeN *= 10;
+            sizeN += 1;
+        }
 
-        // 순열
+        boolean[] isPrime = new boolean[sizeN * 9 + 1];
+        Arrays.fill(isPrime, true);
+        isPrime[0] = isPrime[1] = false;
+
+        for(int i = 2; i * i <= isPrime.length; i++) {
+            if(isPrime[i]) {
+                for(int j = i * i; j <= sizeN; j++) {
+                    isPrime[j] = false;
+                }
+            }
+        }
+
+        // 순열 & 소수 판별
+        // 모든 만들 수 있는 수의 경우의 수를 구해야 함
+        // 어떻게..? 순열로 가능?
+        // 
+
 
         return answer;
     }
