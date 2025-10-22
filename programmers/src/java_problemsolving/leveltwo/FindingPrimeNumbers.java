@@ -5,7 +5,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Level : 2
@@ -47,11 +49,27 @@ public class FindingPrimeNumbers {
 
     public static int solution(String numbers) {
         int answer = 0;
-        int[] nums = new int[numbers.length()];
+//        int[] nums = new int[numbers.length()];
+//
+//        for(int i = 0; i < numbers.length(); i++) {
+//            nums[i] = numbers.charAt(i) - '0';
+//        }
 
-        for(int i = 0; i < numbers.length(); i++) {
-            nums[i] = numbers.charAt(i) - '0';
-        }
+        // Set에 모든 가능한 숫자 조합 저장
+        char[] arr = numbers.toCharArray();
+        Arrays.sort(arr);
+        boolean[] used = new boolean[arr.length];
+        Set<Integer> num = new HashSet<>();
+
+        // 길이 1~N인 모든 숫자 만들기 (백트래킹)
+        dfs(arr, used, 0, 0, num); // todo: num 정상 반영 여부 확인
+
+        if(num.isEmpty()) return 0;
+
+
+
+
+
 
         // 에라토스테네스의 체 (생성 가능한 최대 숫자 기준)
         int sz = numbers.length();
@@ -73,12 +91,11 @@ public class FindingPrimeNumbers {
             }
         }
 
-        // 순열 & 소수 판별
-        // 모든 만들 수 있는 수의 경우의 수를 구해야 함
-        // 어떻게..? 순열로 가능?
-        // 
-
 
         return answer;
+    }
+
+    private static void dfs(char[] arr, boolean[] used, int depth, int cur, Set<Integer> out) {
+
     }
 }
