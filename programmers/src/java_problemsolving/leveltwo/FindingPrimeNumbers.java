@@ -30,7 +30,7 @@ public class FindingPrimeNumbers {
             String numbers = line.replaceAll("\"", "");
             int answer = solution(numbers);
 
-            System.out.println("Query No: " + idx + 1);
+            System.out.println("Query No: " + String.valueOf(idx + 1));
             System.out.println("numbers: " + numbers);
             System.out.println("-------------");
             System.out.println("answer: " + answer);
@@ -45,13 +45,6 @@ public class FindingPrimeNumbers {
     }
 
     public static int solution(String numbers) {
-        int answer = 0;
-//        int[] nums = new int[numbers.length()];
-//
-//        for(int i = 0; i < numbers.length(); i++) {
-//            nums[i] = numbers.charAt(i) - '0';
-//        }
-
         // Set에 모든 가능한 숫자 조합 저장
         char[] arr = numbers.toCharArray();
         Arrays.sort(arr);
@@ -59,11 +52,11 @@ public class FindingPrimeNumbers {
         Set<Integer> num = new HashSet<>();
 
         // 길이 1~N인 모든 숫자 만들기 (백트래킹)
-        dfs(arr, used, 0, 0, num); // todo: num 정상 반영 여부 확인
+        dfs(arr, used, 0, 0, num);
 
         if(num.isEmpty()) return 0;
-        int maxNum = Collections.max(num);
-        if(maxNum < 2) return 0;
+        int maxNum = 2;
+        for(int v: num) maxNum = Math.max(maxNum, v);
 
         boolean[] isPrime = sieve(maxNum);
 
@@ -75,7 +68,16 @@ public class FindingPrimeNumbers {
     }
 
     private static void dfs(char[] arr, boolean[] used, int depth, int cur, Set<Integer> out) {
+        if(depth > 0) out.add(cur); // 길이 1~N 수집
+        for(int i = 0; i < arr.length; i++) {
+            if(used[i]) continue;
+            if(i > 0 && arr[i] == arr[i-1] && !used[i-1]) continue; // 중복 자리수 skip
 
+            used[i] = true;
+            int next = cur * 10 + arr[i] - '0';
+            dfs(arr, used, depth + 1, next, out);
+            used[i] = false;
+        }
     }
 
     private static boolean[] sieve(int n) {
@@ -85,7 +87,7 @@ public class FindingPrimeNumbers {
         isPrime[1] = false;
 
         for(int i = 2; i*i <= n; i++) {
-            if(isPrime[i]) continue;
+            if(!isPrime[i]) continue;
             for(int j = i*i; j <= n; j += i) {
                 isPrime[j] = false;
             }
