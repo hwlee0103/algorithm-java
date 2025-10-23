@@ -12,7 +12,7 @@ import java.util.*;
  * 문제 유형 : 완전 탐색 Brute Force
  *
  * Started : 2025-10-20
- * Solved : 2025-
+ * Solved : 2025-10-23
  *
  *
  */
