@@ -1,8 +1,12 @@
 package java_problemsolving.levelthree;
 
+import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -17,10 +21,34 @@ import java.util.Map;
  */
 
 public class BestAlbum {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Path inputPath =  Paths.get("programmers/src/java_problemsolving/levelthree/input/BestAlbum_input.txt");
         Path outputPath =  Paths.get("programmers/src/java_problemsolving/levelthree/output/BestAlbum_output.txt");
 
+        List<String> inputLines = Files.readAllLines(inputPath);
+        List<String> outputLines = Files.readAllLines(outputPath);
+
+        int idx = 0;
+        for(String line : inputLines) {
+            String[] inputArr = line.split("], \\[");
+            inputArr[0] = inputArr[0].replace("\\[", "");
+            inputArr[1] = inputArr[1].replace("]", "");
+            String[] genres = inputArr[0].replaceAll("\"", "").split(",");
+            String[] plays = inputArr[1].split(",");
+            
+
+            List<Integer> answer = new ArrayList<>();
+
+            System.out.println("Query No: " + String.valueOf(idx + 1));
+            System.out.println("genres: ");
+            System.out.println("plays: ");
+            String ans = outputLines.get(idx);
+            System.out.println("------------");
+            if(ans.equals(answer.toString())) {
+                System.out.println("Success!");
+            } else System.out.println("Failed!");
+            System.out.println("======================");
+        }
     }
 
     public int[] solution(String[] genres, int[] plays) {
