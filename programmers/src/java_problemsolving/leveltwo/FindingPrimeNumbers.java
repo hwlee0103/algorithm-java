@@ -4,10 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Level : 2
@@ -65,37 +62,35 @@ public class FindingPrimeNumbers {
         dfs(arr, used, 0, 0, num); // todo: num 정상 반영 여부 확인
 
         if(num.isEmpty()) return 0;
+        int maxNum = Collections.max(num);
+        if(maxNum < 2) return 0;
 
+        boolean[] isPrime = sieve(maxNum);
 
-
-
-
-
-        // 에라토스테네스의 체 (생성 가능한 최대 숫자 기준)
-        int sz = numbers.length();
-        int sizeN = 1;
-        while(sz > 0) {
-            sizeN *= 10;
-            sizeN += 1;
+        int count = 0;
+        for(int v : num) {
+            if(v >= 2 && isPrime[v]) count++;
         }
-
-        boolean[] isPrime = new boolean[sizeN * 9 + 1];
-        Arrays.fill(isPrime, true);
-        isPrime[0] = isPrime[1] = false;
-
-        for(int i = 2; i * i <= isPrime.length; i++) {
-            if(isPrime[i]) {
-                for(int j = i * i; j <= sizeN; j++) {
-                    isPrime[j] = false;
-                }
-            }
-        }
-
-
-        return answer;
+        return count;
     }
 
     private static void dfs(char[] arr, boolean[] used, int depth, int cur, Set<Integer> out) {
 
+    }
+
+    private static boolean[] sieve(int n) {
+        boolean[] isPrime = new boolean[n + 1];
+        Arrays.fill(isPrime, true);
+        isPrime[0] = false;
+        isPrime[1] = false;
+
+        for(int i = 2; i*i <= n; i++) {
+            if(isPrime[i]) continue;
+            for(int j = i*i; j <= n; j += i) {
+                isPrime[j] = false;
+            }
+        }
+
+        return isPrime;
     }
 }
