@@ -601,6 +601,8 @@
         - [level 2] 의상: Clothes.java
           - 수학
         - [level 2] 전화번호 목록: PhoneNumberList.java
+      - 2025-10
+        - [level 3] 42579 베스트앨범: BestAlbum.java
 
     * 정렬
       - 2024-10
