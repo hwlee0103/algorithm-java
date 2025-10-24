@@ -4,10 +4,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Level : 3
@@ -34,10 +32,10 @@ public class BestAlbum {
             inputArr[0] = inputArr[0].replace("\\[", "");
             inputArr[1] = inputArr[1].replace("]", "");
             String[] genres = inputArr[0].replaceAll("\"", "").split(",");
-            String[] plays = inputArr[1].split(",");
-            
+            String[] play = inputArr[1].split(",");
+            int[] plays = Arrays.stream(play).mapToInt(Integer::parseInt).toArray();
 
-            List<Integer> answer = new ArrayList<>();
+            int[] answer = solution(genres, plays);
 
             System.out.println("Query No: " + String.valueOf(idx + 1));
             System.out.println("genres: ");
@@ -51,7 +49,7 @@ public class BestAlbum {
         }
     }
 
-    public int[] solution(String[] genres, int[] plays) {
+    public static int[] solution(String[] genres, int[] plays) {
         int[] answer = {};
 
         // 장르별 총 플레이 수 & 내림차순 정렬
@@ -59,6 +57,11 @@ public class BestAlbum {
         for(int i = 0; i < genres.length; ++i) {
             genreScore.put(genres[i], genreScore.getOrDefault(genres[i], 0) + plays[i]);
         }
+
+        Map<String, Integer> sortedGenreScore = genreScore.entrySet().stream()
+                .sorted(Map.Entry.<String, Integer>comparingByValue(Comparator.reverseOrder())
+                .thenComparing(Map.Entry.comparingByKey()))
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
 
         // 장르별 곡별플레이수, 고유번호(i) & 내림차순 정렬
 
