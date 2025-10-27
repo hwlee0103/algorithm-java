@@ -40,7 +40,8 @@ public class BestAlbum {
             System.out.println("plays: "  + Arrays.toString(plays));
             String ans = outputLines.get(idx);
 //            System.out.println("------------");
-            int[] answer = solution(genres, plays);
+//            int[] answer = solution(genres, plays);
+            int[] answer = solution2(genres, plays);
 
             System.out.println("------------");
             if(ans.equals(Arrays.toString(answer))) {
@@ -100,18 +101,49 @@ public class BestAlbum {
         return answer;
     }
 
+    // 실패 - 성능 효율화 재확인
     public static int[] solution2(String[] genres, int[] plays) {
         int n = genres.length;
 
-        // 1) 장르 총합 & 장르별 인덱스 목록
+        // 1) 장르 총합 & 장르별 인덱스 목록 & 장르 최초 등장 위치(타이브레이크용)
         Map<String, Integer> total =  new HashMap<>();
         Map<String, List<Integer>> byGenre = new HashMap<>();
+        Map<String, Integer> firstSeen = new HashMap<>();
+
         for(int i = 0; i < n; ++i) {
             total.put(genres[i], plays[i]);
             byGenre.computeIfAbsent(genres[i], k -> new ArrayList<>()).add(i);
+            firstSeen.putIfAbsent(genres[i], i);
         }
+//        System.out.println(total);
 
         // 2) 장르를 총합 내림차순으로 정렬 (키 리스트만)
+        List<String> genreOrder = new ArrayList<>(total.keySet());
+        genreOrder.sort((g1, g2) -> {
+            int c = Integer.compare(total.get(g2), total.get(g1)); // desc by total
+            if (c != 0) return c;
+            return Integer.compare(firstSeen.get(g1), firstSeen.get(g2)); // tie-break
+        });
+//        System.out.println(genreOrder);
 
+        // 3) 각 장르 내에서 정렬 없이 Top-2만 선형으로 선별
+        List<Integer> ans = new ArrayList<>();
+        for(String g: genreOrder) {
+            List<Integer> ids = byGenre.get(g);
+//            System.out.println(ids);
+            int first = -1, second = -1;
+            for(int idx: ids) {
+                if(first == -1 || plays[idx] > plays[first] || (plays[idx] == plays[first] && idx < first)) {
+                    second = first;
+                    first = idx;
+                } else if(second == -1 || plays[idx] > plays[second] ||  (plays[idx] == plays[second] && idx < second)) {
+                    second = idx;
+                }
+            }
+            if(first != -1) ans.add(first);
+            if(second != -1) ans.add(second);
+        }
+
+        return ans.stream().mapToInt(Integer::intValue).toArray();
     }
 }
