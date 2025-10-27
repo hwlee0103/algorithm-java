@@ -100,4 +100,18 @@ public class BestAlbum {
         return answer;
     }
 
+    public static int[] solution2(String[] genres, int[] plays) {
+        int n = genres.length;
+
+        // 1) 장르 총합 & 장르별 인덱스 목록
+        Map<String, Integer> total =  new HashMap<>();
+        Map<String, List<Integer>> byGenre = new HashMap<>();
+        for(int i = 0; i < n; ++i) {
+            total.put(genres[i], plays[i]);
+            byGenre.computeIfAbsent(genres[i], k -> new ArrayList<>()).add(i);
+        }
+
+        // 2) 장르를 총합 내림차순으로 정렬 (키 리스트만)
+
+    }
 }
