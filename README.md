@@ -578,6 +578,8 @@
           - ing
         - [level 2] 기능개발: FunctionDevelopment.java
           - 스택/큐를 사용하지 않은 풀이도 해보기 // 계수정렬
+      - 2025-10
+        - [level 2] 다리를 지나는 트럭: TrucksPassingBridge.java
     
     * 깊이/너비 우선 탐색(DFS/BFS)
       - 2024-09
