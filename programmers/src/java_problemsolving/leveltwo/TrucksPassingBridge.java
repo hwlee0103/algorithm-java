@@ -4,10 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * Level : 2
@@ -37,6 +34,10 @@ public class TrucksPassingBridge {
             int weight = Integer.parseInt(inputs[1]);
             int[] truch_weights = Arrays.stream(inputs[2].split(",")).mapToInt(Integer::parseInt).toArray();
 
+            System.out.println("bridge_length: " + bridge_length);
+            System.out.println("weight: " + weight);
+            System.out.println("truch_weights: " + Arrays.toString(truch_weights));
+            System.out.println("-----------------");
             int answer = solution(bridge_length, weight, truch_weights);
 
             System.out.println("-----------------");
@@ -48,8 +49,41 @@ public class TrucksPassingBridge {
         }
     }
 
+    public static class TruckOn {
+        int truck_weight;
+        int truck_on_sec;
+
+        TruckOn(int truck_weight, int truck_on_sec) {
+            this.truck_weight = truck_weight;
+            this.truck_on_sec = truck_on_sec;
+        }
+    }
+
     public static int solution(int bridge_length, int weight, int[] truck_weights) {
         int answer = 0;
+        Queue<TruckOn> queue = new LinkedList<>();
+
+        int weight_now = 0;
+        int sz = 0;
+        int sec = 1;
+        for(int i = 0; i < truck_weights.length; i++) {
+            System.out.println("queue: " + queue);
+            // queue front 확인
+            if(!queue.isEmpty()) {
+                TruckOn truck = queue.poll();
+                weight_now -= truck.truck_weight;
+                sz = queue.size();
+            }
+
+            // weight check
+            if((weight - weight_now) >= truck_weights[i]) {
+                // time check
+                if(sz - bridge_length >= 1) {
+                    queue.offer(new TruckOn(truck_weights[i], sec));
+                    weight_now += truck_weights[i];
+                }
+            }
+        }
 
         return answer;
     }
