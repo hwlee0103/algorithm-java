@@ -19,8 +19,8 @@ import java.util.*;
 
 public class TrucksPassingBridge {
     public static void main(String[] args) throws IOException {
-        Path inputPath = Paths.get("programmers/src/java_problemsolving/leveltwo/TrucksPassingBridge_input.txt");
-        Path outputPath = Paths.get("programmers/src/java_problemsolving/leveltwo/TrucksPassingBridge_output.txt");
+        Path inputPath = Paths.get("programmers/src/java_problemsolving/leveltwo/input/TrucksPassingBridge_input.txt");
+        Path outputPath = Paths.get("programmers/src/java_problemsolving/leveltwo/output/TrucksPassingBridge_output.txt");
 
         List<String> inputLines = Files.readAllLines(inputPath);
         List<String> outputLines = Files.readAllLines(outputPath);
@@ -32,7 +32,7 @@ public class TrucksPassingBridge {
 
             int bridge_length = Integer.parseInt(inputs[0]);
             int weight = Integer.parseInt(inputs[1]);
-            int[] truch_weights = Arrays.stream(inputs[2].split(",")).mapToInt(Integer::parseInt).toArray();
+            int[] truch_weights = Arrays.stream(inputs[2].replaceAll("\\[", "").replaceAll("]", "").split(",")).mapToInt(Integer::parseInt).toArray();
 
             System.out.println("bridge_length: " + bridge_length);
             System.out.println("weight: " + weight);
@@ -66,8 +66,14 @@ public class TrucksPassingBridge {
         int weight_now = 0;
         int sz = 0;
         int sec = 1;
+        // todo: 반복문을 이걸로 가야하나? while(queue.size() >0)으로 해야할 지 고민해보기.
         for(int i = 0; i < truck_weights.length; i++) {
-            System.out.println("queue: " + queue);
+            System.out.println("queue: ");
+            for(TruckOn truck_on : queue) {
+                System.out.println("truck_weight: " + truck_on.truck_weight);
+                System.out.println("truck_sec: " + truck_on.truck_on_sec);
+            }
+
             // queue front 확인
             if(!queue.isEmpty()) {
                 TruckOn truck = queue.poll();
@@ -78,11 +84,13 @@ public class TrucksPassingBridge {
             // weight check
             if((weight - weight_now) >= truck_weights[i]) {
                 // time check
-                if(sz - bridge_length >= 1) {
+                // 큐에 없을 때 or 다리에 올라갈 수 있을 때
+                if(sz == 0 || (sz - bridge_length >= 1)) {
                     queue.offer(new TruckOn(truck_weights[i], sec));
                     weight_now += truck_weights[i];
                 }
             }
+            sec++;
         }
 
         return answer;
