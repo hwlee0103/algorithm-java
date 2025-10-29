@@ -12,7 +12,7 @@ import java.util.*;
  * 문제 유형 : 스택/큐
  *
  * Started : 2025-10-28
- * Solved : 2025-
+ * Solved : 2025-10-29
  *
  *
  */
@@ -41,8 +41,8 @@ public class TrucksPassingBridge {
             int answer = solution(bridge_length, weight, truch_weights);
 
             System.out.println("-----------------");
-            System.out.println("Answer #" + answer);
-            if(answer == Integer.parseInt(outputLines.get(idx))) {
+            System.out.println("Answer: " + answer);
+            if(answer == Integer.parseInt(outputLines.get(idx++))) {
                 System.out.println("Success!");
             } else System.out.println("Failed!");
             System.out.println("=======================");
@@ -60,39 +60,53 @@ public class TrucksPassingBridge {
     }
 
     public static int solution(int bridge_length, int weight, int[] truck_weights) {
-        int answer = 0;
         Queue<TruckOn> queue = new LinkedList<>();
 
         int weight_now = 0;
-        int sz = 0;
-        int sec = 1;
-        // todo: 반복문을 이걸로 가야하나? while(queue.size() >0)으로 해야할 지 고민해보기.
-        for(int i = 0; i < truck_weights.length; i++) {
-            System.out.println("queue: ");
-            for(TruckOn truck_on : queue) {
-                System.out.println("truck_weight: " + truck_on.truck_weight);
-                System.out.println("truck_sec: " + truck_on.truck_on_sec);
-            }
+        int sec = 0;
+        int idx = 0;
+        // 첫 번째 트럭
+        queue.add(new TruckOn(truck_weights[idx], sec));
+        weight_now += truck_weights[idx++];
 
-            // queue front 확인
-            if(!queue.isEmpty()) {
-                TruckOn truck = queue.poll();
+        List<Integer> finish = new ArrayList<>(); // 다 건넌 트럭 확인용 - todo: 추후 삭제
+
+        while(!queue.isEmpty()) {
+            TruckOn truck = queue.peek();
+//            System.out.println("truck: " + truck.truck_weight + ", sec: " + truck.truck_on_sec);
+
+            // 다리를 건너고 있는 트럭 중 맨 앞 트럭 확인
+            if(bridge_length - (sec - truck.truck_on_sec) <= 0) {
+                // 다 건넘
+                queue.remove();
+                finish.add(truck.truck_weight);
+//                System.out.println("finish: " + finish.toString());
                 weight_now -= truck.truck_weight;
-                sz = queue.size();
+            } else {
+                // 아직 건너는 중 - pass
             }
 
-            // weight check
-            if((weight - weight_now) >= truck_weights[i]) {
-                // time check
-                // 큐에 없을 때 or 다리에 올라갈 수 있을 때
-                if(sz == 0 || (sz - bridge_length >= 1)) {
-                    queue.offer(new TruckOn(truck_weights[i], sec));
-                    weight_now += truck_weights[i];
+            // 아직 트럭이 남아있을 때
+            if(idx < truck_weights.length) {
+                // 다음 트럭을 다리에 올릴 지 확인
+                if(weight - weight_now >= truck_weights[idx]) {
+                    // 무게가 가능할 때
+                    if(bridge_length - queue.size() > 0) {
+                        // 다리 위에 올라갈 공간이 있을 때
+                        queue.add(new TruckOn(truck_weights[idx], sec));
+                        weight_now += truck_weights[idx];
+                        idx++;
+                    } else {
+                        // 다리 위에 올라갈 공간이 없을 때 - pass
+                    }
+                } else {
+                    // 무게가 불가능 - pass
                 }
             }
+
             sec++;
         }
 
-        return answer;
+        return sec;
     }
 }
