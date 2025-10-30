@@ -645,6 +645,8 @@
         - [level 1] 없는 숫자 더하기 : AddNoneExistNums.java
       - 2024-10
         - [level 2] n^2 배열 자르기: TrimN2Array.java
+      - 2025-10
+        - [level 3] 86053 금과 은 운반하기: TransportingGoldAndSilver.java
 
     * 월간 코드 챌린지 시즌 2
       - 2024-07
