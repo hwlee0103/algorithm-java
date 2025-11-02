@@ -1,5 +1,7 @@
 package Medium;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -15,6 +17,18 @@ import java.util.Queue;
  */
 
 public class CountingUnguardedCells {
+    public static void main(String[] args) {
+        Path inputPath = Paths.get("./src/Medium/CountingUnguardedCells_input.txt");
+        Path outputPath = Paths.get("./src/Medium/CountingUnguardedCells_output.txt");
+        
+    }
+
+    // Simulation
+    public int countUnguarded2(int m, int n, int[][] guards, int[][] walls) {
+        int answer = 1;
+
+        return answer;
+    }
 
     public class Cell {
         int x;
