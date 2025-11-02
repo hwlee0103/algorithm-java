@@ -1,7 +1,5 @@
 package java_problemsolving.monthlycodechallenge.seasonthree.levelthree;
 
-import com.sun.security.jgss.GSSUtil;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -15,7 +13,7 @@ import java.util.List;
  * 문제 유형 : 월간 코드 챌린지 시즌 3
  *
  * Started : 2025-10-30
- * Solved : 2025-
+ * Solved : 2025-11-02
  *
  *
  */
@@ -60,7 +58,44 @@ public class TransportingGoldAndSilver {
     }
 
     public static long solution(int a, int b, int[] g, int[] s, int[] w, int[] t) {
-        long answer = -1;
+        // 파라메트릭 서치 - '최소 시간'
+        long left = 0;
+        long right = 1_000_000_000_000_000L;
+        long answer = right;
+
+        while(left <= right) {
+            long mid = (left + right) / 2;
+            // 금 옮기기 check
+            boolean able = carryCheck(a, b, g, s, w, t, mid);
+            if(able) {
+                answer = mid;
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+        }
+
         return answer;
+    }
+
+    public static boolean carryCheck(int a, int b, int[] g, int[] s, int[] w, int[] t, long T) {
+        long totalGold = 0;
+        long totalSilver = 0;
+        long total = 0;
+        long arrSize = g.length;
+
+        for(int i = 0; i < arrSize; ++i) {
+            long nowRound = T / (2 * t[i]);
+            long nowRemain = T % (2 * t[i]);
+            if(nowRemain >= t[i]) nowRound += 1;
+
+            totalGold += Math.min(nowRound * w[i], g[i]);
+            totalSilver += Math.min(nowRound * w[i], s[i]);
+            total += Math.min(nowRound * w[i], g[i] + s[i]);
+        }
+
+        if(totalGold >= a && totalSilver >= b && total >= (a + b))
+            return true;
+        else return false;
     }
 }
