@@ -765,5 +765,8 @@
       - [Num. 2257] Count Unguarded Cells in the Grid: CountingUnguardedCells.java
       - [Num. 1578] Minimum Time to Make Rope Colorful: ColorfulRope.java
 
+ * Easy
+   - 2025-11
+     - [Num. 13] Roman to Integer: RomanToInteger.java
 
 ===============================================================
