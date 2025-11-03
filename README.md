@@ -763,6 +763,7 @@
     - 2025-11
       - [Num. 2] Add Two Numbers: AddTwoNumbers.java
       - [Num. 2257] Count Unguarded Cells in the Grid: CountingUnguardedCells.java
+      - [Num. 1578] Minimum Time to Make Rope Colorful: ColorfulRope.java
 
 
 ===============================================================
