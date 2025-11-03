@@ -764,6 +764,7 @@
       - [Num. 2] Add Two Numbers: AddTwoNumbers.java
       - [Num. 2257] Count Unguarded Cells in the Grid: CountingUnguardedCells.java
       - [Num. 1578] Minimum Time to Make Rope Colorful: ColorfulRope.java
+      - [Num. 3] Longest Substring Without Repeating Characters: LongestSubstring.java
 
  * Easy
    - 2025-11
