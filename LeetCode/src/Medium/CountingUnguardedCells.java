@@ -1,8 +1,12 @@
 package Medium;
 
+import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 /**
@@ -17,20 +21,59 @@ import java.util.Queue;
  */
 
 public class CountingUnguardedCells {
-    public static void main(String[] args) {
-        Path inputPath = Paths.get("./src/Medium/CountingUnguardedCells_input.txt");
-        Path outputPath = Paths.get("./src/Medium/CountingUnguardedCells_output.txt");
-        
+    public static void main(String[] args) throws IOException {
+        String currentLevel = "Medium";
+        String currentClass = "CountingUnguardedCells";
+        Path inputPath = Paths.get("./src/" + currentLevel +"/"+ currentClass + "_input.txt");
+        Path outputPath = Paths.get("./src/" + currentLevel +"/"+ currentClass + "_output.txt");
+
+        List<String> inputLines = Files.readAllLines(inputPath);
+        List<String> outputLines = Files.readAllLines(outputPath);
+
+        for(int i = 0; i < inputLines.size(); i++){
+            System.out.println("Query #" + String.valueOf(i+1));
+            String[] inputs = inputLines.get(i).split(" ");
+            int m = Integer.parseInt(inputs[0]);
+            System.out.println("m: " + inputs[0]);
+            int n = Integer.parseInt(inputs[1]);
+            System.out.println("n: " + inputs[1]);
+            System.out.println("guards: " + inputs[2]);
+            String[] guardsStrings = inputs[2].split("],\\[");
+            int[][] guards = new int[guardsStrings.length][2];
+            for(int j = 0; j < guardsStrings.length; j++){
+                guards[j][0] = Integer.parseInt(guardsStrings[j].replaceAll("\\[", "").replaceAll("]", ""));
+            }
+
+            System.out.println("walls: " + inputs[3]);
+            String[] wallsStrings = inputs[3].split("],\\[");
+            int[][] walls = new int[wallsStrings.length][2];
+            for(int j = 0; j < wallsStrings.length; j++){
+                walls[j][0] = Integer.parseInt(wallsStrings[j].replaceAll("\\[", "").replaceAll("]", ""));
+            }
+
+            System.out.println("----------------------------");
+            int answer = countUnguarded(m, n, guards, walls);
+            System.out.println("============================");
+            System.out.println("answer: " + answer);
+            System.out.print(" ==> ");
+            if(answer == Integer.parseInt(outputLines.get(i))) {
+                System.out.println("Success!");
+            } else System.out.println("Failed!");
+        }
     }
 
     // Simulation
-    public int countUnguarded2(int m, int n, int[][] guards, int[][] walls) {
+    public static int countUnguarded2(int m, int n, int[][] guards, int[][] walls) {
         int answer = 1;
+        char[][] board = new char[m][n];
+        for(int i = 0; i < m; i++){
+            Arrays.fill(board[i], '.');
+        }
 
         return answer;
     }
 
-    public class Cell {
+    public static class Cell {
         int x;
         int y;
         int dir = -1;
@@ -38,7 +81,7 @@ public class CountingUnguardedCells {
         Cell(int x, int y, int dir){this.x = x; this.y = y; this.dir = dir;}
     }
 
-    public int countUnguarded(int m, int n, int[][] guards, int[][] walls) {
+    public static int countUnguarded(int m, int n, int[][] guards, int[][] walls) {
         // dfs & bfs - connected component
         Character[][] board = new Character[m][n];
         for(int i = 0; i < board.length; ++i) {
@@ -67,7 +110,7 @@ public class CountingUnguardedCells {
         return count;
     }
 
-    public boolean[][] bfs(Queue<Cell> queue, int m, int n, Character[][] board) {
+    public static boolean[][] bfs(Queue<Cell> queue, int m, int n, Character[][] board) {
         boolean[][] answer = new boolean[m][n];
 
         int[] dx = {0, -1, 0, 1};
