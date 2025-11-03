@@ -770,5 +770,6 @@
      - [Num. 13] Roman to Integer: RomanToInteger.java
      - [Num. 14] Longest Common Prefix: LongestCommonPrefix.java
      - [Num. 20] Valid Parentheses: ValidParentheses.java
+     - [Num. 21] Merge Two Sorted Lists: MergeTwoSortedLists.java
 
 ===============================================================
