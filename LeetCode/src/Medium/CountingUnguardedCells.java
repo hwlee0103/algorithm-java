@@ -24,8 +24,8 @@ public class CountingUnguardedCells {
     public static void main(String[] args) throws IOException {
         String currentLevel = "Medium";
         String currentClass = "CountingUnguardedCells";
-        Path inputPath = Paths.get("./src/" + currentLevel +"/"+ currentClass + "_input.txt");
-        Path outputPath = Paths.get("./src/" + currentLevel +"/"+ currentClass + "_output.txt");
+        Path inputPath = Paths.get("LeetCode/src/" + currentLevel +"/input/"+ currentClass + "_input.txt");
+        Path outputPath = Paths.get("LeetCode/src/" + currentLevel +"/output/"+ currentClass + "_output.txt");
 
         List<String> inputLines = Files.readAllLines(inputPath);
         List<String> outputLines = Files.readAllLines(outputPath);
@@ -41,36 +41,71 @@ public class CountingUnguardedCells {
             String[] guardsStrings = inputs[2].split("],\\[");
             int[][] guards = new int[guardsStrings.length][2];
             for(int j = 0; j < guardsStrings.length; j++){
-                guards[j][0] = Integer.parseInt(guardsStrings[j].replaceAll("\\[", "").replaceAll("]", ""));
+                String[] now = guardsStrings[j].replaceAll("\\[", "").replaceAll("]", "").split(",");
+                guards[j][0] = Integer.parseInt(now[0]);
+                guards[j][1] = Integer.parseInt(now[1]);
             }
 
             System.out.println("walls: " + inputs[3]);
             String[] wallsStrings = inputs[3].split("],\\[");
             int[][] walls = new int[wallsStrings.length][2];
             for(int j = 0; j < wallsStrings.length; j++){
-                walls[j][0] = Integer.parseInt(wallsStrings[j].replaceAll("\\[", "").replaceAll("]", ""));
+                String[] now = wallsStrings[j].replaceAll("\\[", "").replaceAll("]", "").split(",");
+                walls[j][0] = Integer.parseInt(now[0]);
+                walls[j][1] = Integer.parseInt(now[1]);
             }
 
             System.out.println("----------------------------");
             int answer = countUnguarded(m, n, guards, walls);
-            System.out.println("============================");
+            int answer2 = countUnguarded2(m, n, guards, walls);
             System.out.println("answer: " + answer);
+            System.out.println("answer2: " + answer2);
             System.out.print(" ==> ");
-            if(answer == Integer.parseInt(outputLines.get(i))) {
+            if(answer == Integer.parseInt(outputLines.get(i)) && answer2 == Integer.parseInt(outputLines.get(i))) {
                 System.out.println("Success!");
             } else System.out.println("Failed!");
+            System.out.println("============================");
         }
     }
 
     // Simulation
     public static int countUnguarded2(int m, int n, int[][] guards, int[][] walls) {
-        int answer = 1;
         char[][] board = new char[m][n];
         for(int i = 0; i < m; i++){
             Arrays.fill(board[i], '.');
         }
 
-        return answer;
+        for(int[] wall: walls) board[wall[0]][wall[1]] = 'W';
+        for(int[] guard: guards) board[guard[0]][guard[1]] = 'G';
+
+        boolean[][] seen = new boolean[m][n];
+        int[] dx = {-1, 0, 1, 0};
+        int[] dy = {0, -1, 0, 1};
+
+        // 각 경비원 마다 직선 스캔
+        for(int[] guard: guards) {
+            int gx = guard[0];
+            int gy = guard[1];
+
+            for(int i = 0; i < 4; i++){
+                int nx = gx + dx[i];
+                int ny = gy + dy[i];
+                while(nx >= 0 && ny >= 0 && nx < m && ny < n && board[nx][ny] != 'G' && board[nx][ny] != 'W') {
+                    seen[nx][ny] = true;
+                    nx += dx[i];
+                    ny += dy[i];
+                }
+            }
+        }
+
+        int ans = 0;
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
+                if(board[i][j] == '.' && !seen[i][j]) { ans++; }
+            }
+        }
+
+        return ans;
     }
 
     public static class Cell {
