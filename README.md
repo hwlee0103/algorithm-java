@@ -768,5 +768,6 @@
  * Easy
    - 2025-11
      - [Num. 13] Roman to Integer: RomanToInteger.java
+     - [Num. 14] Longest Common Prefix: LongestCommonPrefix.java
 
 ===============================================================
