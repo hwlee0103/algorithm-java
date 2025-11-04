@@ -772,5 +772,6 @@
      - [Num. 14] Longest Common Prefix: LongestCommonPrefix.java
      - [Num. 20] Valid Parentheses: ValidParentheses.java
      - [Num. 21] Merge Two Sorted Lists: MergeTwoSortedLists.java
+     - [Num. 26] Remove Duplicates from Sorted Array: RemoveDuplicates.java
 
 ===============================================================
