@@ -34,11 +34,25 @@ public class RemoveDuplicates {
             int[] nums = Arrays.stream(s).mapToInt(Integer::parseInt).toArray();
             int answer = removeDuplicates(nums);
             int[] expectedNums = Arrays.stream((outputLines.get(i).replaceAll("\\[","").replaceAll("]", "").split(","))).mapToInt(Integer::parseInt).toArray();
-            assert answer == expectedNums.length;
+
+            boolean flag = true;
             for(int j = 0; j < answer; ++j) {
-                assert expectedNums[j] == nums[j];
+                if(expectedNums[j] != nums[j]) {
+                    flag = false;
+                    break;
+                } else flag = true;
             }
-            System.out.println();
+
+            System.out.println("nums: " + Arrays.toString(nums));
+            System.out.println("expectedNums: " + Arrays.toString(expectedNums));
+            System.out.println("------------------");
+
+            System.out.println("answer: " + answer);
+            System.out.print(" ==> ");
+            if(flag && answer == expectedNums.length) {
+                System.out.println("Success!");
+            } else System.out.println("Failed!");
+            System.out.println("============================");
         }
     }
 
