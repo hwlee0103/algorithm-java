@@ -4,10 +4,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+
 /**
  * Level : Easy
  * Title : 26. Remove Duplicates from Sorted Array
@@ -32,9 +30,15 @@ public class RemoveDuplicates {
 
         for(int i = 0; i < inputLines.size(); i++) {
             System.out.println("Query #" + String.valueOf(i + 1));
-
-            int answer = removeDuplicates();
-
+            String[] s = inputLines.get(i).replaceAll("\\[", "").replaceAll("]", "").split(",");
+            int[] nums = Arrays.stream(s).mapToInt(Integer::parseInt).toArray();
+            int answer = removeDuplicates(nums);
+            int[] expectedNums = Arrays.stream((outputLines.get(i).replaceAll("\\[","").replaceAll("]", "").split(","))).mapToInt(Integer::parseInt).toArray();
+            assert answer == expectedNums.length;
+            for(int j = 0; j < answer; ++j) {
+                assert expectedNums[j] == nums[j];
+            }
+            System.out.println();
         }
     }
 
