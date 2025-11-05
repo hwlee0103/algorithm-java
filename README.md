@@ -765,6 +765,7 @@
       - [Num. 2257] Count Unguarded Cells in the Grid: CountingUnguardedCells.java
       - [Num. 1578] Minimum Time to Make Rope Colorful: ColorfulRope.java
       - [Num. 3] Longest Substring Without Repeating Characters: LongestSubstring.java
+      - [Num. 5] Longest Palindromic Substring: LongestPalindromicSubstring.java 
 
  * Easy
    - 2025-11
