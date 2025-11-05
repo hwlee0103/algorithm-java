@@ -13,7 +13,7 @@ package Medium;
  */
 public class LongestPalindromicSubstring {
 
-    
+
     public String longestPalindrome(String s) {
         int n = s.length();
         if(n <= 1) return s;
