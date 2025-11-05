@@ -767,6 +767,7 @@
       - [Num. 3] Longest Substring Without Repeating Characters: LongestSubstring.java
       - [Num. 5] Longest Palindromic Substring: LongestPalindromicSubstring.java 
       - [Num. 48] Rotate Image: RotateImage.java
+      - [Num. 6] Zigzag Conversion: ZigzagConversion.java
 
  * Easy
    - 2025-11
