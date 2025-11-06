@@ -14,7 +14,7 @@ import java.util.*;
  * Started : 2025-11-06
  * Solved : 2025-11-
  * Time: -
- * Algorithm:
+ * Algorithm: Graph, PriorityQueue, Simulation 사용
  *
  *
  *
@@ -35,44 +35,37 @@ public class PowerGridMaintenance {
             String[] inputs = inputLines.get(i).split(" ");
             int c = Integer.parseInt(inputs[0]);
             String[] tmpStr = inputs[1].split("],\\[");
-            int[][] connections = new int[tmpStr.length][tmpStr.length];
-            for(int j = 0; j < tmpStr.length; j++) {
-                String[] tmp = tmpStr[j].replaceAll("\\[", "").replaceAll("]", "").split(",");
-                connections[j][0] = Integer.parseInt(tmp[0]);
-                connections[j][1] = Integer.parseInt(tmp[1]);
+            int[][] connections = new int[tmpStr.length][2];
+            if(tmpStr[0].equals("[]")) {
+                connections = new int[0][0];
+            } else {
+                for(int j = 0; j < tmpStr.length; j++) {
+                    String[] tmp = tmpStr[j].replaceAll("\\[", "").replaceAll("]", "").split(",");
+                    connections[j][0] = Integer.parseInt(tmp[0]);
+                    connections[j][1] = Integer.parseInt(tmp[1]);
+                }
             }
+            System.out.println("connections: " + Arrays.deepToString(connections));
             tmpStr = inputs[2].split("],\\[");
-            int[][] queries = new int[tmpStr.length][tmpStr.length];
+            int[][] queries = new int[tmpStr.length][2];
             for(int j = 0; j < tmpStr.length; j++) {
                 String[] tmp = tmpStr[j].replaceAll("\\[", "").replaceAll("]", "").split(",");
                 queries[j][0] = Integer.parseInt(tmp[0]);
                 queries[j][1] = Integer.parseInt(tmp[1]);
             }
-
+            System.out.println("queries: " + Arrays.deepToString(queries));
+            System.out.println("-----------------");
+            int[] answer = processQueries(c,  connections, queries);
+            System.out.println("answer: " + Arrays.toString(answer));
+            System.out.print(" ==> ");
+            if(Arrays.toString(answer).equals(outputLines.get(i).replaceAll(",", ", "))) {
+                System.out.println("Success!");
+            } else System.out.println("Failed!");
+            System.out.println("========================");
         }
     }
 
-    public static class Node {
-        int num;
-        boolean online = true;
-
-        //Node leftNode;
-        //Node rightNode;
-        Node() {
-        }
-
-        Node(int num) {
-            this.num = num;
-        }
-        /*Node(int c, boolean online, Node leftNode, Node rightNode) {
-            this.c = c;
-            this.online = online;
-            this.leftNode = leftNode;
-            this.rightNode = rightNode;
-        }*/
-    }
-
-    public int[] processQueries(int c, int[][] connections, int[][] queries) {
+    public static int[] processQueries(int c, int[][] connections, int[][] queries) {
         // 그래프 구성(연결 리스트)
         // 연결 요소로 DFS / BFS 탐색
         // 1. 그래프 구성
@@ -82,13 +75,7 @@ public class PowerGridMaintenance {
         //    [2, x] 일 때 a. x가 on 이면 -> off로 바꾸고 연결 요소에서 제외
         //                b. x가 off 이면 -> 상태 유지
         // 3. ans return
-        // todo - 구조체를 정의해서 node로 쓸 것인지
-        // 연결 리스트로 만들면 on/off를 넣어도 될 듯?
-        // Node 정의에서 leftNode, rightNode가 필요 없을지도
 
-
-        // headnode + 연결리스트 -> 이게 될지..?
-        // on.off 관리용 배열을 따로 만든다면?
         List<PriorityQueue<Integer>> stations = new ArrayList<>(c + 1);
         boolean[] online = new boolean[c + 1];
         Arrays.fill(online, true);
@@ -98,8 +85,9 @@ public class PowerGridMaintenance {
             stations.get(item[0]).add(item[1]);
             stations.get(item[1]).add(item[0]);
         }
+        // check
+        System.out.println("stations: " + Arrays.deepToString(stations.toArray(new PriorityQueue[0])));
 
-        int[] ans = new int[c];
         List<Integer> arr = new ArrayList<>();
         for(int[] query: queries) {
             PriorityQueue<Integer> now = stations.get(query[1]);
@@ -110,14 +98,24 @@ public class PowerGridMaintenance {
                     if(now.size() <= 0) {
                         arr.add(-1);
                     } else {
-                        arr.add(now.peek());
+                        if(online[now.peek()]) {
+                            arr.add(now.peek());
+                        } else {
+                            now.poll();
+                            arr.add(now.peek());
+                        }
                     }
                 }
             } else { // off
                 online[query[1]] = false;
+
             }
         }
-        ans = Arrays.stream(arr.toArray(new Integer[0])).mapToInt(Integer::intValue).toArray();
-        return ans;
+
+        // todo = null 방어로직 & return 생각해보기
+        if(arr == null || arr.isEmpty()) {
+            return new int[]{-1, -1};
+        }
+        return arr.stream().mapToInt(Integer::intValue).toArray();
     }
 }
