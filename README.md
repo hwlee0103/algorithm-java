@@ -784,5 +784,6 @@
      - [Num. 66] Plus One: PlusOne.java
      - [Num. 110] Balanced Binary Tree: BalancedBinaryTree.java
      - [Num. 104] Maximum Depth of Binary Tree: MaximumDepthOfBinaryTree.java
+     - [Num. 191] Number of 1 Bits: NumberOfOneBits.java
 
 ===============================================================
