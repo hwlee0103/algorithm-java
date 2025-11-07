@@ -24,7 +24,31 @@ public class BalancedBinaryTree {
             this.val = val;
             this.left = left;
             this.right = right;
-        }s
+        }
+    }
+
+    public static void main(String[] args) {
+
+    }
+
+    public boolean isBalanced2(TreeNode root) {
+        return heightDfs(root) >= 0;
+    }
+
+    private int heightDfs2(TreeNode root) {
+        if (root == null)
+            return 0;
+        int leftHeight = heightDfs(root.left);
+        if (leftHeight == -1)
+            return -1;
+        int rightHeight = heightDfs(root.right);
+        if (rightHeight == -1)
+            return -1;
+
+        int dif = leftHeight - rightHeight;
+        if(dif > 1 || dif < -1) return -1;
+
+        return (leftHeight >= rightHeight ? leftHeight : rightHeight) + 1;
     }
 
     public boolean isBalanced(TreeNode root) {
