@@ -783,5 +783,6 @@
      - [Num. 58] Length of Last Word: LengthOfLastWord.java
      - [Num. 66] Plus One: PlusOne.java
      - [Num. 110] Balanced Binary Tree: BalancedBinaryTree.java
+     - [Num. 104] Maximum Depth of Binary Tree: MaximumDepthOfBinaryTree.java
 
 ===============================================================
