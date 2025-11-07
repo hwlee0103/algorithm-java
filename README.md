@@ -770,6 +770,7 @@
       - [Num. 6] Zigzag Conversion: ZigzagConversion.java
       - [Num. 347] Top K Frequent Elements: TopKFrequentElements.java
       - [Num. 3607] Power Grid Maintenance: PowerGridMaintenance.java
+      - [Num. 56] Merge Intervals: MergeIntervals.java
 
  * Easy
    - 2025-11
