@@ -107,8 +107,10 @@ public class PowerGridMaintenance {
                     }
                 }
             } else { // off
-                online[query[1]] = false;
-
+                if(online[query[1]]) {
+                    online[query[1]] = false;
+                    // todo - 연결요소 제외
+                }
             }
         }
 
