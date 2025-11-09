@@ -29,7 +29,7 @@ public class MergeIntervals {
 
         List<String> inputLines = Files.readAllLines(inputPath);
         List<String> outputLines = Files.readAllLines(outputPath);
-        
+
         for(int i = 0; i < inputLines.size(); i++) {
             System.out.println("Query #" + String.valueOf(i + 1));
             String[] inputs = inputLines.get(i).split("],\\[");

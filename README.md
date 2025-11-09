@@ -771,6 +771,7 @@
       - [Num. 347] Top K Frequent Elements: TopKFrequentElements.java
       - [Num. 3607] Power Grid Maintenance: PowerGridMaintenance.java
       - [Num. 56] Merge Intervals: MergeIntervals.java
+      - [Num. 200] Number of Islands: NumberOfIslands.java
 
  * Easy
    - 2025-11
