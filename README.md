@@ -772,6 +772,7 @@
       - [Num. 3607] Power Grid Maintenance: PowerGridMaintenance.java
       - [Num. 56] Merge Intervals: MergeIntervals.java
       - [Num. 200] Number of Islands: NumberOfIslands.java
+      - [Num. 78] Subsets: Subsets.java
 
  * Easy
    - 2025-11
