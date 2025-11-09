@@ -788,5 +788,6 @@
      - [Num. 104] Maximum Depth of Binary Tree: MaximumDepthOfBinaryTree.java
      - [Num. 191] Number of 1 Bits: NumberOfOneBits.java
      - [Num. 2169] Count Operations to Obtain Zero: CountOperations.java
+     - [Num. 292] Nim Game: NimGame.java
 
 ===============================================================
