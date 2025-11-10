@@ -15,7 +15,7 @@ import java.util.*;
  * Solved : 2025-11-
  * Time: 22 min 14 sec -> 09 min 17 sec
  * Algorithm: Priority Queue 틀림 -> Array
- *
+ * 기출: C
  *
  *
  */
