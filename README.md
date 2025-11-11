@@ -773,6 +773,7 @@
       - [Num. 56] Merge Intervals: MergeIntervals.java
       - [Num. 200] Number of Islands: NumberOfIslands.java
       - [Num. 78] Subsets: Subsets.java
+      - [Num. 474] Ones and Zeros: OnesAndZeros.java
 
  * Easy
    - 2025-11
