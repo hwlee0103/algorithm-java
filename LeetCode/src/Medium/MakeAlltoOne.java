@@ -37,7 +37,9 @@ public class MakeAlltoOne {
     //              - 1   [2, 2, 15]   [2, 5, 5]   0
     //              - 2   -> pass
     //          ii. DP 아닌듯?
-    //
+    //      c. parametric search
+    //          i. 최대 횟수는 .. 가장 큰 maxNum으로 해도 되겠지 뭐
+    //          ii. 이분탐색으로 찾아나가서 mid 횟수 내에 가능한 지 확인 필요 -> 어떻게?
     //
     public static void main(String[] args) {
 
@@ -45,6 +47,13 @@ public class MakeAlltoOne {
 
     public static int minOperations(int[] nums) {
         int cnt = 0; // operation counting
+
+        int g = 0;
+        for(int i = 0; i < nums.length; i++){
+            g = gcd(nums[i], g);
+            if(g == 1){ break; }
+        }
+        if(g == 0) return -1;
 
         int startIdx = -1; // start index
         for(int i = 0; i < nums.length - 1; i++){
@@ -59,10 +68,6 @@ public class MakeAlltoOne {
                     break;
                 }
             }
-        }
-
-        if(startIdx == -1){
-            return -1;
         }
         // todo: 한 번만 해서 되는 아님. 처음엔 gcd == 1이 없어도 중간에 연산으로 인해 생길 수 있음
 
