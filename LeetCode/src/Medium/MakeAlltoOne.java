@@ -7,7 +7,7 @@ package Medium;
  *
  * Started : 2025-11-12
  * Solved : 2025-11-
- * Time: min sec
+ * Time: 27 min 05 sec -ing
  * Algorithm:
  *
  *
@@ -37,7 +37,7 @@ public class MakeAlltoOne {
     //              - 1   [2, 2, 15]   [2, 5, 5]   0
     //              - 2   -> pass
     //          ii. DP 아닌듯?
-    //      
+    //
     //
     public static void main(String[] args) {
 
