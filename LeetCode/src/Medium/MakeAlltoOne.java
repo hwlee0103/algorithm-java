@@ -46,32 +46,19 @@ public class MakeAlltoOne {
     }
 
     public static int minOperations(int[] nums) {
-        int cnt = 0; // operation counting
 
         int g = 0;
+        int idx = 0;
+        int cnt = 0; // one count
         for(int i = 0; i < nums.length; i++){
             g = gcd(nums[i], g);
-            if(g == 1){ break; }
+            if(nums[1] == 1) cnt++;
         }
-        if(g == 0) return -1;
+        if(g != 1) return -1;
 
-        int startIdx = -1; // start index
-        for(int i = 0; i < nums.length - 1; i++){
-            if(nums[i] == 1) {
-                startIdx = i;
-                break;
-            } else {
-                if(gcd(nums[i], nums[i+1]) == 1) {
-                    startIdx = i;
-                    nums[i] = 1;
-                    cnt++;
-                    break;
-                }
-            }
-        }
-        // todo: 한 번만 해서 되는 아님. 처음엔 gcd == 1이 없어도 중간에 연산으로 인해 생길 수 있음
+        if(cnt >= 1) return nums.length - cnt;
 
-        return nums.length;
+
     }
 
     private static int gcd(int a, int b) {
