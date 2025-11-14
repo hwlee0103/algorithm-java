@@ -1,5 +1,8 @@
 package Medium;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Level : Medium
  * Title : 2654. Minimum Number of Operations to Make All Array Elements Equal to 1
@@ -46,7 +49,6 @@ public class MakeAlltoOne {
     }
 
     public static int minOperations(int[] nums) {
-
         int g = 0;
         int idx = 0;
         int cnt = 0; // one count
@@ -55,9 +57,24 @@ public class MakeAlltoOne {
             if(nums[1] == 1) cnt++;
         }
         if(g != 1) return -1;
-
         if(cnt >= 1) return nums.length - cnt;
 
+        int Lmin = Integer.MAX_VALUE;
+        // "i에서 끝나는 모든 구간의 gcd"들을 집합으로 유지(각 gcd에 대해 최소 길이만 보존)
+        Map<Integer, Integer> prev = new HashMap<>();
+
+        for(int x: nums) {
+            Map<Integer, Integer> current = new HashMap<>();
+            current.put(x, 1); // first range: length 1
+
+            // add x to i - 1 ending ranges
+            for(Map.Entry<Integer, Integer> e: prev.entrySet()) {
+                int nextGcd = gcd(e.getKey(), x);
+                int length = e.getValue() + 1;
+                Integer old = current.get(nextGcd); // update length
+                if(old == null || length == old) current.put(nextGcd, length);
+            }
+        }
 
     }
 
