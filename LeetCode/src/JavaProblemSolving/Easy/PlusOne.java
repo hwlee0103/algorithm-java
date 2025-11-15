@@ -1,4 +1,4 @@
-package Easy;
+package JavaProblemSolving.Easy;
 
 /**
  * Level : Easy

@@ -1,4 +1,4 @@
-package Easy;
+package JavaProblemSolving.Easy;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -19,7 +19,7 @@ import java.util.List;
  */
 public class RomanToInteger {
     public static void main(String[] args) throws IOException {
-        String currentLevel = "Easy";
+        String currentLevel = "JavaProblemSolving/Easy";
         String currentClass = "RomanToInteger";
         Path inputPath = Paths.get("LeetCode/src/" + currentLevel +"/input/"+ currentClass + "_input.txt");
         Path outputPath = Paths.get("LeetCode/src/" + currentLevel +"/output/"+ currentClass + "_output.txt");

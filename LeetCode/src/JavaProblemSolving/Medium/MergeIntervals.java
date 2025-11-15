@@ -1,4 +1,4 @@
-package Medium;
+package JavaProblemSolving.Medium;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -22,7 +22,7 @@ import java.util.*;
 
 public class MergeIntervals {
     public static void main(String[] args) throws IOException {
-        String currentLevel = "Medium";
+        String currentLevel = "JavaProblemSolving/Medium";
         String currentClass = "MergeIntervals";
         Path inputPath = Paths.get("LeetCode/src/" + currentLevel +"/input/"+ currentClass + "_input.txt");
         Path outputPath = Paths.get("LeetCode/src/" + currentLevel +"/output/"+ currentClass + "_output.txt");

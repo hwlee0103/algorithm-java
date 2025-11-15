@@ -1,4 +1,4 @@
-package Medium;
+package JavaProblemSolving.Medium;
 
 import java.io.IOException;
 import java.nio.file.Files;

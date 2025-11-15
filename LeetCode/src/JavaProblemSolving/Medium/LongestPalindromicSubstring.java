@@ -1,4 +1,4 @@
-package Medium;
+package JavaProblemSolving.Medium;
 /**
  * Level : Medium
  * Title : 5. Longest Palindromic Substring
