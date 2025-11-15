@@ -793,4 +793,9 @@
      - [Num. 2169] Count Operations to Obtain Zero: CountOperations.java
      - [Num. 292] Nim Game: NimGame.java
 
+ * SQL
+   * Easy
+     - 2025-11
+       - [Num. 196] Delete Duplicate Emails: DeleteDuplicateEmails.java
+
 ===============================================================
