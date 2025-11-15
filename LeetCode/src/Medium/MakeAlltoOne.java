@@ -49,8 +49,9 @@ public class MakeAlltoOne {
     }
 
     public static int minOperations(int[] nums) {
+        int n = nums.length;
+
         int g = 0;
-        int idx = 0;
         int cnt = 0; // one count
         for(int i = 0; i < nums.length; i++){
             g = gcd(nums[i], g);
@@ -72,14 +73,24 @@ public class MakeAlltoOne {
                 int nextGcd = gcd(e.getKey(), x);
                 int length = e.getValue() + 1;
                 Integer old = current.get(nextGcd); // update length
-                if(old == null || length == old) current.put(nextGcd, length);
+                if(old == null || length < old) current.put(nextGcd, length);
             }
-        }
 
+            Integer len1 = current.get(1);
+            if(len1 != null) Lmin = Math.min(Lmin, len1);
+            prev = current;
+        }
+        return n + Lmin - 2;
     }
 
     private static int gcd(int a, int b) {
-        return b == 0 ? a : gcd(b, a % b);
+        a = Math.abs(a); b = Math.abs(b);
+        while (b != 0) {
+            int t = a % b;
+            a = b;
+            b = t;
+        }
+        return a;
     }
 
 }
