@@ -8,7 +8,7 @@ package JavaProblemSolving.Easy;
  * Started : 2025-11-17
  * Solved : 2025-11-7
  * Time: -
- * Algorithm: Simulation -> re (시간 개선 해보기)
+ * Algorithm: Simulation
  *
  *
  *
