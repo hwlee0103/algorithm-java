@@ -792,6 +792,7 @@
      - [Num. 191] Number of 1 Bits: NumberOfOneBits.java
      - [Num. 2169] Count Operations to Obtain Zero: CountOperations.java
      - [Num. 292] Nim Game: NimGame.java
+     - [Num. 1437] Check If All 1's Are at Least Length K Places Away: OnesApart.java
 
  * SQL
    * Easy
