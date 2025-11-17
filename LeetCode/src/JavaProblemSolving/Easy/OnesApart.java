@@ -6,7 +6,7 @@ package JavaProblemSolving.Easy;
  * Topic : Array, Weekly Contest 187
  *
  * Started : 2025-11-17
- * Solved : 2025-11-7
+ * Solved : 2025-11-17
  * Time: -
  * Algorithm: Simulation
  *
