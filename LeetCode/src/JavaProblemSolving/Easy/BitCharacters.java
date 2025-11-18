@@ -6,28 +6,25 @@ package JavaProblemSolving.Easy;
  * Topic : Array
  *
  * Started : 2025-11-18
- * Solved : 2025-11-
+ * Solved : 2025-11-18
  * Time: -
- * Algorithm: -
+ * Algorithm: Array
  *
  *
  *
  */
 public class BitCharacters {
     public boolean isOneBitCharacter(int[] bits) {
-        boolean answer = true;
         int i = 0;
         for(; i < bits.length - 1;) {
-            String now = String.valueOf(bits[i]) + String.valueOf(bits[i+1]);
-            if(now.equals("10") || now.equals("11")) {
+            int now = bits[i] * 10 + bits[i+1];
+            if(now == 10 || now == 11) {
                 i += 2;
-                answer = false;
             } else {
                 i++;
             }
         }
-        if(i < bits.length - 1) answer = true;
 
-        return answer;
+        return (i <= bits.length - 1) ? true : false;
     }
 }
