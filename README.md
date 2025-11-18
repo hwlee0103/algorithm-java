@@ -793,6 +793,7 @@
      - [Num. 2169] Count Operations to Obtain Zero: CountOperations.java
      - [Num. 292] Nim Game: NimGame.java
      - [Num. 1437] Check If All 1's Are at Least Length K Places Away: OnesApart.java
+     - [Num. 717] 1-bit and 2-bit Characters: BitCharacters.java
 
  * SQL
    * Easy
