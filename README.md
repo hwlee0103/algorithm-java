@@ -795,9 +795,15 @@
      - [Num. 1437] Check If All 1's Are at Least Length K Places Away: OnesApart.java
      - [Num. 717] 1-bit and 2-bit Characters: BitCharacters.java
 
+==============================================================
+
  * SQL
    * Easy
      - 2025-11
        - [Num. 196] Delete Duplicate Emails: DeleteDuplicateEmails.java
 
 ===============================================================
+* Javascript
+  * Easy
+    - 2025-11
+      - [Num. 2620] Counter: Counter.js
