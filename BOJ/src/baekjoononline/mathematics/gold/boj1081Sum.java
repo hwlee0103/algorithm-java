@@ -11,6 +11,7 @@ import java.util.Scanner;
  * Solved : 2025-11-
  * Time: -
  * Algorithm: Mathematics
+ * RE; 시간초과됨
  *
  *
  *
@@ -24,12 +25,8 @@ public class boj1081Sum {
 
         long sum = 0;
         for(long i = l; i <= u; ++i) {
-            long tmpSum = sum;
             long now = i;
-            sum = 0;
-            while(tmpSum > 0 || now > 0) {
-                sum += tmpSum % 10;
-                tmpSum /= 10;
+            while(now > 0) {
                 sum += now % 10;
                 now /= 10;
             }
