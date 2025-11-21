@@ -49,6 +49,8 @@
     - 2025-02
       - [BOJ 2558] A + B - 2: AplusB2.java
       - [BOJ 1085] 직사각형에서 탈출: EscapeFromRectangle.java
+    - 2025-11
+      - [BOJ 1081] 합: Sum.java
 
   - Stack
     - 2024-11
@@ -807,3 +809,26 @@
   * Easy
     - 2025-11
       - [Num. 2620] Counter: Counter.js
+
+
+===============================================================
+# HackerRank
+--------------------------------------------------------------
+* Javascript & React
+    * Medium
+      - 2025-11
+        - Item List Manager: ItemListManager.js
+        - Contact Form: ContactForm.js
+        - Code Review Feedback: CodeReviewFeedback.js
+
+
+
+
+
+
+
+
+
+
+
+
