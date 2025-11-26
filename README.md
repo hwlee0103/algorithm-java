@@ -760,44 +760,47 @@
   D. 자료구조 선택 사유와 시간복잡도 설명
 
 * Problem Solving
+    * Easy
+      - 2025-11
+        - [Num. 13] Roman to Integer: RomanToInteger.java
+        - [Num. 14] Longest Common Prefix: LongestCommonPrefix.java
+        - [Num. 20] Valid Parentheses: ValidParentheses.java
+        - [Num. 21] Merge Two Sorted Lists: MergeTwoSortedLists.java
+        - [Num. 26] Remove Duplicates from Sorted Array: RemoveDuplicates.java
+        - [Num. 27] Remove Element: RemoveElement.java
+        - [Num. 3318] Find X-Sum of All K-Long SubArrays 1: FindingXSum1.java
+        - [Num. 58] Length of Last Word: LengthOfLastWord.java
+        - [Num. 66] Plus One: PlusOne.java
+        - [Num. 110] Balanced Binary Tree: BalancedBinaryTree.java
+        - [Num. 104] Maximum Depth of Binary Tree: MaximumDepthOfBinaryTree.java
+        - [Num. 191] Number of 1 Bits: NumberOfOneBits.java
+        - [Num. 2169] Count Operations to Obtain Zero: CountOperations.java
+        - [Num. 292] Nim Game: NimGame.java
+        - [Num. 1437] Check If All 1's Are at Least Length K Places Away: OnesApart.java
+        - [Num. 717] 1-bit and 2-bit Characters: BitCharacters.java
+        - [Num. 1018] Binary Prefix Divisible By 5: BinaryPrefixFive.java
+ 
+    * Medium
+      - 2025-11
+        - [Num. 2] Add Two Numbers: AddTwoNumbers.java
+        - [Num. 2257] Count Unguarded Cells in the Grid: CountingUnguardedCells.java
+        - [Num. 1578] Minimum Time to Make Rope Colorful: ColorfulRope.java
+        - [Num. 3] Longest Substring Without Repeating Characters: LongestSubstring.java
+        - [Num. 5] Longest Palindromic Substring: LongestPalindromicSubstring.java
+        - [Num. 48] Rotate Image: RotateImage.java
+        - [Num. 6] Zigzag Conversion: ZigzagConversion.java
+        - [Num. 347] Top K Frequent Elements: TopKFrequentElements.java
+        - [Num. 3607] Power Grid Maintenance: PowerGridMaintenance.java
+        - [Num. 56] Merge Intervals: MergeIntervals.java
+        - [Num. 200] Number of Islands: NumberOfIslands.java
+        - [Num. 78] Subsets: Subsets.java
+        - [Num. 474] Ones and Zeros: OnesAndZeros.java
+        - [Num. 2654] Minimum Number of Operations to Make All Array Elements Equal to 1: MakeAlltoOne.java
+        - [Num. 1015] Smallest Integer Divisible by K: SmallestIntegerDivisible.java
 
- * Medium
-    - 2025-11
-      - [Num. 2] Add Two Numbers: AddTwoNumbers.java
-      - [Num. 2257] Count Unguarded Cells in the Grid: CountingUnguardedCells.java
-      - [Num. 1578] Minimum Time to Make Rope Colorful: ColorfulRope.java
-      - [Num. 3] Longest Substring Without Repeating Characters: LongestSubstring.java
-      - [Num. 5] Longest Palindromic Substring: LongestPalindromicSubstring.java 
-      - [Num. 48] Rotate Image: RotateImage.java
-      - [Num. 6] Zigzag Conversion: ZigzagConversion.java
-      - [Num. 347] Top K Frequent Elements: TopKFrequentElements.java
-      - [Num. 3607] Power Grid Maintenance: PowerGridMaintenance.java
-      - [Num. 56] Merge Intervals: MergeIntervals.java
-      - [Num. 200] Number of Islands: NumberOfIslands.java
-      - [Num. 78] Subsets: Subsets.java
-      - [Num. 474] Ones and Zeros: OnesAndZeros.java
-      - [Num. 2654] Minimum Number of Operations to Make All Array Elements Equal to 1: MakeAlltoOne.java
-      - [Num. 1015] Smallest Integer Divisible by K: SmallestIntegerDivisible.java
-
- * Easy
-   - 2025-11
-     - [Num. 13] Roman to Integer: RomanToInteger.java
-     - [Num. 14] Longest Common Prefix: LongestCommonPrefix.java
-     - [Num. 20] Valid Parentheses: ValidParentheses.java
-     - [Num. 21] Merge Two Sorted Lists: MergeTwoSortedLists.java
-     - [Num. 26] Remove Duplicates from Sorted Array: RemoveDuplicates.java
-     - [Num. 27] Remove Element: RemoveElement.java
-     - [Num. 3318] Find X-Sum of All K-Long SubArrays 1: FindingXSum1.java
-     - [Num. 58] Length of Last Word: LengthOfLastWord.java
-     - [Num. 66] Plus One: PlusOne.java
-     - [Num. 110] Balanced Binary Tree: BalancedBinaryTree.java
-     - [Num. 104] Maximum Depth of Binary Tree: MaximumDepthOfBinaryTree.java
-     - [Num. 191] Number of 1 Bits: NumberOfOneBits.java
-     - [Num. 2169] Count Operations to Obtain Zero: CountOperations.java
-     - [Num. 292] Nim Game: NimGame.java
-     - [Num. 1437] Check If All 1's Are at Least Length K Places Away: OnesApart.java
-     - [Num. 717] 1-bit and 2-bit Characters: BitCharacters.java
-     - [Num. 1018] Binary Prefix Divisible By 5: BinaryPrefixFive.java
+    * Hard
+      - 2025-11
+        - [Num ]
 
 ==============================================================
 
