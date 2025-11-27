@@ -797,6 +797,7 @@
         - [Num. 474] Ones and Zeros: OnesAndZeros.java
         - [Num. 2654] Minimum Number of Operations to Make All Array Elements Equal to 1: MakeAlltoOne.java
         - [Num. 1015] Smallest Integer Divisible by K: SmallestIntegerDivisible.java
+        - [Num. 3382] Maximum Subarray Sum With Length Divisible by K: MaximumSubarrayDivisible.java
 
     * Hard
       - 2025-11
