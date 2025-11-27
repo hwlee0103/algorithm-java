@@ -16,6 +16,8 @@ package JavaProblemSolving.Medium;
 public class MaximumSubarrayDivisible {
 
     public long maxSubarraySum(int[] nums, int k) {
+        long ans = 0l;
 
+        return ans;
     }
 }
