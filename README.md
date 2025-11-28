@@ -733,6 +733,10 @@
       - 2024-12
         - [level 1] [PCCP 기출문제] 1번 / 동영상 재생기: VideoPlayer.java
 
+  * SQL
+    - 2025-11
+      - [level 1] 이름이 있는 동물의 아이디: AnimalIdWithName.java
+
 - UnSolved
   - 연습문제
     
