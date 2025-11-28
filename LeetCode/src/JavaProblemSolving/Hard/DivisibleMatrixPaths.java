@@ -33,7 +33,8 @@ public class DivisibleMatrixPaths {
         int now = 0; // 현 위치까지 계산된 값의 모듈로 결과
         // start = (0, 0)
         // end = (m - 1, n - 1)
-        // queue -> position / 각 결과도 가지고 다녀야 중간 경로가 다른 값도 계산이 가능함
+        // queue -> position / 각 결과도 가지고 다녀야 중간 경로가 다른 값도 계산이 가능함 -> 그런데, 그 경로에서 나온 결과를.. 저장해야하는데?
+        
         Queue<int[]> q = new LinkedList<>();
         q.offer(new int[] {0, 0}); // start
         dp[0][0] = grid[0][0];
