@@ -736,6 +736,8 @@
   * SQL
     - 2025-11
       - [level 1] 이름이 있는 동물의 아이디: AnimalIdWithName.java
+    - 2025-12
+      - [level 1] 어린 동물 찾기: FindingNonAgedAnimals.java
 
 - UnSolved
   - 연습문제
