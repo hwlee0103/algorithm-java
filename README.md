@@ -735,9 +735,10 @@
 
   * SQL
     - 2025-11
-      - [level 1] 이름이 있는 동물의 아이디: AnimalIdWithName.java
+      - [level 1] 이름이 있는 동물의 아이디: AnimalIdWithName.sql
     - 2025-12
-      - [level 1] 어린 동물 찾기: FindingNonAgedAnimals.java
+      - [level 1] 어린 동물 찾기: FindingNonAgedAnimals.sql
+      - [level 1] 가장 비싼 상품 구하기: FindMostExpensive.sql
 
 - UnSolved
   - 연습문제
