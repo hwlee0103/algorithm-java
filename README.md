@@ -739,6 +739,7 @@
     - 2025-12
       - [level 1] 어린 동물 찾기: FindingNonAgedAnimals.sql
       - [level 1] 가장 비싼 상품 구하기: FindMostExpensive.sql
+      - [level 2] 최솟값 구하기: MinValue.sql
 
 - UnSolved
   - 연습문제
