@@ -740,6 +740,7 @@
       - [level 1] 어린 동물 찾기: FindingNonAgedAnimals.sql
       - [level 1] 가장 비싼 상품 구하기: FindMostExpensive.sql
       - [level 2] 최솟값 구하기: MinValue.sql
+      - [level 1] 나이 정보가 없는 회원 수 구하기: MemberCountWithoutAge.sql
 
 - UnSolved
   - 연습문제
