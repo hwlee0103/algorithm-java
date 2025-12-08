@@ -741,6 +741,7 @@
       - [level 1] 가장 비싼 상품 구하기: FindMostExpensive.sql
       - [level 2] 최솟값 구하기: MinValue.sql
       - [level 1] 나이 정보가 없는 회원 수 구하기: MemberCountWithoutAge.sql
+      - [level 1] 여러 기준으로 정렬하기: SortingBySeveralCondition.sql
 
 - UnSolved
   - 연습문제
