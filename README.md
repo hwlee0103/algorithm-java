@@ -742,6 +742,7 @@
       - [level 2] 최솟값 구하기: MinValue.sql
       - [level 1] 나이 정보가 없는 회원 수 구하기: MemberCountWithoutAge.sql
       - [level 1] 여러 기준으로 정렬하기: SortingBySeveralCondition.sql
+      - [level 2] 동물 수 구하기: CountAnimals.sql
 
 - UnSolved
   - 연습문제
