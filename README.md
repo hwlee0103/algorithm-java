@@ -744,6 +744,7 @@
       - [level 1] 여러 기준으로 정렬하기: SortingBySeveralCondition.sql
       - [level 2] 동물 수 구하기: CountAnimals.sql
       - [level 1] 이름이 없는 동물의 아이디: AnimalIDwithNoName.sql
+      - [level 2] 중복 제거하기: RemoveDuplication.sql
 
 - UnSolved
   - 연습문제
