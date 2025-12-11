@@ -792,6 +792,8 @@
         - [Num. 1437] Check If All 1's Are at Least Length K Places Away: OnesApart.java
         - [Num. 717] 1-bit and 2-bit Characters: BitCharacters.java
         - [Num. 1018] Binary Prefix Divisible By 5: BinaryPrefixFive.java
+      - 2025-12
+        - [Num. 28] Find the Index of the First Occurrence in a String: FindFirstOccurStringIndex.java
  
     * Medium
       - 2025-11
