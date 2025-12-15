@@ -746,6 +746,7 @@
       - [level 1] 이름이 없는 동물의 아이디: AnimalIDwithNoName.sql
       - [level 2] 중복 제거하기: RemoveDuplication.sql
       - [level 2] 조건에 맞는 아이템들의 가격의 총합 구하기: TotalSumOfCondition.sql
+      - [level 1] 강원도에 위치한 생산공장 목록 출력하기: GangwonFactory.sql
 
 - UnSolved
   - 연습문제
