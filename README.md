@@ -796,6 +796,7 @@
         - [Num. 1018] Binary Prefix Divisible By 5: BinaryPrefixFive.java
       - 2025-12
         - [Num. 28] Find the Index of the First Occurrence in a String: FindFirstOccurStringIndex.java
+        - [Num. 35] Search Insert Position: SearchInsertPosition.java
  
     * Medium
       - 2025-11
