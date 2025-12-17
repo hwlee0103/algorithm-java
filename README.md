@@ -749,6 +749,7 @@
       - [level 1] 강원도에 위치한 생산공장 목록 출력하기: GangwonFactory.sql
       - [level 1] 아픈 동물 찾기: FindingSickAnimals.sql
       - [level 2] 동명 동물 수 찾기: FindingSameNameAnimals.sql
+      - [level 2] 이름에 el이 들어가는 동물 찾기: AnimalWithEL.sql
 
 - UnSolved
   - 연습문제
