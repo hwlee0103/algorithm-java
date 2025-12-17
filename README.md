@@ -750,6 +750,7 @@
       - [level 1] 아픈 동물 찾기: FindingSickAnimals.sql
       - [level 2] 동명 동물 수 찾기: FindingSameNameAnimals.sql
       - [level 2] 이름에 el이 들어가는 동물 찾기: AnimalWithEL.sql
+      - [level 2] NULL 처리하기: SettingNull.sql
 
 - UnSolved
   - 연습문제
