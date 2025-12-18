@@ -751,6 +751,7 @@
       - [level 2] 동명 동물 수 찾기: FindingSameNameAnimals.sql
       - [level 2] 이름에 el이 들어가는 동물 찾기: AnimalWithEL.sql
       - [level 2] NULL 처리하기: SettingNull.sql
+      - [level 2] DATETIME에서 DATE로 형 변환: TypeModToDate.sql
 
 - UnSolved
   - 연습문제
