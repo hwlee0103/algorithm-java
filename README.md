@@ -752,6 +752,7 @@
       - [level 2] 이름에 el이 들어가는 동물 찾기: AnimalWithEL.sql
       - [level 2] NULL 처리하기: SettingNull.sql
       - [level 2] DATETIME에서 DATE로 형 변환: TypeModToDate.sql
+      - [level 1] 경기도에 위치한 식품 창고 목록 출력하기: FoodWarehouseInGyeonggido.sql
 
 - UnSolved
   - 연습문제
