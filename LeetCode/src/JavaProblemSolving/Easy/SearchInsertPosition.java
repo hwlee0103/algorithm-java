@@ -67,14 +67,14 @@ public class SearchInsertPosition {
             } else if(nums[mid] < target) {
                 left = mid + 1;
             } else {
-                right = mid;
+                right = mid - 1;
             }
         }
 
-        if(left >= right) {
-            return left;
+        if(left > right) {
+            return left + 1;
         } else {
-            return left;
+            return right + 1;
         }
     }
 }
