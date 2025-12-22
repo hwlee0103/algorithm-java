@@ -754,6 +754,7 @@
       - [level 2] DATETIME에서 DATE로 형 변환: TypeModToDate.sql
       - [level 1] 경기도에 위치한 식품 창고 목록 출력하기: FoodWarehouseInGyeonggido.sql
       - [level 2] 카테고리 별 상품 개수 구하기: CategoryProductCount.sql
+      - [level 1] 조건에 맞는 회원 수 구하기: UserCountInCondition.sql
 
 - UnSolved
   - 연습문제
