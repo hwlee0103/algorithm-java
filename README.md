@@ -757,6 +757,7 @@
       - [level 1] 조건에 맞는 회원 수 구하기: UserCountInCondition.sql
       - [level 1] 흉부외과 또는 일반외과 의사 목록 출력하기: DoctorListCsGs.sql
       - [level 1] 역순 정렬하기: SortInOrdDesc.sql
+      - [level 1] 인기있는 아이스크림: PopularIcecream.sql
 
 - UnSolved
   - 연습문제
