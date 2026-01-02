@@ -631,7 +631,11 @@
     * 힙 / Heap
       - 2025-09
         - [level 2] 더 맵게: Spicier.java
-
+  
+    * 2018 KAKAO BLIND RECRUITMENT
+      - 2026-01
+        - [level 2] [1차] 캐시: FirstCache.java
+    
     * 2021 KAKAO BLIND RECRUITMENT
       - 2025-08
         - 플로이드 워셜 / Floyd-Warshall
