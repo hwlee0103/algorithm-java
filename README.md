@@ -814,6 +814,7 @@
         - [Num. 35] Search Insert Position: SearchInsertPosition.java
       - 2026-01
         - [Num. 70] Climbing Stairs: ClimbingStairs.java 
+        - [Num. 69] Sqrt: Sqrt.java
  
     * Medium
       - 2025-11

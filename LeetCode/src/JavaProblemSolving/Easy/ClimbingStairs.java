@@ -12,7 +12,7 @@ import java.util.List;
  * Topic : Math, Dynamic Programming, Memoization
  *
  * Started : 2026-01-07
- * Solved : 2026-01-
+ * Solved : 2026-01-07
  * Time: -
  * Algorithm: DP, 완전탐색
  *
