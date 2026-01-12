@@ -815,6 +815,7 @@
       - 2026-01
         - [Num. 70] Climbing Stairs: ClimbingStairs.java 
         - [Num. 69] Sqrt: Sqrt.java
+        - [Num. 1266] Minimum Time Visiting All Points: MinTimeVisitingAllPoints.java
  
     * Medium
       - 2025-11
