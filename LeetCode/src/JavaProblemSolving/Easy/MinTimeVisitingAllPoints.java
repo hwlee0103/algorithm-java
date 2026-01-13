@@ -8,19 +8,30 @@ package JavaProblemSolving.Easy;
  * Started : 2026-01-12
  * Solved : 2026-01-
  * Time: -
- * Algorithm: -
+ * Algorithm: Math, Geometry
  *
  *
  *
  */
 public class MinTimeVisitingAllPoints {
     public static void main(String[] args) {
+        String currentLevel = "JavaProblemSolving/Easy";
+        String currentClass = "MinTimeVisitingAllPoints";
 
     }
 
     public int minTimeToVisitAllPoints(int[][] points) {
-        int[] dir = {0, 1, 2};
-        int ans = 0;
+        int count = 0;
+
+        int[] prev = points[0];
+        for(int i = 1 ; i < points.length; i++) {
+            int[] next = points[i];
+            if(prev[0] == next[0] || prev[1] == next[1]) {
+                count += Math.max(Math.abs(prev[0] - next[0]), Math.abs(prev[1] - next[1]));
+            } else {
+                count += Math.max(Math.abs(prev[0] - next[0]), Math.abs(prev[1] - next[1])) + Math.abs(next[1] - next[0]);
+            }
+        }
 
         // 1. 시작 점 - 목적 점(다음 점) : x, y중 한 개라도 같으면 다른 좌표만 움직이면 됨 -> 그 만큼 count
         // 2. 같은 게 없다면, 같은 게 생길 때 까지 대각선 움직임 (x, y 모두 변동) _+ 같아지면 다른거의 차이만큼 + count
@@ -37,6 +48,6 @@ public class MinTimeVisitingAllPoints {
         // move horizontally
         // move vertically
         // move diagonally
-        return ans;
+        return count;
     }
 }
