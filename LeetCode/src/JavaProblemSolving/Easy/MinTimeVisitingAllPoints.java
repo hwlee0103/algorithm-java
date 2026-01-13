@@ -1,5 +1,9 @@
 package JavaProblemSolving.Easy;
 
+import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 /**
  * Level : Easy
  * Title : 1266. Minimum Time Visiting All Points
@@ -14,10 +18,11 @@ package JavaProblemSolving.Easy;
  *
  */
 public class MinTimeVisitingAllPoints {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         String currentLevel = "JavaProblemSolving/Easy";
         String currentClass = "MinTimeVisitingAllPoints";
-
+        Path inputPath = Paths.get("LeetCode/src/" + currentLevel + "/input/" + currentClass + "_input.txt");
+        Path outputPath = Paths.get("LeetCode/src/" + currentLevel + "/output/" + currentClass + "_output.txt");
     }
 
     public int minTimeToVisitAllPoints(int[][] points) {
