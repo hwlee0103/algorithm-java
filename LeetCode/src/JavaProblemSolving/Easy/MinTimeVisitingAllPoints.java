@@ -34,11 +34,18 @@ public class MinTimeVisitingAllPoints {
             System.out.println("Query #" + String.valueOf(i + 1));
             String[] tmp = inputLines.get(i).split("],\\[");
             int[][] points = new int[tmp.length][2];
+            System.out.print("points = ");
             for(int j = 0; j < tmp.length; j++){
                 String now = tmp[j].replaceAll("\\[", "").replaceAll("]", "");
+                String[] tmp2 = now.split(",");
                 points[j] = Arrays.stream(now.split(",")).mapToInt(Integer::parseInt).toArray();
+                System.out.print(Arrays.toString(points[j]));
+                if(j != tmp.length - 1){
+                    System.out.print(", ");
+                }
             }
-            System.out.println("points = " + Arrays.toString(points));
+            System.out.println();
+
             int answer = minTimeToVisitAllPoints(points);
             int output = Integer.valueOf(outputLines.get(i));
             System.out.println("-----------------");
@@ -60,8 +67,9 @@ public class MinTimeVisitingAllPoints {
             if(prev[0] == next[0] || prev[1] == next[1]) {
                 count += Math.max(Math.abs(prev[0] - next[0]), Math.abs(prev[1] - next[1]));
             } else {
-                count += Math.max(Math.abs(prev[0] - next[0]), Math.abs(prev[1] - next[1])) + Math.abs(next[1] - next[0]);
+                count += Math.min(Math.abs(prev[0] - next[0]), Math.abs(prev[1] - next[1])) + Math.abs(next[1] - next[0]);
             }
+            prev = next;
         }
 
         // 1. 시작 점 - 목적 점(다음 점) : x, y중 한 개라도 같으면 다른 좌표만 움직이면 됨 -> 그 만큼 count
