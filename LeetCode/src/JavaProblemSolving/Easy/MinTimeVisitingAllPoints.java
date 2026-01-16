@@ -1,8 +1,11 @@
 package JavaProblemSolving.Easy;
 
 import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Level : Easy
@@ -23,9 +26,32 @@ public class MinTimeVisitingAllPoints {
         String currentClass = "MinTimeVisitingAllPoints";
         Path inputPath = Paths.get("LeetCode/src/" + currentLevel + "/input/" + currentClass + "_input.txt");
         Path outputPath = Paths.get("LeetCode/src/" + currentLevel + "/output/" + currentClass + "_output.txt");
+
+        List<String> inputLines = Files.readAllLines(inputPath);
+        List<String> outputLines = Files.readAllLines(outputPath);
+
+        for(int i = 0; i < inputLines.size(); i++){
+            System.out.println("Query #" + String.valueOf(i + 1));
+            String[] tmp = inputLines.get(i).split("],\\[");
+            int[][] points = new int[tmp.length][2];
+            for(int j = 0; j < tmp.length; j++){
+                String now = tmp[j].replaceAll("\\[", "").replaceAll("]", "");
+                points[j] = Arrays.stream(now.split(",")).mapToInt(Integer::parseInt).toArray();
+            }
+            System.out.println("points = " + Arrays.toString(points));
+            int answer = minTimeToVisitAllPoints(points);
+            int output = Integer.valueOf(outputLines.get(i));
+            System.out.println("-----------------");
+            System.out.println("Answer: " + answer);
+            System.out.print(" ==> ");
+            if(answer == output){
+                System.out.println("Success!");
+            } else System.out.println("Failed!");
+            System.out.println("=======================");
+        }
     }
 
-    public int minTimeToVisitAllPoints(int[][] points) {
+    public static int minTimeToVisitAllPoints(int[][] points) {
         int count = 0;
 
         int[] prev = points[0];
