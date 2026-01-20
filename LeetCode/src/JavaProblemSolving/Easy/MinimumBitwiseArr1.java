@@ -11,10 +11,10 @@ import java.util.List;
 /**
  * Level : Easy
  * Title : 3314. Construct the Minimum Bitwise Array 1
- * Topic :
+ * Topic : Array, Bit Manipulation, Biweekly Contest 141
  *
  * Started : 2026-01-20
- * Solved : 2026-01-
+ * Solved : 2026-01-20
  * Time: -
  * Algorithm: Simulation
  *
