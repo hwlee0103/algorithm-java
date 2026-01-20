@@ -816,7 +816,8 @@
         - [Num. 70] Climbing Stairs: ClimbingStairs.java 
         - [Num. 69] Sqrt: Sqrt.java
         - [Num. 1266] Minimum Time Visiting All Points: MinTimeVisitingAllPoints.java
- 
+        - [Num. 3314] Construct the Minimum Bitwise Array 1: MinimumBitwiseArr1.java 
+        
     * Medium
       - 2025-11
         - [Num. 2] Add Two Numbers: AddTwoNumbers.java
