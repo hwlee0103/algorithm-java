@@ -13,7 +13,7 @@ import java.util.List;
  * Topic : Array, Math, Geometry, Weekly Contest 164
  *
  * Started : 2026-01-12
- * Solved : 2026-01-
+ * Solved : 2026-01-19
  * Time: -
  * Algorithm: Math, Geometry
  *
