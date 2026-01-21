@@ -762,6 +762,8 @@
       - [level 1] 흉부외과 또는 일반외과 의사 목록 출력하기: DoctorListCsGs.sql
       - [level 1] 역순 정렬하기: SortInOrdDesc.sql
       - [level 1] 인기있는 아이스크림: PopularIcecream.sql
+    - 2026-01
+      - [level 1] 상위 n개 레코드: TopNRecord.sql
 
 - UnSolved
   - 연습문제
