@@ -764,6 +764,7 @@
       - [level 1] 인기있는 아이스크림: PopularIcecream.sql
     - 2026-01
       - [level 1] 상위 n개 레코드: TopNRecord.sql
+      - [level 2] 가격이 제일 비싼 식품의 정보 출력하기: TheMostExpensiveFoodItem.sql
 
 - UnSolved
   - 연습문제
