@@ -10,7 +10,7 @@ package java_problemsolving.leveltwo;
  * Time: -
  * Algorithm: Map, Simulation ?
  *
- *
+ * todo: LRU 알고리즘?
  *
  */
 public class FirstCache {
