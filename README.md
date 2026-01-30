@@ -852,6 +852,7 @@
        - [Num. 196] Delete Duplicate Emails: DeleteDuplicateEmails.java
      - 2026-01
        - [Num. 175] Combine Two Tabled: CombineTwoTables.sql
+       - [Num. 182] Duplicate Emails: DuplicateEmails.sql
 
 ===============================================================
 * Javascript
