@@ -1,6 +1,5 @@
 package java_problemsolving.leveltwo;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -8,12 +7,12 @@ import java.util.Map;
 /**
  * Level : 2
  * Title : [1차] 캐시
- * Topic :
+ * Topic : 2028 KAKAO BLIND RECRUITMENT
  *
  * Started : 2026-01-02
- * Solved : 2026-01-
+ * Solved : 2026-02-03
  * Time: -
- * Algorithm: Map, Simulation ?
+ * Algorithm: LRU 알고리즘
  *
  * todo: LRU 알고리즘 - 공부 및 블로그 정리
  *
