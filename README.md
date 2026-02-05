@@ -595,6 +595,8 @@
     * 탐욕법(Greedy)
       - 2024-08
         - [level 2] 구명보트: Lifeboat;
+      - 2026-02
+        - [level 3] 단속카메라: SurveillanceCamera.java
     
     * 해시
       - 2024-09
