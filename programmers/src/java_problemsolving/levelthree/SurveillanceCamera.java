@@ -6,6 +6,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
+import java.util.PriorityQueue;
 
 /**
  * Level : 3
@@ -25,7 +26,7 @@ import java.util.List;
  * 계속 큐에서 가장 top을 prev와의 범위를 비교해서
  * 범위가 겹치면 prev에 범위 합치기
  * 안겹치면 count+1 하고 prev를 현재 보는 큐의 top으로 교체
- * 
+ *
  *
  *
  */
@@ -65,7 +66,23 @@ public class SurveillanceCamera {
     }
 
     public static int solution(int[][] routes) {
-        int answer = 0;
-        return answer;
+        int count = 0;
+        int[] prev = new int[2];
+        int[] now = new int[2];
+
+        PriorityQueue<int[]> pq = new PriorityQueue<>();
+        for(int i = 0; i < routes.length; ++i) {
+            pq.add(new int[]{routes[i][0], routes[i][1]});
+        }
+
+        prev = pq.peek();
+        while(!pq.isEmpty()) {
+            now = pq.poll();
+            
+
+        }
+
+
+        return count;
     }
 }
