@@ -20,6 +20,14 @@ import java.util.List;
  * route[i,0]: i 번째 차량의 진입 시간
  * route[i,1]: i 번째 차량의 나간 시간
  *
+ * 우선순위 큐 활용, 앞에가 낮은 순으로 넣어둔다면?
+ * prev를 첫 번째로 설정
+ * 계속 큐에서 가장 top을 prev와의 범위를 비교해서
+ * 범위가 겹치면 prev에 범위 합치기
+ * 안겹치면 count+1 하고 prev를 현재 보는 큐의 top으로 교체
+ * 
+ *
+ *
  */
 public class SurveillanceCamera {
     public static void main(String[] args) throws IOException {
