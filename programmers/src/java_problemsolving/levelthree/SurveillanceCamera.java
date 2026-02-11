@@ -46,13 +46,13 @@ public class SurveillanceCamera {
             String[] inputs = inputLines.get(i).split("], \\[");
             int[][] routes = new int[inputs.length][2];
             for(int j = 0; j < inputs.length; j++) {
-                routes[j][0] = Integer.parseInt(Arrays.stream(inputs[j].replaceAll("\\[", "").replaceAll("]", "").split(",")).mapToInt(Integer::parseInt).toString());
+                routes[j] = Arrays.stream(inputs[j].replaceAll("\\[", "").replaceAll("]", "").split(",")).mapToInt(Integer::parseInt).toArray();
             }
             System.out.print("routes: ");
             for(int k = 0; k < routes.length; ++k) {
                 System.out.print(Arrays.toString(routes[k]));
-                // todo:
             }
+            System.out.println();
             int answer = solution(routes);
 
             System.out.println("---------------");
@@ -70,19 +70,23 @@ public class SurveillanceCamera {
         int[] prev = new int[2];
         int[] now = new int[2];
 
-        PriorityQueue<int[]> pq = new PriorityQueue<>();
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
         for(int i = 0; i < routes.length; ++i) {
             pq.add(new int[]{routes[i][0], routes[i][1]});
         }
 
-        prev = pq.peek();
+        prev = pq.poll();
         while(!pq.isEmpty()) {
             now = pq.poll();
-            
-
+            if(prev[0] <= now[0] && prev[1] >= now[0]) {
+                // todo: 범위를 넓게 합치는 게 아니라 작게 합쳐야 할 듯?
+                prev = new int[]{now[0], Math.min(prev[1], now[1])};
+            } else {
+                count++;
+                prev = now;
+            }
         }
 
-
-        return count;
+        return count + 1;
     }
 }
