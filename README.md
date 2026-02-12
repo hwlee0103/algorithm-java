@@ -767,6 +767,8 @@
     - 2026-01
       - [level 1] 상위 n개 레코드: TopNRecord.sql
       - [level 2] 가격이 제일 비싼 식품의 정보 출력하기: TheMostExpensiveFoodItem.sql
+    - 2026-02
+      - [level 1] 12세 이하인 여자 환자 목록 출력: WPatientsUnder12.sql
 
 - UnSolved
   - 연습문제
