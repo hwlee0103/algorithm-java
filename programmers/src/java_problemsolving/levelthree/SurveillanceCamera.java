@@ -14,7 +14,7 @@ import java.util.PriorityQueue;
  * Topic : 탐욕법(Greedy)
  *
  * Started : 2026-02-05
- * Solved : 2026-02-
+ * Solved : 2026-02-12
  * Time: -
  * Algorithm: Greedy, 이어지는 구간 찾기
  * 1 <= cars <= 10000
@@ -86,7 +86,6 @@ public class SurveillanceCamera {
                 prev = now;
             }
         }
-
         return count + 1;
     }
 }
