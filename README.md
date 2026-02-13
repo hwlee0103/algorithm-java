@@ -706,6 +706,8 @@
       - 2024-11
         - [level 2] 스킬트리: SkillTree.java
           - 정규표현식; "[^" + skill + "]"
+      - 2026-02
+        - [level 2] 49994 방문 길이: VisitedLength.java
     
     * PCCE 기출문제
       - 2024-09
