@@ -18,6 +18,14 @@ import java.util.List;
  * Algorithm: Simulation?
  * 제한: dirs의 길이는 500이하의 자연수
  * bfs, 범위: +-5, 단 방문 시 포인트 방문이 아니라 '경로'가 방문되었는지 여부가 중요
+ * 그리고 한 점이 아닌 '길'이므로, 그 길을 방문했다는 걸 표현 필요.
+ * 그럼 각 좌표를 노드로 생각하고 연결 그래프라고 생각한다면?
+ * 양방향 연결 그래프
+ * 근데 노드 기준이 아니라 간선을 방문하는 걸 체크해야 한다면?
+ * 범위가 정해져 있으니 모든 연결 그래프를 저장해두고
+ * 명령어에 따라서 방문 체크를 한다면 ?
+ * 
+ *
  *
  */
 public class VisitedLength {
@@ -58,6 +66,7 @@ public class VisitedLength {
     public static int solution(String dirs) {
         int answer = 0;
         Position now = new Position(0, 0);
+
 
         return answer;
     }
