@@ -772,6 +772,8 @@
     - 2026-02
       - [level 1] 12세 이하인 여자 환자 목록 출력: WPatientsUnder12.sql
       - [level 1] 동물의 아이디와 이름: IDandNameofAnimals.sql
+    - 2026-03
+      - [level 2] 진료과별 총 예약 횟수 출력하기: TotalAppointments.sql
 
 - UnSolved
   - 연습문제
